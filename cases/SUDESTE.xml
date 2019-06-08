@@ -1,0 +1,2311 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<Caso>
+  <!-- Dados no padrao IEEE -->
+  <!-- http://icseg.iti.illinois.edu/power-cases -->
+  <!-- https://www2.ee.washington.edu/research/pstca -->
+  <DadosDeBarras>
+    <!--  Gabarito -->
+    <!-- <barra ID="01" Nome="01" Xd="0" Vpu="0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/> -->
+    <barra ID="0001"  Nome="0001"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0002"  Nome="0002"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0003"  Nome="0003"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0004"  Nome="0004"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0005"  Nome="0005"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0006"  Nome="0006"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0007"  Nome="0007"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0008"  Nome="0008"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0009"  Nome="0009"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0010"  Nome="0010"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0011"  Nome="0011"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0012"  Nome="0012"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0013"  Nome="0013"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0014"  Nome="0014"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0015"  Nome="0015"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0016"  Nome="0016"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0017"  Nome="0017"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0018"  Nome="0018"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0019"  Nome="0019"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0020"  Nome="0020"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0021"  Nome="0021"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0022"  Nome="0022"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0023"  Nome="0023"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0024"  Nome="0024"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0025"  Nome="0025"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0026"  Nome="0026"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0027"  Nome="0027"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0028"  Nome="0028"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0029"  Nome="0029"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0030"  Nome="0030"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0031"  Nome="0031"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0032"  Nome="0032"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0033"  Nome="0033"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0034"  Nome="0034"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0035"  Nome="0035"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0036"  Nome="0036"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0037"  Nome="0037"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0038"  Nome="0038"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0039"  Nome="0039"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0040"  Nome="0040"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0041"  Nome="0041"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0042"  Nome="0042"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0043"  Nome="0043"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0044"  Nome="0044"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0045"  Nome="0045"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0046"  Nome="0046"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0047"  Nome="0047"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0048"  Nome="0048"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0049"  Nome="0049"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0050"  Nome="0050"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0051"  Nome="0051"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0052"  Nome="0052"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0053"  Nome="0053"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0054"  Nome="0054"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0055"  Nome="0055"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0056"  Nome="0056"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0057"  Nome="0057"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0058"  Nome="0058"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0059"  Nome="0059"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0060"  Nome="0060"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0061"  Nome="0061"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0062"  Nome="0062"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0063"  Nome="0063"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0064"  Nome="0064"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0065"  Nome="0065"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0066"  Nome="0066"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0067"  Nome="0067"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0068"  Nome="0068"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0069"  Nome="0069"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0070"  Nome="0070"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0071"  Nome="0071"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0072"  Nome="0072"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0073"  Nome="0073"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0074"  Nome="0074"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0075"  Nome="0075"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0076"  Nome="0076"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0077"  Nome="0077"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0078"  Nome="0078"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0079"  Nome="0079"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0080"  Nome="0080"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0081"  Nome="0081"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0082"  Nome="0082"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0083"  Nome="0083"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0084"  Nome="0084"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0085"  Nome="0085"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0086"  Nome="0086"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0087"  Nome="0087"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0088"  Nome="0088"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0089"  Nome="0089"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0090"  Nome="0090"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0091"  Nome="0091"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0092"  Nome="0092"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0093"  Nome="0093"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0094"  Nome="0094"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0095"  Nome="0095"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0096"  Nome="0096"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0097"  Nome="0097"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0098"  Nome="0098"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0099"  Nome="0099"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0100"  Nome="0100"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0101"  Nome="0101"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0102"  Nome="0102"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0103"  Nome="0103"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0104"  Nome="0104"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0105"  Nome="0105"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0106"  Nome="0106"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0107"  Nome="0107"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0108"  Nome="0108"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0109"  Nome="0109"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0110"  Nome="0110"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0111"  Nome="0111"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0112"  Nome="0112"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0113"  Nome="0113"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0114"  Nome="0114"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0115"  Nome="0115"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0116"  Nome="0116"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0117"  Nome="0117"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0118"  Nome="0118"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0119"  Nome="0119"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0120"  Nome="0120"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0121"  Nome="0121"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0122"  Nome="0122"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0123"  Nome="0123"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0124"  Nome="0124"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0125"  Nome="0125"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0126"  Nome="0126"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0127"  Nome="0127"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0128"  Nome="0128"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0129"  Nome="0129"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0130"  Nome="0130"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0131"  Nome="0131"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0132"  Nome="0132"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0133"  Nome="0133"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0134"  Nome="0134"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0135"  Nome="0135"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0136"  Nome="0136"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0137"  Nome="0137"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0138"  Nome="0138"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0139"  Nome="0139"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0140"  Nome="0140"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0141"  Nome="0141"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0142"  Nome="0142"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0143"  Nome="0143"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0144"  Nome="0144"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0145"  Nome="0145"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0146"  Nome="0146"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0147"  Nome="0147"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0148"  Nome="0148"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0149"  Nome="0149"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0150"  Nome="0150"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0151"  Nome="0151"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0152"  Nome="0152"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0153"  Nome="0153"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0154"  Nome="0154"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0155"  Nome="0155"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0156"  Nome="0156"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0157"  Nome="0157"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0158"  Nome="0158"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0159"  Nome="0159"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0160"  Nome="0160"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0161"  Nome="0161"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0162"  Nome="0162"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0163"  Nome="0163"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0164"  Nome="0164"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0165"  Nome="0165"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0166"  Nome="0166"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0167"  Nome="0167"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0168"  Nome="0168"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0169"  Nome="0169"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0170"  Nome="0170"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0171"  Nome="0171"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0172"  Nome="0172"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0173"  Nome="0173"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0174"  Nome="0174"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0175"  Nome="0175"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0176"  Nome="0176"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0177"  Nome="0177"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0178"  Nome="0178"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0179"  Nome="0179"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0180"  Nome="0180"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0181"  Nome="0181"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0182"  Nome="0182"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0183"  Nome="0183"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0184"  Nome="0184"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0185"  Nome="0185"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0186"  Nome="0186"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0187"  Nome="0187"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0188"  Nome="0188"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0189"  Nome="0189"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0190"  Nome="0190"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0191"  Nome="0191"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0192"  Nome="0192"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0193"  Nome="0193"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0194"  Nome="0194"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0195"  Nome="0195"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0196"  Nome="0196"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0197"  Nome="0197"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0198"  Nome="0198"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0199"  Nome="0199"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0200"  Nome="0200"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0201"  Nome="0201"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0202"  Nome="0202"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0203"  Nome="0203"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0204"  Nome="0204"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0205"  Nome="0205"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0206"  Nome="0206"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0207"  Nome="0207"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0208"  Nome="0208"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0209"  Nome="0209"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0210"  Nome="0210"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0211"  Nome="0211"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0212"  Nome="0212"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0213"  Nome="0213"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0214"  Nome="0214"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0215"  Nome="0215"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0216"  Nome="0216"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0217"  Nome="0217"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0218"  Nome="0218"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0219"  Nome="0219"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0220"  Nome="0220"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0221"  Nome="0221"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0222"  Nome="0222"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0223"  Nome="0223"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0224"  Nome="0224"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0225"  Nome="0225"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0226"  Nome="0226"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0227"  Nome="0227"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0228"  Nome="0228"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0229"  Nome="0229"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0230"  Nome="0230"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0231"  Nome="0231"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0232"  Nome="0232"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0233"  Nome="0233"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0234"  Nome="0234"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0235"  Nome="0235"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0236"  Nome="0236"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0237"  Nome="0237"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0238"  Nome="0238"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0239"  Nome="0239"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0240"  Nome="0240"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0241"  Nome="0241"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0242"  Nome="0242"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0243"  Nome="0243"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0244"  Nome="0244"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0245"  Nome="0245"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0246"  Nome="0246"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0247"  Nome="0247"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0248"  Nome="0248"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0249"  Nome="0249"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0250"  Nome="0250"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0251"  Nome="0251"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0252"  Nome="0252"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0253"  Nome="0253"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0254"  Nome="0254"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0255"  Nome="0255"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0256"  Nome="0256"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0257"  Nome="0257"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0258"  Nome="0258"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0259"  Nome="0259"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0260"  Nome="0260"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0261"  Nome="0261"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0262"  Nome="0262"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0263"  Nome="0263"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0264"  Nome="0264"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0265"  Nome="0265"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0266"  Nome="0266"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0267"  Nome="0267"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0268"  Nome="0268"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0269"  Nome="0269"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0270"  Nome="0270"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0271"  Nome="0271"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0272"  Nome="0272"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0273"  Nome="0273"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0274"  Nome="0274"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0275"  Nome="0275"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0276"  Nome="0276"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0277"  Nome="0277"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0278"  Nome="0278"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0279"  Nome="0279"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0280"  Nome="0280"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0281"  Nome="0281"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0282"  Nome="0282"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0283"  Nome="0283"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0284"  Nome="0284"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0285"  Nome="0285"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0286"  Nome="0286"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0287"  Nome="0287"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0288"  Nome="0288"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0289"  Nome="0289"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0290"  Nome="0290"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0291"  Nome="0291"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0292"  Nome="0292"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0293"  Nome="0293"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0294"  Nome="0294"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0295"  Nome="0295"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0296"  Nome="0296"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0297"  Nome="0297"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0298"  Nome="0298"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0299"  Nome="0299"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0300"  Nome="0300"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0301"  Nome="0301"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0302"  Nome="0302"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0303"  Nome="0303"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0304"  Nome="0304"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0305"  Nome="0305"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0306"  Nome="0306"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0307"  Nome="0307"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0308"  Nome="0308"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0309"  Nome="0309"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0310"  Nome="0310"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0311"  Nome="0311"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0312"  Nome="0312"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0313"  Nome="0313"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0314"  Nome="0314"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0315"  Nome="0315"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0316"  Nome="0316"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0317"  Nome="0317"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0318"  Nome="0318"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0319"  Nome="0319"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0320"  Nome="0320"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0321"  Nome="0321"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0322"  Nome="0322"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0323"  Nome="0323"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0324"  Nome="0324"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0325"  Nome="0325"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0326"  Nome="0326"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0327"  Nome="0327"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0328"  Nome="0328"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0329"  Nome="0329"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0330"  Nome="0330"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0331"  Nome="0331"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0332"  Nome="0332"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0333"  Nome="0333"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0334"  Nome="0334"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0335"  Nome="0335"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0336"  Nome="0336"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0337"  Nome="0337"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0338"  Nome="0338"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0339"  Nome="0339"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0340"  Nome="0340"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0341"  Nome="0341"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0342"  Nome="0342"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0343"  Nome="0343"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0344"  Nome="0344"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0345"  Nome="0345"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0346"  Nome="0346"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0347"  Nome="0347"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0348"  Nome="0348"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0349"  Nome="0349"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0350"  Nome="0350"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0351"  Nome="0351"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0352"  Nome="0352"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0353"  Nome="0353"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0354"  Nome="0354"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0355"  Nome="0355"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0356"  Nome="0356"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0357"  Nome="0357"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0358"  Nome="0358"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0359"  Nome="0359"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0360"  Nome="0360"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0361"  Nome="0361"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0362"  Nome="0362"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0363"  Nome="0363"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0364"  Nome="0364"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0365"  Nome="0365"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0366"  Nome="0366"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0367"  Nome="0367"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0368"  Nome="0368"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0369"  Nome="0369"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0370"  Nome="0370"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0371"  Nome="0371"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0372"  Nome="0372"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0373"  Nome="0373"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0374"  Nome="0374"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0375"  Nome="0375"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0376"  Nome="0376"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0377"  Nome="0377"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0378"  Nome="0378"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0379"  Nome="0379"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0380"  Nome="0380"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0381"  Nome="0381"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0382"  Nome="0382"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0383"  Nome="0383"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0384"  Nome="0384"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0385"  Nome="0385"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0386"  Nome="0386"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0387"  Nome="0387"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0388"  Nome="0388"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0389"  Nome="0389"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0390"  Nome="0390"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0391"  Nome="0391"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0392"  Nome="0392"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0393"  Nome="0393"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0394"  Nome="0394"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0395"  Nome="0395"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0396"  Nome="0396"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0397"  Nome="0397"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0398"  Nome="0398"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0399"  Nome="0399"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0400"  Nome="0400"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0401"  Nome="0401"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0402"  Nome="0402"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0403"  Nome="0403"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0404"  Nome="0404"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0405"  Nome="0405"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0406"  Nome="0406"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0407"  Nome="0407"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0408"  Nome="0408"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0409"  Nome="0409"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0410"  Nome="0410"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0411"  Nome="0411"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0412"  Nome="0412"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0413"  Nome="0413"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0414"  Nome="0414"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0415"  Nome="0415"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0416"  Nome="0416"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0417"  Nome="0417"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0418"  Nome="0418"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0419"  Nome="0419"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0420"  Nome="0420"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0421"  Nome="0421"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0422"  Nome="0422"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0423"  Nome="0423"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0424"  Nome="0424"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0425"  Nome="0425"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0426"  Nome="0426"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0427"  Nome="0427"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0428"  Nome="0428"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0429"  Nome="0429"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0430"  Nome="0430"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0431"  Nome="0431"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0432"  Nome="0432"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0433"  Nome="0433"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0434"  Nome="0434"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0435"  Nome="0435"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0436"  Nome="0436"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0437"  Nome="0437"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0438"  Nome="0438"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0439"  Nome="0439"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0440"  Nome="0440"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0441"  Nome="0441"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0442"  Nome="0442"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0443"  Nome="0443"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0444"  Nome="0444"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0445"  Nome="0445"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0446"  Nome="0446"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0447"  Nome="0447"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0448"  Nome="0448"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0449"  Nome="0449"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0450"  Nome="0450"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0451"  Nome="0451"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0452"  Nome="0452"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0453"  Nome="0453"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0454"  Nome="0454"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0455"  Nome="0455"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0456"  Nome="0456"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0457"  Nome="0457"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0458"  Nome="0458"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0459"  Nome="0459"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0460"  Nome="0460"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0461"  Nome="0461"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0462"  Nome="0462"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0463"  Nome="0463"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0464"  Nome="0464"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0465"  Nome="0465"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0466"  Nome="0466"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0467"  Nome="0467"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0468"  Nome="0468"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0469"  Nome="0469"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0470"  Nome="0470"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0471"  Nome="0471"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0472"  Nome="0472"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0473"  Nome="0473"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0474"  Nome="0474"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0475"  Nome="0475"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0476"  Nome="0476"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0477"  Nome="0477"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0478"  Nome="0478"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0479"  Nome="0479"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0480"  Nome="0480"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0481"  Nome="0481"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0482"  Nome="0482"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0483"  Nome="0483"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0484"  Nome="0484"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0485"  Nome="0485"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0486"  Nome="0486"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0487"  Nome="0487"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0488"  Nome="0488"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0489"  Nome="0489"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0490"  Nome="0490"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0491"  Nome="0491"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0492"  Nome="0492"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0493"  Nome="0493"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0494"  Nome="0494"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0495"  Nome="0495"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0496"  Nome="0496"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0497"  Nome="0497"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0498"  Nome="0498"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0499"  Nome="0499"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0500"  Nome="0500"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0501"  Nome="0501"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0502"  Nome="0502"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0503"  Nome="0503"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0504"  Nome="0504"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0505"  Nome="0505"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0506"  Nome="0506"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0507"  Nome="0507"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0508"  Nome="0508"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0509"  Nome="0509"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0510"  Nome="0510"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0511"  Nome="0511"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0512"  Nome="0512"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0513"  Nome="0513"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0514"  Nome="0514"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0515"  Nome="0515"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0516"  Nome="0516"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0517"  Nome="0517"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0518"  Nome="0518"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0519"  Nome="0519"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0520"  Nome="0520"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0521"  Nome="0521"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0522"  Nome="0522"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0523"  Nome="0523"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0524"  Nome="0524"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0525"  Nome="0525"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0526"  Nome="0526"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0527"  Nome="0527"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0528"  Nome="0528"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0529"  Nome="0529"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0530"  Nome="0530"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0531"  Nome="0531"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0532"  Nome="0532"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0533"  Nome="0533"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0534"  Nome="0534"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0535"  Nome="0535"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0536"  Nome="0536"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0537"  Nome="0537"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0538"  Nome="0538"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0539"  Nome="0539"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0540"  Nome="0540"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0541"  Nome="0541"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0542"  Nome="0542"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0543"  Nome="0543"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0544"  Nome="0544"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0545"  Nome="0545"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0546"  Nome="0546"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0547"  Nome="0547"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0548"  Nome="0548"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0549"  Nome="0549"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0550"  Nome="0550"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0551"  Nome="0551"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0552"  Nome="0552"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0553"  Nome="0553"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0554"  Nome="0554"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0555"  Nome="0555"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0556"  Nome="0556"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0557"  Nome="0557"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0558"  Nome="0558"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0559"  Nome="0559"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0560"  Nome="0560"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0561"  Nome="0561"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0562"  Nome="0562"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0563"  Nome="0563"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0564"  Nome="0564"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0565"  Nome="0565"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0566"  Nome="0566"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0567"  Nome="0567"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0568"  Nome="0568"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0569"  Nome="0569"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0570"  Nome="0570"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0571"  Nome="0571"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0572"  Nome="0572"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0573"  Nome="0573"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0574"  Nome="0574"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0575"  Nome="0575"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0576"  Nome="0576"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0577"  Nome="0577"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0578"  Nome="0578"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0579"  Nome="0579"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0580"  Nome="0580"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0581"  Nome="0581"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0582"  Nome="0582"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0583"  Nome="0583"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0584"  Nome="0584"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0585"  Nome="0585"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0586"  Nome="0586"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0587"  Nome="0587"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0588"  Nome="0588"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0589"  Nome="0589"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0590"  Nome="0590"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0591"  Nome="0591"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0592"  Nome="0592"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0593"  Nome="0593"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0594"  Nome="0594"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0595"  Nome="0595"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0596"  Nome="0596"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0597"  Nome="0597"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0598"  Nome="0598"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0599"  Nome="0599"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0600"  Nome="0600"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0601"  Nome="0601"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0602"  Nome="0602"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0603"  Nome="0603"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0604"  Nome="0604"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0605"  Nome="0605"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0606"  Nome="0606"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0607"  Nome="0607"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0608"  Nome="0608"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0609"  Nome="0609"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0610"  Nome="0610"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0611"  Nome="0611"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0612"  Nome="0612"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0613"  Nome="0613"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0614"  Nome="0614"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0615"  Nome="0615"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0616"  Nome="0616"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0617"  Nome="0617"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0618"  Nome="0618"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0619"  Nome="0619"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0620"  Nome="0620"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0621"  Nome="0621"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0622"  Nome="0622"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0623"  Nome="0623"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0624"  Nome="0624"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0625"  Nome="0625"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0626"  Nome="0626"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0627"  Nome="0627"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0628"  Nome="0628"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0629"  Nome="0629"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0630"  Nome="0630"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0631"  Nome="0631"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0632"  Nome="0632"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0633"  Nome="0633"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0634"  Nome="0634"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0635"  Nome="0635"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0636"  Nome="0636"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0637"  Nome="0637"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0638"  Nome="0638"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0639"  Nome="0639"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0640"  Nome="0640"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0641"  Nome="0641"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0642"  Nome="0642"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0643"  Nome="0643"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0644"  Nome="0644"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0645"  Nome="0645"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0646"  Nome="0646"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0647"  Nome="0647"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0648"  Nome="0648"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0649"  Nome="0649"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0650"  Nome="0650"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0651"  Nome="0651"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0652"  Nome="0652"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0653"  Nome="0653"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0654"  Nome="0654"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0655"  Nome="0655"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0656"  Nome="0656"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0657"  Nome="0657"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0658"  Nome="0658"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0659"  Nome="0659"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0660"  Nome="0660"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0661"  Nome="0661"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0662"  Nome="0662"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0663"  Nome="0663"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0664"  Nome="0664"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0665"  Nome="0665"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0666"  Nome="0666"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0667"  Nome="0667"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0668"  Nome="0668"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0669"  Nome="0669"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0670"  Nome="0670"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0671"  Nome="0671"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0672"  Nome="0672"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0673"  Nome="0673"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0674"  Nome="0674"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0675"  Nome="0675"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0676"  Nome="0676"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0677"  Nome="0677"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0678"  Nome="0678"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0679"  Nome="0679"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0680"  Nome="0680"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0681"  Nome="0681"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0682"  Nome="0682"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0683"  Nome="0683"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0684"  Nome="0684"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0685"  Nome="0685"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0686"  Nome="0686"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0687"  Nome="0687"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0688"  Nome="0688"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0689"  Nome="0689"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0690"  Nome="0690"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0691"  Nome="0691"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0692"  Nome="0692"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0693"  Nome="0693"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0694"  Nome="0694"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0695"  Nome="0695"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0696"  Nome="0696"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0697"  Nome="0697"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0698"  Nome="0698"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0699"  Nome="0699"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0700"  Nome="0700"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0701"  Nome="0701"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0702"  Nome="0702"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0703"  Nome="0703"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0704"  Nome="0704"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0705"  Nome="0705"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0706"  Nome="0706"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0707"  Nome="0707"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0708"  Nome="0708"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0709"  Nome="0709"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0710"  Nome="0710"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0711"  Nome="0711"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0712"  Nome="0712"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0713"  Nome="0713"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0714"  Nome="0714"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0715"  Nome="0715"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0716"  Nome="0716"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0717"  Nome="0717"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0718"  Nome="0718"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0719"  Nome="0719"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0720"  Nome="0720"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0721"  Nome="0721"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0722"  Nome="0722"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0723"  Nome="0723"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0724"  Nome="0724"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0725"  Nome="0725"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0726"  Nome="0726"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0727"  Nome="0727"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0728"  Nome="0728"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0729"  Nome="0729"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0730"  Nome="0730"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0731"  Nome="0731"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0732"  Nome="0732"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0733"  Nome="0733"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0734"  Nome="0734"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0735"  Nome="0735"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0736"  Nome="0736"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0737"  Nome="0737"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0738"  Nome="0738"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0739"  Nome="0739"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0740"  Nome="0740"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0741"  Nome="0741"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0742"  Nome="0742"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0743"  Nome="0743"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0744"  Nome="0744"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0745"  Nome="0745"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0746"  Nome="0746"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0747"  Nome="0747"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0748"  Nome="0748"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0749"  Nome="0749"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0750"  Nome="0750"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0751"  Nome="0751"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0752"  Nome="0752"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0753"  Nome="0753"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0754"  Nome="0754"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0755"  Nome="0755"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0756"  Nome="0756"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0757"  Nome="0757"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0758"  Nome="0758"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0759"  Nome="0759"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0760"  Nome="0760"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0761"  Nome="0761"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0762"  Nome="0762"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0763"  Nome="0763"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0764"  Nome="0764"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0765"  Nome="0765"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0766"  Nome="0766"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0767"  Nome="0767"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0768"  Nome="0768"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0769"  Nome="0769"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0770"  Nome="0770"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0771"  Nome="0771"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0772"  Nome="0772"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0773"  Nome="0773"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0774"  Nome="0774"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0775"  Nome="0775"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0776"  Nome="0776"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0777"  Nome="0777"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0778"  Nome="0778"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0779"  Nome="0779"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0780"  Nome="0780"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0781"  Nome="0781"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0782"  Nome="0782"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0783"  Nome="0783"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0784"  Nome="0784"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0785"  Nome="0785"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0786"  Nome="0786"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0787"  Nome="0787"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0788"  Nome="0788"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0789"  Nome="0789"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0790"  Nome="0790"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0791"  Nome="0791"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0792"  Nome="0792"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0793"  Nome="0793"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0794"  Nome="0794"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0795"  Nome="0795"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0796"  Nome="0796"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0797"  Nome="0797"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0798"  Nome="0798"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0799"  Nome="0799"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0800"  Nome="0800"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0801"  Nome="0801"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0802"  Nome="0802"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0803"  Nome="0803"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0804"  Nome="0804"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0805"  Nome="0805"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0806"  Nome="0806"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0807"  Nome="0807"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0808"  Nome="0808"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0809"  Nome="0809"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0810"  Nome="0810"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0811"  Nome="0811"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0812"  Nome="0812"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0813"  Nome="0813"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0814"  Nome="0814"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0815"  Nome="0815"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0816"  Nome="0816"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0817"  Nome="0817"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0818"  Nome="0818"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0819"  Nome="0819"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0820"  Nome="0820"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0821"  Nome="0821"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0822"  Nome="0822"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0823"  Nome="0823"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0824"  Nome="0824"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0825"  Nome="0825"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0826"  Nome="0826"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0827"  Nome="0827"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0828"  Nome="0828"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0829"  Nome="0829"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0830"  Nome="0830"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0831"  Nome="0831"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0832"  Nome="0832"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0833"  Nome="0833"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0834"  Nome="0834"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0835"  Nome="0835"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0836"  Nome="0836"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0837"  Nome="0837"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0838"  Nome="0838"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0839"  Nome="0839"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0840"  Nome="0840"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0841"  Nome="0841"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0842"  Nome="0842"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0843"  Nome="0843"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0844"  Nome="0844"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0845"  Nome="0845"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0846"  Nome="0846"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0847"  Nome="0847"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0848"  Nome="0848"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0849"  Nome="0849"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0850"  Nome="0850"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0851"  Nome="0851"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0852"  Nome="0852"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0853"  Nome="0853"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0854"  Nome="0854"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0855"  Nome="0855"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0856"  Nome="0856"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0857"  Nome="0857"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0858"  Nome="0858"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0859"  Nome="0859"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0860"  Nome="0860"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0861"  Nome="0861"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0862"  Nome="0862"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0863"  Nome="0863"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0864"  Nome="0864"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0865"  Nome="0865"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0866"  Nome="0866"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0867"  Nome="0867"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0868"  Nome="0868"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0869"  Nome="0869"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0870"  Nome="0870"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0871"  Nome="0871"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0872"  Nome="0872"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0873"  Nome="0873"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0874"  Nome="0874"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0875"  Nome="0875"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0876"  Nome="0876"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0877"  Nome="0877"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0878"  Nome="0878"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0879"  Nome="0879"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0880"  Nome="0880"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0881"  Nome="0881"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0882"  Nome="0882"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0883"  Nome="0883"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0884"  Nome="0884"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0885"  Nome="0885"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0886"  Nome="0886"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0887"  Nome="0887"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0888"  Nome="0888"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0889"  Nome="0889"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0890"  Nome="0890"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0891"  Nome="0891"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0892"  Nome="0892"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0893"  Nome="0893"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0894"  Nome="0894"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0895"  Nome="0895"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0896"  Nome="0896"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0897"  Nome="0897"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0898"  Nome="0898"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0899"  Nome="0899"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0900"  Nome="0900"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0901"  Nome="0901"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0902"  Nome="0902"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0903"  Nome="0903"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0904"  Nome="0904"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0905"  Nome="0905"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0906"  Nome="0906"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0907"  Nome="0907"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0908"  Nome="0908"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0909"  Nome="0909"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0910"  Nome="0910"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0911"  Nome="0911"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0912"  Nome="0912"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0913"  Nome="0913"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0914"  Nome="0914"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0915"  Nome="0915"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0916"  Nome="0916"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0917"  Nome="0917"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0918"  Nome="0918"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0919"  Nome="0919"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0920"  Nome="0920"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0921"  Nome="0921"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0922"  Nome="0922"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0923"  Nome="0923"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0924"  Nome="0924"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0925"  Nome="0925"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0926"  Nome="0926"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0927"  Nome="0927"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0928"  Nome="0928"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0929"  Nome="0929"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0930"  Nome="0930"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0931"  Nome="0931"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0932"  Nome="0932"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0933"  Nome="0933"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0934"  Nome="0934"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0935"  Nome="0935"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0936"  Nome="0936"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0937"  Nome="0937"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0938"  Nome="0938"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0939"  Nome="0939"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0940"  Nome="0940"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0941"  Nome="0941"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0942"  Nome="0942"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0943"  Nome="0943"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0944"  Nome="0944"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0945"  Nome="0945"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0946"  Nome="0946"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0947"  Nome="0947"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0948"  Nome="0948"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0949"  Nome="0949"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0950"  Nome="0950"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0951"  Nome="0951"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0952"  Nome="0952"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0953"  Nome="0953"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0954"  Nome="0954"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0955"  Nome="0955"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0956"  Nome="0956"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0957"  Nome="0957"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0958"  Nome="0958"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0959"  Nome="0959"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0960"  Nome="0960"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0961"  Nome="0961"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0962"  Nome="0962"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0963"  Nome="0963"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0964"  Nome="0964"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0965"  Nome="0965"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0966"  Nome="0966"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0967"  Nome="0967"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0968"  Nome="0968"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0969"  Nome="0969"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0970"  Nome="0970"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0971"  Nome="0971"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0972"  Nome="0972"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0973"  Nome="0973"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0974"  Nome="0974"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0975"  Nome="0975"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0976"  Nome="0976"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0977"  Nome="0977"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0978"  Nome="0978"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0979"  Nome="0979"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0980"  Nome="0980"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0981"  Nome="0981"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0982"  Nome="0982"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0983"  Nome="0983"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0984"  Nome="0984"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0985"  Nome="0985"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0986"  Nome="0986"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0987"  Nome="0987"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0988"  Nome="0988"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0989"  Nome="0989"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0990"  Nome="0990"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0991"  Nome="0991"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0992"  Nome="0992"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0993"  Nome="0993"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0994"  Nome="0994"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0995"  Nome="0995"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0996"  Nome="0996"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0997"  Nome="0997"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0998"  Nome="0998"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="0999"  Nome="0999"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1000"  Nome="1000"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1001"  Nome="1001"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1002"  Nome="1002"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1003"  Nome="1003"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1004"  Nome="1004"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1005"  Nome="1005"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1006"  Nome="1006"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1007"  Nome="1007"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1008"  Nome="1008"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1009"  Nome="1009"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1010"  Nome="1010"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1011"  Nome="1011"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1012"  Nome="1012"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1013"  Nome="1013"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1014"  Nome="1014"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1015"  Nome="1015"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1016"  Nome="1016"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1017"  Nome="1017"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1018"  Nome="1018"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1019"  Nome="1019"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1020"  Nome="1020"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1021"  Nome="1021"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1022"  Nome="1022"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1023"  Nome="1023"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1024"  Nome="1024"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1025"  Nome="1025"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1026"  Nome="1026"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1027"  Nome="1027"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1028"  Nome="1028"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1029"  Nome="1029"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1030"  Nome="1030"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1031"  Nome="1031"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1032"  Nome="1032"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1033"  Nome="1033"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1034"  Nome="1034"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1035"  Nome="1035"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1036"  Nome="1036"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1037"  Nome="1037"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1038"  Nome="1038"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1039"  Nome="1039"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1040"  Nome="1040"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1041"  Nome="1041"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1042"  Nome="1042"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1043"  Nome="1043"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1044"  Nome="1044"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1045"  Nome="1045"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1046"  Nome="1046"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1047"  Nome="1047"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1048"  Nome="1048"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1049"  Nome="1049"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1050"  Nome="1050"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1051"  Nome="1051"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1052"  Nome="1052"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1053"  Nome="1053"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1054"  Nome="1054"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1055"  Nome="1055"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1056"  Nome="1056"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1057"  Nome="1057"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1058"  Nome="1058"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1059"  Nome="1059"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1060"  Nome="1060"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1061"  Nome="1061"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1062"  Nome="1062"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1063"  Nome="1063"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1064"  Nome="1064"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1065"  Nome="1065"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1066"  Nome="1066"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1067"  Nome="1067"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1068"  Nome="1068"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1069"  Nome="1069"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1070"  Nome="1070"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1071"  Nome="1071"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1072"  Nome="1072"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1073"  Nome="1073"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1074"  Nome="1074"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1075"  Nome="1075"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1076"  Nome="1076"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1077"  Nome="1077"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1078"  Nome="1078"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1079"  Nome="1079"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1080"  Nome="1080"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1081"  Nome="1081"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1082"  Nome="1082"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1083"  Nome="1083"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1084"  Nome="1084"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1085"  Nome="1085"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1086"  Nome="1086"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1087"  Nome="1087"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1088"  Nome="1088"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1089"  Nome="1089"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1090"  Nome="1090"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1091"  Nome="1091"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1092"  Nome="1092"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1093"  Nome="1093"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1094"  Nome="1094"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1095"  Nome="1095"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1096"  Nome="1096"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1097"  Nome="1097"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1098"  Nome="1098"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1099"  Nome="1099"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1100"  Nome="1100"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1101"  Nome="1101"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1102"  Nome="1102"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1103"  Nome="1103"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1104"  Nome="1104"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1105"  Nome="1105"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1106"  Nome="1106"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1107"  Nome="1107"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1108"  Nome="1108"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1109"  Nome="1109"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1110"  Nome="1110"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1111"  Nome="1111"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1112"  Nome="1112"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1113"  Nome="1113"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1114"  Nome="1114"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1115"  Nome="1115"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1116"  Nome="1116"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1117"  Nome="1117"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1118"  Nome="1118"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1119"  Nome="1119"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1120"  Nome="1120"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1121"  Nome="1121"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1122"  Nome="1122"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1123"  Nome="1123"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1124"  Nome="1124"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1125"  Nome="1125"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1126"  Nome="1126"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1127"  Nome="1127"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1128"  Nome="1128"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1129"  Nome="1129"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1130"  Nome="1130"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1131"  Nome="1131"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1132"  Nome="1132"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1133"  Nome="1133"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1134"  Nome="1134"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1135"  Nome="1135"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1136"  Nome="1136"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1137"  Nome="1137"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1138"  Nome="1138"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1139"  Nome="1139"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1140"  Nome="1140"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1141"  Nome="1141"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1142"  Nome="1142"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1143"  Nome="1143"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1144"  Nome="1144"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1145"  Nome="1145"   Xd="0.00"  Vpu="1.0" />
+    <barra ID="1146"  Nome="1146"   Xd="0.00"  Vpu="1.0" />
+  </DadosDeBarras>
+  <DadosDeLinhas>
+    <!-- Gabarito -->
+    <!-- <linha ID="01" De="00" Para="00" Rpu="0.0" Xpu="0.0" Bpu="0.0" Tap="1" MVA="0" /> -->    
+    <linha ID="0001"  De="0014"    Para=" 182"    Rpu="0.001"    Xpu=" 6.270 "     Bpu="0.00"   Tap="    "  />
+    <linha ID="0002"  De="0016"    Para=" 136"    Rpu="0.001"    Xpu=" 1.090 "     Bpu="0.00"   Tap="    "  />
+    <linha ID="0003"  De="0020"    Para=" 100"    Rpu="0.001"    Xpu=" 0.770 "     Bpu=""   Tap="    "  />
+    <linha ID="0004"  De="0022"    Para=" 131"    Rpu="0.001"    Xpu=" 4.110 "     Bpu=""   Tap="    "  />
+    <linha ID="0005"  De="0028"    Para=" 190"    Rpu="0.001"    Xpu=" 3.400 "     Bpu=""   Tap="    "  />
+    <linha ID="0006"  De="0030"    Para=" 184"    Rpu="0.001"    Xpu=" 5.800 "     Bpu=""   Tap="    "  />
+    <linha ID="0007"  De="0041"    Para=" 224"    Rpu="0.001"    Xpu="19.830 "     Bpu=""   Tap="    "  />
+    <linha ID="0008"  De="0044"    Para=" 179"    Rpu="0.001"    Xpu=" 0.680 "     Bpu=""   Tap="    "  />
+    <linha ID="0009"  De="0050"    Para="  81"    Rpu="0.001"    Xpu=" 2.483 "     Bpu=""   Tap="    "  />
+    <linha ID="0010"  De="0060"    Para="  62"    Rpu="0.070"    Xpu=" 1.8359"     Bpu=""   Tap="    "  />
+    <linha ID="0011"  De="0060"    Para="  63"    Rpu="0.070"    Xpu=" 1.8359"     Bpu=""   Tap="    "  />
+    <linha ID="0012"  De="0061"    Para="  60"    Rpu="0.001"    Xpu=" 0.216 "     Bpu=""   Tap="1050"  />
+    <linha ID="0013"  De="0061"    Para="1106"    Rpu="0.005"    Xpu=" 0.1061"     Bpu=""   Tap="    "  />
+    <linha ID="0014"  De="0061"    Para="1106"    Rpu="0.005"    Xpu=" 0.1071"     Bpu=""   Tap="    "  />
+    <linha ID="0015"  De="0061"    Para="1106"    Rpu="0.005"    Xpu=" 0.1061"     Bpu=""   Tap="    "  />
+    <linha ID="0016"  De="0062"    Para="  65"    Rpu="0.001"    Xpu="-0.749 "     Bpu=""   Tap="1000"  />
+    <linha ID="0017"  De="0063"    Para="  65"    Rpu="0.001"    Xpu="-0.749 "     Bpu=""   Tap="1000"  />
+    <linha ID="0018"  De="0065"    Para="  68"    Rpu="0.001"    Xpu=" 0.697 "     Bpu=""   Tap="    "  />
+    <linha ID="0019"  De="0065"    Para="  69"    Rpu="0.001"    Xpu="-0.778 "     Bpu=""   Tap="1000"  />
+    <linha ID="0020"  De="0065"    Para="  70"    Rpu="0.001"    Xpu="-0.778 "     Bpu=""   Tap="1000"  />
+    <linha ID="0021"  De="0066"    Para="  68"    Rpu="0.001"    Xpu="-0.030 "     Bpu=""   Tap="1000"  />
+    <linha ID="0022"  De="0066"    Para=" 999"    Rpu="0.001"    Xpu=" 0.105 "     Bpu=""   Tap="    "  />
+    <linha ID="0023"  De="0067"    Para="  68"    Rpu="0.001"    Xpu=" 3.544 "     Bpu=""   Tap="    "  />
+    <linha ID="0024"  De="0069"    Para="  72"    Rpu=" 0.059"    Xpu=" 1.5157"     Bpu=""   Tap="    "  />
+    <linha ID="0025"  De="0070"    Para="  72"    Rpu=" 0.059"    Xpu=" 1.5157"     Bpu=""   Tap="    "  />
+    <linha ID="0026"  De="0072"    Para="  73"    Rpu="      "    Xpu="-0.915 "     Bpu=""   Tap="1000"  />
+    <linha ID="0027"  De="0072"    Para="  74"    Rpu="      "    Xpu="-0.915 "     Bpu=""   Tap="1000"  />
+    <linha ID="0028"  De="0073"    Para="  76"    Rpu=" 0.067"    Xpu=" 1.7338"     Bpu=""   Tap="    "  />
+    <linha ID="0029"  De="0074"    Para="  76"    Rpu=" 0.067"    Xpu=" 1.7338"     Bpu=""   Tap="    "  />
+    <linha ID="0030"  De="0076"    Para="  80"    Rpu="      "    Xpu=" 0.697 "     Bpu=""   Tap="    "  />
+    <linha ID="0031"  De="0076"    Para="  81"    Rpu="      "    Xpu=" 1.033 "     Bpu=""   Tap="    "  />
+    <linha ID="0032"  De="0077"    Para="  80"    Rpu="      "    Xpu="-0.030 "     Bpu=""   Tap="1097"  />
+    <linha ID="0033"  De="0077"    Para=" 104"    Rpu=" 0.170"    Xpu=" 2.5902"     Bpu=""   Tap="    "  />
+    <linha ID="0034"  De="0077"    Para=" 598"    Rpu=" 0.110"    Xpu=" 1.4601"     Bpu=""   Tap="    "  />
+    <linha ID="0035"  De="0078"    Para="  76"    Rpu="      "    Xpu=" 0.923 "     Bpu=""   Tap=" 950"  />
+    <linha ID="0036"  De="0078"    Para="  81"    Rpu="      "    Xpu="-0.110 "     Bpu=""   Tap=" 950"  />
+    <linha ID="0037"  De="0078"    Para="  86"    Rpu=" 0.190"    Xpu=" 2.5505"     Bpu=""   Tap="    "  />
+    <linha ID="0038"  De="0078"    Para="  86"    Rpu=" 0.190"    Xpu=" 2.5505"     Bpu=""   Tap="    "  />
+    <linha ID="0039"  De="0078"    Para=" 463"    Rpu=" 0.080"    Xpu=" 0.7401"     Bpu=""   Tap="    "  />
+    <linha ID="0040"  De="0078"    Para=" 464"    Rpu=" 0.100"    Xpu=" 1.0801"     Bpu=""   Tap="    "  />
+    <linha ID="0041"  De="0078"    Para=" 464"    Rpu=" 0.100"    Xpu=" 1.0801"     Bpu=""   Tap="    "  />
+    <linha ID="0042"  De="0078"    Para=" 471"    Rpu=" 0.090"    Xpu=" 0.8401"     Bpu=""   Tap="    "  />
+    <linha ID="0043"  De="0079"    Para="  80"    Rpu="      "    Xpu=" 3.544 "     Bpu=""   Tap="    "  />
+    <linha ID="0044"  De="0086"    Para="  48"    Rpu="      "    Xpu=" 0.953 "     Bpu=""   Tap=" 987"  />
+    <linha ID="0045"  De="0086"    Para="  87"    Rpu="      "    Xpu=" 2.897 "     Bpu=""   Tap=" 933"  />
+    <linha ID="0046"  De="0086"    Para=" 126"    Rpu=" 0.100"    Xpu=" 1.7104"     Bpu=""   Tap="    "  />
+    <linha ID="0047"  De="0086"    Para=" 126"    Rpu=" 0.100"    Xpu=" 1.7104"     Bpu=""   Tap="    "  />
+    <linha ID="0048"  De="0086"    Para=" 487"    Rpu=" 0.090"    Xpu=" 1.5403"     Bpu=""   Tap="    "  />
+    <linha ID="0049"  De="0086"    Para=" 487"    Rpu=" 0.090"    Xpu=" 1.5403"     Bpu=""   Tap="    "  />
+    <linha ID="0050"  De="0087"    Para=" 103"    Rpu=" 0.100"    Xpu=" 1.5401"     Bpu=""   Tap="    "  />
+    <linha ID="0051"  De="0100"    Para=" 101"    Rpu=" 0.179"    Xpu=" 2.7052"     Bpu=""   Tap="    "  />
+    <linha ID="0052"  De="0100"    Para=" 101"    Rpu=" 0.181"    Xpu=" 2.7322"     Bpu=""   Tap="    "  />
+    <linha ID="0053"  De="0100"    Para=" 214"    Rpu="      "    Xpu=" 2.978 "     Bpu=""   Tap="1050"  />
+    <linha ID="0054"  De="0100"    Para=" 535"    Rpu=" 0.130"    Xpu=" 1.9631"     Bpu=""   Tap="    "  />
+    <linha ID="0055"  De="0101"    Para=" 102"    Rpu=" 0.164"    Xpu=" 2.4722"     Bpu=""   Tap="    "  />
+    <linha ID="0056"  De="0101"    Para=" 103"    Rpu=" 0.160"    Xpu=" 2.4172"     Bpu=""   Tap="    "  />
+    <linha ID="0057"  De="0102"    Para=" 104"    Rpu=" 0.177"    Xpu=" 2.6782"     Bpu=""   Tap="    "  />
+    <linha ID="0058"  De="0102"    Para=" 121"    Rpu="      "    Xpu=" 2.929 "     Bpu=""   Tap="1050"  />
+    <linha ID="0059"  De="0103"    Para=" 104"    Rpu=" 0.202"    Xpu=" 3.0592"     Bpu=""   Tap="    "  />
+    <linha ID="0060"  De="0103"    Para=" 124"    Rpu="      "    Xpu=" 2.940 "     Bpu=""   Tap="1050"  />
+    <linha ID="0061"  De="0104"    Para=" 105"    Rpu=" 0.093"    Xpu=" 1.4051"     Bpu=""   Tap="    "  />
+    <linha ID="0062"  De="0104"    Para=" 106"    Rpu=" 0.158"    Xpu=" 2.3802"     Bpu=""   Tap="    "  />
+    <linha ID="0063"  De="0104"    Para=" 106"    Rpu=" 0.158"    Xpu=" 2.3802"     Bpu=""   Tap="    "  />
+    <linha ID="0064"  De="0104"    Para=" 183"    Rpu="      "    Xpu=" 2.668 "     Bpu=""   Tap="    "  />
+    <linha ID="0065"  De="0104"    Para=" 598"    Rpu=" 0.082"    Xpu=" 1.2509"     Bpu=""   Tap="    "  />
+    <linha ID="0066"  De="0105"    Para="  10"    Rpu="      "    Xpu=" 1.940 "     Bpu=""   Tap="1050"  />
+    <linha ID="0067"  De="0105"    Para=" 106"    Rpu=" 0.107"    Xpu=" 1.6141"     Bpu=""   Tap="    "  />
+    <linha ID="0068"  De="0106"    Para=" 107"    Rpu=" 0.036"    Xpu=" 0.7508"     Bpu=""   Tap="    "  />
+    <linha ID="0069"  De="0106"    Para=" 107"    Rpu=" 0.036"    Xpu=" 0.7508"     Bpu=""   Tap="    "  />
+    <linha ID="0070"  De="0106"    Para=" 141"    Rpu="      "    Xpu=" 1.325 "     Bpu=""   Tap="1050"  />
+    <linha ID="0071"  De="0107"    Para=" 179"    Rpu="      "    Xpu=" 0.574 "     Bpu=""   Tap="1050"  />
+    <linha ID="0072"  De="0120"    Para=" 121"    Rpu="      "    Xpu="-0.526 "     Bpu=""   Tap=" 990"  />
+    <linha ID="0073"  De="0120"    Para=" 123"    Rpu=" 0.371"    Xpu=" 3.9316"     Bpu=""   Tap="    "  />
+    <linha ID="0074"  De="0120"    Para=" 126"    Rpu=" 0.646"    Xpu=" 5.6709"     Bpu=""   Tap="    "  />
+    <linha ID="0075"  De="0120"    Para=" 126"    Rpu=" 0.646"    Xpu=" 5.6709"     Bpu=""   Tap="    "  />
+    <linha ID="0076"  De="0120"    Para=" 129"    Rpu=" 0.593"    Xpu=" 6.3201"     Bpu=""   Tap="    "  />
+    <linha ID="0077"  De="0120"    Para=" 134"    Rpu=" 0.576"    Xpu=" 6.1381"     Bpu=""   Tap="    "  />
+    <linha ID="0078"  De="0120"    Para=" 134"    Rpu=" 0.574"    Xpu=" 6.1071"     Bpu=""   Tap="    "  />
+    <linha ID="0079"  De="0120"    Para=" 136"    Rpu=" 0.469"    Xpu=" 4.0996"     Bpu=""   Tap="    "  />
+    <linha ID="0080"  De="0120"    Para=" 136"    Rpu=" 0.469"    Xpu=" 4.0996"     Bpu=""   Tap="    "  />
+    <linha ID="0081"  De="0121"    Para=" 198"    Rpu="      "    Xpu="18.099 "     Bpu=""   Tap="    "  />
+    <linha ID="0082"  De="0123"    Para=" 124"    Rpu="      "    Xpu="-0.521 "     Bpu=""   Tap=" 990"  />
+    <linha ID="0083"  De="0123"    Para=" 127"    Rpu=" 0.260"    Xpu=" 2.1504"     Bpu=""   Tap="    "  />
+    <linha ID="0084"  De="0124"    Para=" 196"    Rpu="      "    Xpu="18.082 "     Bpu=""   Tap="    "  />
+    <linha ID="0085"  De="0126"    Para=" 127"    Rpu="      "    Xpu=" 0.099 "     Bpu=""   Tap="    "  />
+    <linha ID="0086"  De="0126"    Para=" 435"    Rpu=" 0.006"    Xpu=" 0.120 "     Bpu=""   Tap="    "  />
+    <linha ID="0087"  De="0126"    Para=" 435"    Rpu=" 0.006"    Xpu=" 0.120 "     Bpu=""   Tap="    "  />
+    <linha ID="0088"  De="0127"    Para=" 444"    Rpu=" 0.049"    Xpu=" 0.424 "     Bpu=""   Tap="    "  />
+    <linha ID="0089"  De="0129"    Para=" 130"    Rpu="      "    Xpu=" 1.905 "     Bpu=""   Tap=" 957"  />
+    <linha ID="0090"  De="0129"    Para=" 444"    Rpu=" 0.131"    Xpu=" 1.1451"     Bpu=""   Tap="    "  />
+    <linha ID="0091"  De="0129"    Para=" 463"    Rpu=" 0.020"    Xpu=" 0.210 "     Bpu=""   Tap="    "  />
+    <linha ID="0092"  De="0130"    Para=" 193"    Rpu="      "    Xpu=" 7.880 "     Bpu=""   Tap="    "  />
+    <linha ID="0093"  De="0131"    Para=" 132"    Rpu="      "    Xpu=" 6.619 "     Bpu=""   Tap=" 972"  />
+    <linha ID="0094"  De="0131"    Para=" 134"    Rpu=" 0.100"    Xpu=" 1.0301"     Bpu=""   Tap="    "  />
+    <linha ID="0095"  De="0131"    Para=" 136"    Rpu=" 0.373"    Xpu=" 3.2595"     Bpu=""   Tap="    "  />
+    <linha ID="0096"  De="0134"    Para="  12"    Rpu="      "    Xpu=" 1.050 "     Bpu=""   Tap=" 999"  />
+    <linha ID="0097"  De="0134"    Para=" 136"    Rpu=" 0.389"    Xpu=" 4.1167"     Bpu=""   Tap="    "  />
+    <linha ID="0098"  De="0134"    Para=" 326"    Rpu=" 0.070"    Xpu=" 0.7601"     Bpu=""   Tap="    "  />
+    <linha ID="0099"  De="0134"    Para=" 396"    Rpu=" 0.331"    Xpu=" 3.4975"     Bpu=""   Tap="    "  />
+    <linha ID="0100"  De="0136"    Para=" 138"    Rpu=" 0.697"    Xpu=" 6.1281"     Bpu=""   Tap="    "  />
+    <linha ID="0101"  De="0136"    Para=" 138"    Rpu=" 0.580"    Xpu=" 6.1701"     Bpu=""   Tap="    "  />
+    <linha ID="0102"  De="0136"    Para=" 367"    Rpu=" 0.244"    Xpu=" 2.1353"     Bpu=""   Tap="    "  />
+    <linha ID="0103"  De="0138"    Para=" 140"    Rpu=" 0.700"    Xpu=" 6.1581"     Bpu=""   Tap="    "  />
+    <linha ID="0104"  De="0138"    Para=" 140"    Rpu=" 0.577"    Xpu=" 6.1361"     Bpu=""   Tap="    "  />
+    <linha ID="0105"  De="0140"    Para=" 141"    Rpu="      "    Xpu="-0.214 "     Bpu=""   Tap="1060"  />
+    <linha ID="0106"  De="0140"    Para=" 142"    Rpu="      "    Xpu=" 1.568 "     Bpu=""   Tap="1005"  />
+    <linha ID="0107"  De="0140"    Para=" 144"    Rpu=" 0.137"    Xpu=" 1.1942"     Bpu=""   Tap="    "  />
+    <linha ID="0108"  De="0140"    Para=" 144"    Rpu=" 0.107"    Xpu=" 1.1271"     Bpu=""   Tap="    "  />
+    <linha ID="0109"  De="0140"    Para=" 147"    Rpu=" 0.764"    Xpu=" 8.2041"     Bpu=""   Tap="    "  />
+    <linha ID="0110"  De="0140"    Para=" 147"    Rpu=" 0.766"    Xpu=" 8.2031"     Bpu=""   Tap="    "  />
+    <linha ID="0111"  De="0141"    Para=" 195"    Rpu="      "    Xpu=" 9.030 "     Bpu=""   Tap="    "  />
+    <linha ID="0112"  De="0142"    Para=" 194"    Rpu="      "    Xpu=" 3.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0113"  De="0144"    Para=" 181"    Rpu="      "    Xpu=" 1.190 "     Bpu=""   Tap="1004"  />
+    <linha ID="0114"  De="0147"    Para=" 149"    Rpu=" 0.692"    Xpu=" 7.4021"     Bpu=""   Tap="    "  />
+    <linha ID="0115"  De="0147"    Para=" 149"    Rpu=" 0.694"    Xpu=" 7.4021"     Bpu=""   Tap="    "  />
+    <linha ID="0116"  De="0149"    Para="  45"    Rpu="      "    Xpu=" 0.217 "     Bpu=""   Tap=" 975"  />
+    <linha ID="0117"  De="0149"    Para=" 150"    Rpu="      "    Xpu=" 1.699 "     Bpu=""   Tap="1004"  />
+    <linha ID="0118"  De="0150"    Para=" 199"    Rpu="      "    Xpu=" 5.512 "     Bpu=""   Tap="    "  />
+    <linha ID="0119"  De="0160"    Para=" 419"    Rpu=" 0.410"    Xpu=" 2.080 "     Bpu=""   Tap="    "  />
+    <linha ID="0120"  De="0161"    Para=" 130"    Rpu="      "    Xpu="-0.605 "     Bpu=""   Tap="1065"  />
+    <linha ID="0121"  De="0161"    Para=" 446"    Rpu=" 0.060"    Xpu=" 0.570 "     Bpu=""   Tap="    "  />
+    <linha ID="0122"  De="0161"    Para=" 454"    Rpu=" 0.760"    Xpu=" 5.020 "     Bpu=""   Tap="    "  />
+    <linha ID="0123"  De="0170"    Para=" 120"    Rpu="      "    Xpu=" 2.232 "     Bpu=""   Tap="1081"  />
+    <linha ID="0124"  De="0170"    Para=" 364"    Rpu=" 0.060"    Xpu=" 0.310 "     Bpu=""   Tap="    "  />
+    <linha ID="0125"  De="0170"    Para=" 365"    Rpu=" 0.060"    Xpu=" 0.310 "     Bpu=""   Tap="    "  />
+    <linha ID="0126"  De="0170"    Para=" 705"    Rpu=" 2.200"    Xpu=" 8.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0127"  De="0170"    Para=" 705"    Rpu=" 2.200"    Xpu=" 8.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0128"  De="0171"    Para=" 123"    Rpu="      "    Xpu=" 3.044 "     Bpu=""   Tap="1037"  />
+    <linha ID="0129"  De="0171"    Para=" 568"    Rpu=" 1.393"    Xpu=" 3.546 "     Bpu=""   Tap="    "  />
+    <linha ID="0130"  De="0171"    Para=" 572"    Rpu=" 1.230"    Xpu=" 3.658 "     Bpu=""   Tap="    "  />
+    <linha ID="0131"  De="0172"    Para=" 173"    Rpu=" 0.819"    Xpu=" 4.827 "     Bpu=""   Tap="    "  />
+    <linha ID="0132"  De="0172"    Para=" 173"    Rpu=" 0.819"    Xpu=" 4.827 "     Bpu=""   Tap="    "  />
+    <linha ID="0133"  De="0172"    Para=" 173"    Rpu=" 2.688"    Xpu="15.590 "     Bpu=""   Tap="    "  />
+    <linha ID="0134"  De="0172"    Para=" 174"    Rpu="42.092"    Xpu="163.49 "     Bpu=""   Tap="    "  />
+    <linha ID="0135"  De="0173"    Para=" 142"    Rpu="      "    Xpu="-0.108 "     Bpu=""   Tap="1052"  />
+    <linha ID="0136"  De="0173"    Para=" 174"    Rpu=" 5.212"    Xpu="21.185 "     Bpu=""   Tap="    "  />
+    <linha ID="0137"  De="0173"    Para=" 269"    Rpu="14.459"    Xpu="91.086 "     Bpu=""   Tap="    "  />
+    <linha ID="0138"  De="0174"    Para=" 175"    Rpu=" 6.370"    Xpu="27.220 "     Bpu=""   Tap="    "  />
+    <linha ID="0139"  De="0174"    Para=" 175"    Rpu=" 6.370"    Xpu="27.220 "     Bpu=""   Tap="    "  />
+    <linha ID="0140"  De="0174"    Para=" 175"    Rpu="10.787"    Xpu="26.032 "     Bpu=""   Tap="    "  />
+    <linha ID="0141"  De="0174"    Para=" 258"    Rpu=" 5.457"    Xpu="16.607 "     Bpu=""   Tap="    "  />
+    <linha ID="0142"  De="0174"    Para=" 269"    Rpu="17.494"    Xpu="57.756 "     Bpu=""   Tap="    "  />
+    <linha ID="0143"  De="0175"    Para=" 147"    Rpu="      "    Xpu=" 4.251 "     Bpu=""   Tap="1083"  />
+    <linha ID="0144"  De="0175"    Para=" 177"    Rpu=" 7.731"    Xpu="29.257 "     Bpu=""   Tap="    "  />
+    <linha ID="0145"  De="0175"    Para=" 200"    Rpu=" 0.119"    Xpu="14.462 "     Bpu=""   Tap="    "  />
+    <linha ID="0146"  De="0175"    Para=" 202"    Rpu=" 0.119"    Xpu="14.462 "     Bpu=""   Tap="    "  />
+    <linha ID="0147"  De="0175"    Para=" 258"    Rpu="17.250"    Xpu="50.748 "     Bpu=""   Tap="    "  />
+    <linha ID="0148"  De="0175"    Para=" 269"    Rpu="79.369"    Xpu="215.68 "     Bpu=""   Tap="    "  />
+    <linha ID="0149"  De="0177"    Para=" 150"    Rpu="      "    Xpu="-0.196 "     Bpu=""   Tap="1095"  />
+    <linha ID="0150"  De="0177"    Para=" 394"    Rpu=" 5.847"    Xpu="34.301 "     Bpu=""   Tap="    "  />
+    <linha ID="0151"  De="0178"    Para=" 179"    Rpu="      "    Xpu="-0.020 "     Bpu=""   Tap="1050"  />
+    <linha ID="0152"  De="0178"    Para=" 275"    Rpu=" 0.187"    Xpu=" 1.065 "     Bpu=""   Tap="    "  />
+    <linha ID="0153"  De="0178"    Para=" 279"    Rpu=" 0.370"    Xpu=" 2.106 "     Bpu=""   Tap="    "  />
+    <linha ID="0154"  De="0178"    Para=" 280"    Rpu=" 0.370"    Xpu=" 2.106 "     Bpu=""   Tap="    "  />
+    <linha ID="0155"  De="0178"    Para=" 281"    Rpu=" 0.336"    Xpu=" 1.914 "     Bpu=""   Tap="    "  />
+    <linha ID="0156"  De="0178"    Para=" 282"    Rpu=" 0.336"    Xpu=" 1.914 "     Bpu=""   Tap="    "  />
+    <linha ID="0157"  De="0178"    Para=" 283"    Rpu=" 0.277"    Xpu=" 1.579 "     Bpu=""   Tap="    "  />
+    <linha ID="0158"  De="0178"    Para=" 283"    Rpu=" 0.280"    Xpu=" 1.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0159"  De="0178"    Para=" 283"    Rpu=" 0.280"    Xpu=" 1.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0160"  De="0178"    Para=" 283"    Rpu=" 0.280"    Xpu=" 1.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0161"  De="0178"    Para=" 284"    Rpu=" 0.062"    Xpu=" 0.355 "     Bpu=""   Tap="    "  />
+    <linha ID="0162"  De="0180"    Para=" 181"    Rpu="      "    Xpu="-0.112 "     Bpu=""   Tap=" 956"  />
+    <linha ID="0163"  De="0180"    Para=" 184"    Rpu=" 1.710"    Xpu=" 9.170 "     Bpu=""   Tap="    "  />
+    <linha ID="0164"  De="0180"    Para=" 277"    Rpu=" 1.380"    Xpu=" 7.890 "     Bpu=""   Tap="    "  />
+    <linha ID="0165"  De="0180"    Para=" 278"    Rpu=" 1.160"    Xpu=" 6.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0166"  De="0180"    Para=" 278"    Rpu=" 1.359"    Xpu=" 7.749 "     Bpu=""   Tap="    "  />
+    <linha ID="0167"  De="0180"    Para=" 279"    Rpu=" 0.529"    Xpu=" 3.015 "     Bpu=""   Tap="    "  />
+    <linha ID="0168"  De="0180"    Para=" 280"    Rpu=" 0.529"    Xpu=" 3.015 "     Bpu=""   Tap="    "  />
+    <linha ID="0169"  De="0180"    Para=" 281"    Rpu=" 0.424"    Xpu=" 2.417 "     Bpu=""   Tap="    "  />
+    <linha ID="0170"  De="0180"    Para=" 282"    Rpu=" 0.424"    Xpu=" 2.417 "     Bpu=""   Tap="    "  />
+    <linha ID="0171"  De="0181"    Para=" 197"    Rpu="      "    Xpu=" 2.467 "     Bpu=""   Tap="    "  />
+    <linha ID="0172"  De="0182"    Para=" 183"    Rpu=" 2.050"    Xpu="12.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0173"  De="0182"    Para=" 273"    Rpu=" 2.555"    Xpu="10.349 "     Bpu=""   Tap="    "  />
+    <linha ID="0174"  De="0182"    Para=" 273"    Rpu=" 2.545"    Xpu="10.388 "     Bpu=""   Tap="    "  />
+    <linha ID="0175"  De="0182"    Para=" 274"    Rpu=" 2.380"    Xpu="14.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0176"  De="0183"    Para=" 274"    Rpu=" 4.430"    Xpu="26.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0177"  De="0184"    Para="  31"    Rpu="      "    Xpu="18.480 "     Bpu=""   Tap="1045"  />
+    <linha ID="0178"  De="0184"    Para=" 185"    Rpu=" 3.940"    Xpu="23.260 "     Bpu=""   Tap="    "  />
+    <linha ID="0179"  De="0184"    Para=" 276"    Rpu=" 0.739"    Xpu=" 4.360 "     Bpu=""   Tap="    "  />
+    <linha ID="0180"  De="0184"    Para=" 276"    Rpu=" 0.739"    Xpu=" 4.360 "     Bpu=""   Tap="    "  />
+    <linha ID="0181"  De="0184"    Para=" 277"    Rpu=" 0.210"    Xpu=" 1.220 "     Bpu=""   Tap="    "  />
+    <linha ID="0182"  De="0184"    Para=" 277"    Rpu=" 0.420"    Xpu=" 1.270 "     Bpu=""   Tap="    "  />
+    <linha ID="0183"  De="0184"    Para=" 277"    Rpu=" 0.210"    Xpu=" 1.220 "     Bpu=""   Tap="    "  />
+    <linha ID="0184"  De="0184"    Para=" 278"    Rpu=" 0.410"    Xpu=" 2.370 "     Bpu=""   Tap="    "  />
+    <linha ID="0185"  De="0184"    Para=" 278"    Rpu=" 0.410"    Xpu=" 2.370 "     Bpu=""   Tap="    "  />
+    <linha ID="0186"  De="0185"    Para=" 276"    Rpu=" 2.348"    Xpu="10.182 "     Bpu=""   Tap="    "  />
+    <linha ID="0187"  De="0186"    Para=" 258"    Rpu=" 1.193"    Xpu=" 2.478 "     Bpu=""   Tap="    "  />
+    <linha ID="0188"  De="0186"    Para=" 258"    Rpu=" 1.380"    Xpu=" 2.870 "     Bpu=""   Tap="    "  />
+    <linha ID="0189"  De="0187"    Para="  24"    Rpu="      "    Xpu=" 6.070 "     Bpu=""   Tap="1075"  />
+    <linha ID="0190"  De="0187"    Para=" 132"    Rpu="      "    Xpu=" 0.567 "     Bpu=""   Tap=" 962"  />
+    <linha ID="0191"  De="0187"    Para=" 190"    Rpu="12.806"    Xpu="27.365 "     Bpu=""   Tap="    "  />
+    <linha ID="0192"  De="0187"    Para=" 330"    Rpu=" 7.330"    Xpu="20.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0193"  De="0187"    Para=" 362"    Rpu=" 7.310"    Xpu="19.340 "     Bpu=""   Tap="    "  />
+    <linha ID="0194"  De="0187"    Para=" 564"    Rpu=" 5.015"    Xpu="14.613 "     Bpu=""   Tap="    "  />
+    <linha ID="0195"  De="0190"    Para=" 216"    Rpu="      "    Xpu=" 6.664 "     Bpu=""   Tap="    "  />
+    <linha ID="0196"  De="0190"    Para=" 560"    Rpu="11.538"    Xpu="40.033 "     Bpu=""   Tap="    "  />
+    <linha ID="0197"  De="0190"    Para=" 564"    Rpu="24.900"    Xpu="79.643 "     Bpu=""   Tap="    "  />
+    <linha ID="0198"  De="0200"    Para=" 201"    Rpu="      "    Xpu="57.500 "     Bpu=""   Tap="    "  />
+    <linha ID="0199"  De="0200"    Para=" 202"    Rpu="-0.004"    Xpu="-1.718 "     Bpu=""   Tap="1000"  />
+    <linha ID="0200"  De="0202"    Para=" 203"    Rpu="      "    Xpu="57.500 "     Bpu=""   Tap="    "  />
+    <linha ID="0201"  De="0210"    Para="  18"    Rpu="      "    Xpu=" 0.830 "     Bpu=""   Tap="1050"  />
+    <linha ID="0202"  De="0210"    Para=" 217"    Rpu="      "    Xpu=" 0.858 "     Bpu=""   Tap="1024"  />
+    <linha ID="0203"  De="0210"    Para=" 320"    Rpu=" 0.125"    Xpu=" 1.9371"     Bpu=""   Tap="    "  />
+    <linha ID="0204"  De="0210"    Para=" 370"    Rpu=" 0.154"    Xpu=" 2.3211"     Bpu=""   Tap="    "  />
+    <linha ID="0205"  De="0213"    Para=" 214"    Rpu="      "    Xpu="-0.621 "     Bpu=""   Tap="1000"  />
+    <linha ID="0206"  De="0213"    Para=" 216"    Rpu=" 0.231"    Xpu=" 2.4404"     Bpu=""   Tap="    "  />
+    <linha ID="0207"  De="0214"    Para=" 246"    Rpu="      "    Xpu="18.086 "     Bpu=""   Tap="    "  />
+    <linha ID="0208"  De="0216"    Para=" 217"    Rpu=" 0.585"    Xpu=" 6.2291"     Bpu=""   Tap="    "  />
+    <linha ID="0209"  De="0216"    Para=" 396"    Rpu=" 0.130"    Xpu=" 1.3782"     Bpu=""   Tap="    "  />
+    <linha ID="0210"  De="0217"    Para=" 218"    Rpu=" 0.526"    Xpu=" 5.5909"     Bpu=""   Tap="    "  />
+    <linha ID="0211"  De="0217"    Para=" 218"    Rpu=" 0.512"    Xpu=" 5.4389"     Bpu=""   Tap="    "  />
+    <linha ID="0212"  De="0218"    Para=" 219"    Rpu=" 0.492"    Xpu=" 5.2248"     Bpu=""   Tap="    "  />
+    <linha ID="0213"  De="0218"    Para=" 219"    Rpu=" 0.492"    Xpu=" 5.2248"     Bpu=""   Tap="    "  />
+    <linha ID="0214"  De="0218"    Para=" 222"    Rpu="      "    Xpu=" 4.369 "     Bpu=""   Tap="    "  />
+    <linha ID="0215"  De="0218"    Para=" 226"    Rpu="      "    Xpu=" 5.348 "     Bpu=""   Tap=" 924"  />
+    <linha ID="0216"  De="0219"    Para=" 220"    Rpu="      "    Xpu=" 4.396 "     Bpu=""   Tap="    "  />
+    <linha ID="0217"  De="0219"    Para=" 221"    Rpu="      "    Xpu=" 4.396 "     Bpu=""   Tap="    "  />
+    <linha ID="0218"  De="0220"    Para=" 232"    Rpu="      "    Xpu="14.650 "     Bpu=""   Tap="    "  />
+    <linha ID="0219"  De="0221"    Para=" 224"    Rpu="      "    Xpu=" 1.840 "     Bpu=""   Tap="    "  />
+    <linha ID="0220"  De="0222"    Para=" 223"    Rpu="      "    Xpu="14.570 "     Bpu=""   Tap="    "  />
+    <linha ID="0221"  De="0225"    Para=" 217"    Rpu="      "    Xpu=" 1.361 "     Bpu=""   Tap=" 998"  />
+    <linha ID="0222"  De="0225"    Para=" 231"    Rpu=" 4.456"    Xpu="20.7873"     Bpu=""   Tap="    "  />
+    <linha ID="0223"  De="0225"    Para=" 756"    Rpu=" 0.677"    Xpu=" 4.108 "     Bpu=""   Tap="    "  />
+    <linha ID="0224"  De="0226"    Para=" 222"    Rpu="      "    Xpu="-0.775 "     Bpu=""   Tap="1050"  />
+    <linha ID="0225"  De="0226"    Para=" 227"    Rpu=" 4.559"    Xpu="20.968 "     Bpu=""   Tap="    "  />
+    <linha ID="0226"  De="0226"    Para=" 760"    Rpu="      "    Xpu=" 0.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0227"  De="0226"    Para=" 779"    Rpu=" 4.711"    Xpu="26.988 "     Bpu=""   Tap="    "  />
+    <linha ID="0228"  De="0227"    Para="  40"    Rpu="      "    Xpu=" 7.583 "     Bpu=""   Tap="1070"  />
+    <linha ID="0229"  De="0227"    Para=" 228"    Rpu=" 0.192"    Xpu=" 1.263 "     Bpu=""   Tap="    "  />
+    <linha ID="0230"  De="0227"    Para=" 779"    Rpu="41.180"    Xpu="236.01 "     Bpu=""   Tap="    "  />
+    <linha ID="0231"  De="0228"    Para=" 220"    Rpu="      "    Xpu="-0.802 "     Bpu=""   Tap="1050"  />
+    <linha ID="0232"  De="0228"    Para=" 221"    Rpu="      "    Xpu="-0.802 "     Bpu=""   Tap="1050"  />
+    <linha ID="0233"  De="0228"    Para=" 229"    Rpu=" 1.700"    Xpu="12.2402"     Bpu=""   Tap="    "  />
+    <linha ID="0234"  De="0229"    Para=" 786"    Rpu="      "    Xpu="14.667 "     Bpu=""   Tap=" 984"  />
+    <linha ID="0235"  De="0229"    Para=" 787"    Rpu=" 1.162"    Xpu=" 8.3801"     Bpu=""   Tap="    "  />
+    <linha ID="0236"  De="0230"    Para=" 789"    Rpu=" 0.778"    Xpu=" 3.486 "     Bpu=""   Tap="    "  />
+    <linha ID="0237"  De="0231"    Para=" 240"    Rpu="      "    Xpu=" 8.313 "     Bpu=""   Tap="    "  />
+    <linha ID="0238"  De="0231"    Para=" 756"    Rpu=" 3.770"    Xpu="16.6803"     Bpu=""   Tap="    "  />
+    <linha ID="0239"  De="0236"    Para=" 219"    Rpu="      "    Xpu=" 2.601 "     Bpu=""   Tap="1085"  />
+    <linha ID="0240"  De="0238"    Para=" 240"    Rpu="      "    Xpu="-0.483 "     Bpu=""   Tap=" 988"  />
+    <linha ID="0241"  De="0238"    Para=" 242"    Rpu="      "    Xpu="111.60 "     Bpu=""   Tap="    "  />
+    <linha ID="0242"  De="0238"    Para=" 755"    Rpu="17.390"    Xpu="46.0201"     Bpu=""   Tap="    "  />
+    <linha ID="0243"  De="0238"    Para=" 783"    Rpu="      "    Xpu=" 0.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0244"  De="0238"    Para=" 791"    Rpu="17.130"    Xpu="43.5301"     Bpu=""   Tap="    "  />
+    <linha ID="0245"  De="0239"    Para=" 230"    Rpu="      "    Xpu="16.600 "     Bpu=""   Tap=" 944"  />
+    <linha ID="0246"  De="0239"    Para=" 792"    Rpu=" 3.930"    Xpu="11.420 "     Bpu=""   Tap="    "  />
+    <linha ID="0247"  De="0240"    Para=" 241"    Rpu="      "    Xpu="15.977 "     Bpu=""   Tap="    "  />
+    <linha ID="0248"  De="0247"    Para=" 792"    Rpu=" 2.780"    Xpu=" 4.360 "     Bpu=""   Tap="    "  />
+    <linha ID="0249"  De="0251"    Para=" 250"    Rpu="      "    Xpu=" 3.850 "     Bpu=""   Tap="1027"  />
+    <linha ID="0250"  De="0251"    Para=" 254"    Rpu=" 0.010"    Xpu=" 0.050 "     Bpu=""   Tap="    "  />
+    <linha ID="0251"  De="0251"    Para=" 260"    Rpu=" 1.733"    Xpu=" 3.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0252"  De="0251"    Para=" 262"    Rpu=" 1.017"    Xpu=" 2.113 "     Bpu=""   Tap="    "  />
+    <linha ID="0253"  De="0251"    Para=" 262"    Rpu=" 1.017"    Xpu=" 2.113 "     Bpu=""   Tap="    "  />
+    <linha ID="0254"  De="0251"    Para=" 274"    Rpu=" 1.850"    Xpu=" 7.530 "     Bpu=""   Tap="    "  />
+    <linha ID="0255"  De="0251"    Para=" 274"    Rpu=" 1.850"    Xpu=" 7.530 "     Bpu=""   Tap="    "  />
+    <linha ID="0256"  De="0251"    Para=" 275"    Rpu=" 3.781"    Xpu="15.362 "     Bpu=""   Tap="    "  />
+    <linha ID="0257"  De="0251"    Para=" 275"    Rpu=" 3.781"    Xpu="15.362 "     Bpu=""   Tap="    "  />
+    <linha ID="0258"  De="0251"    Para=" 298"    Rpu=" 1.280"    Xpu=" 7.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0259"  De="0252"    Para=" 299"    Rpu="      "    Xpu=" 6.110 "     Bpu=""   Tap=" 890"  />
+    <linha ID="0260"  De="0252"    Para=" 461"    Rpu=" 2.100"    Xpu="12.9102"     Bpu=""   Tap="    "  />
+    <linha ID="0261"  De="0254"    Para=" 253"    Rpu="      "    Xpu=" 8.210 "     Bpu=""   Tap="1004"  />
+    <linha ID="0262"  De="0254"    Para=" 256"    Rpu=" 0.206"    Xpu=" 0.837 "     Bpu=""   Tap="    "  />
+    <linha ID="0263"  De="0254"    Para=" 275"    Rpu=" 1.282"    Xpu=" 5.099 "     Bpu=""   Tap="    "  />
+    <linha ID="0264"  De="0256"    Para=" 255"    Rpu="      "    Xpu="12.330 "     Bpu=""   Tap="1004"  />
+    <linha ID="0265"  De="0256"    Para=" 275"    Rpu=" 3.803"    Xpu="14.576 "     Bpu=""   Tap="    "  />
+    <linha ID="0266"  De="0258"    Para=" 257"    Rpu="      "    Xpu=" 5.270 "     Bpu=""   Tap="1051"  />
+    <linha ID="0267"  De="0258"    Para=" 269"    Rpu=" 5.324"    Xpu="31.410 "     Bpu=""   Tap="    "  />
+    <linha ID="0268"  De="0258"    Para=" 270"    Rpu=" 5.719"    Xpu="33.125 "     Bpu=""   Tap="    "  />
+    <linha ID="0269"  De="0260"    Para=" 259"    Rpu="      "    Xpu="35.900 "     Bpu=""   Tap="1013"  />
+    <linha ID="0270"  De="0261"    Para=" 262"    Rpu="      "    Xpu="14.830 "     Bpu=""   Tap="    "  />
+    <linha ID="0271"  De="0269"    Para=" 270"    Rpu=" 0.650"    Xpu=" 4.244 "     Bpu=""   Tap="    "  />
+    <linha ID="0272"  De="0270"    Para=" 271"    Rpu=" 0.002"    Xpu=" 0.012 "     Bpu=""   Tap="    "  />
+    <linha ID="0273"  De="0270"    Para=" 272"    Rpu=" 0.588"    Xpu=" 3.350 "     Bpu=""   Tap="    "  />
+    <linha ID="0274"  De="0271"    Para=" 275"    Rpu=" 0.391"    Xpu=" 2.225 "     Bpu=""   Tap="    "  />
+    <linha ID="0275"  De="0272"    Para=" 275"    Rpu=" 0.190"    Xpu=" 1.195 "     Bpu=""   Tap="    "  />
+    <linha ID="0276"  De="0273"    Para=" 274"    Rpu=" 0.470"    Xpu=" 1.909 "     Bpu=""   Tap="    "  />
+    <linha ID="0277"  De="0275"    Para=" 279"    Rpu=" 0.008"    Xpu=" 0.048 "     Bpu=""   Tap="    "  />
+    <linha ID="0278"  De="0275"    Para=" 280"    Rpu=" 0.008"    Xpu=" 0.048 "     Bpu=""   Tap="    "  />
+    <linha ID="0279"  De="0275"    Para=" 281"    Rpu=" 0.118"    Xpu=" 0.670 "     Bpu=""   Tap="    "  />
+    <linha ID="0280"  De="0275"    Para=" 282"    Rpu=" 0.118"    Xpu=" 0.670 "     Bpu=""   Tap="    "  />
+    <linha ID="0281"  De="0298"    Para=" 299"    Rpu=" 1.280"    Xpu=" 7.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0282"  De="0304"    Para=" 381"    Rpu="      "    Xpu=" 3.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0283"  De="0307"    Para=" 392"    Rpu=" 8.150"    Xpu="21.330 "     Bpu=""   Tap="    "  />
+    <linha ID="0284"  De="0307"    Para=" 755"    Rpu=" 6.180"    Xpu="16.200 "     Bpu=""   Tap="    "  />
+    <linha ID="0285"  De="0308"    Para=" 309"    Rpu="      "    Xpu=" 2.170 "     Bpu=""   Tap="    "  />
+    <linha ID="0286"  De="0308"    Para=" 331"    Rpu=" 0.220"    Xpu=" 2.3403"     Bpu=""   Tap="    "  />
+    <linha ID="0287"  De="0308"    Para=" 336"    Rpu=" 0.240"    Xpu=" 2.2503"     Bpu=""   Tap="    "  />
+    <linha ID="0288"  De="0308"    Para=" 367"    Rpu=" 0.650"    Xpu=" 7.3201"     Bpu=""   Tap="    "  />
+    <linha ID="0289"  De="0309"    Para=" 310"    Rpu="      "    Xpu=" 4.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0290"  De="0309"    Para=" 323"    Rpu="10.789"    Xpu="28.165 "     Bpu=""   Tap="    "  />
+    <linha ID="0291"  De="0309"    Para=" 332"    Rpu=" 3.866"    Xpu="10.208 "     Bpu=""   Tap="    "  />
+    <linha ID="0292"  De="0309"    Para=" 337"    Rpu=" 4.713"    Xpu="12.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0293"  De="0313"    Para=" 316"    Rpu="      "    Xpu=" 1.860 "     Bpu=""   Tap=" 956"  />
+    <linha ID="0294"  De="0313"    Para=" 350"    Rpu=" 0.130"    Xpu=" 1.2501"     Bpu=""   Tap="    "  />
+    <linha ID="0295"  De="0313"    Para=" 367"    Rpu=" 0.620"    Xpu=" 6.2501"     Bpu=""   Tap="    "  />
+    <linha ID="0296"  De="0313"    Para=" 372"    Rpu=" 0.050"    Xpu=" 0.570 "     Bpu=""   Tap="    "  />
+    <linha ID="0297"  De="0314"    Para=" 316"    Rpu="      "    Xpu="-0.210 "     Bpu=""   Tap="1029"  />
+    <linha ID="0298"  De="0314"    Para=" 337"    Rpu="14.501"    Xpu="55.894 "     Bpu=""   Tap="    "  />
+    <linha ID="0299"  De="0314"    Para=" 353"    Rpu=" 3.116"    Xpu="15.880 "     Bpu=""   Tap="    "  />
+    <linha ID="0300"  De="0314"    Para=" 376"    Rpu=" 1.706"    Xpu=" 6.469 "     Bpu=""   Tap="    "  />
+    <linha ID="0301"  De="0314"    Para="1499"    Rpu=" 1.920"    Xpu=" 8.940 "     Bpu=""   Tap="    "  />
+    <linha ID="0302"  De="0314"    Para="1499"    Rpu=" 4.406"    Xpu="19.448 "     Bpu=""   Tap="    "  />
+    <linha ID="0303"  De="0315"    Para=" 316"    Rpu="      "    Xpu="11.930 "     Bpu=""   Tap="    "  />
+    <linha ID="0304"  De="0320"    Para=" 300"    Rpu="      "    Xpu=" 1.020 "     Bpu=""   Tap="1050"  />
+    <linha ID="0305"  De="0320"    Para=" 321"    Rpu="      "    Xpu=" 2.280 "     Bpu=""   Tap="1025"  />
+    <linha ID="0306"  De="0320"    Para=" 325"    Rpu=" 0.180"    Xpu=" 2.7672"     Bpu=""   Tap="    "  />
+    <linha ID="0307"  De="0320"    Para=" 390"    Rpu=" 0.220"    Xpu=" 3.4202"     Bpu=""   Tap="    "  />
+    <linha ID="0308"  De="0321"    Para=" 330"    Rpu="52.376"    Xpu="108.81 "     Bpu=""   Tap="    "  />
+    <linha ID="0309"  De="0321"    Para=" 392"    Rpu=" 7.990"    Xpu="20.520 "     Bpu=""   Tap="    "  />
+    <linha ID="0310"  De="0321"    Para=" 392"    Rpu=" 7.950"    Xpu="19.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0311"  De="0321"    Para=" 784"    Rpu=" 3.620"    Xpu="10.440 "     Bpu=""   Tap="    "  />
+    <linha ID="0312"  De="0323"    Para=" 138"    Rpu="      "    Xpu=" 1.270 "     Bpu=""   Tap="1028"  />
+    <linha ID="0313"  De="0323"    Para=" 337"    Rpu="14.212"    Xpu="38.218 "     Bpu=""   Tap="    "  />
+    <linha ID="0314"  De="0325"    Para=" 326"    Rpu="      "    Xpu=" 0.720 "     Bpu=""   Tap="1025"  />
+    <linha ID="0315"  De="0325"    Para=" 349"    Rpu=" 0.290"    Xpu=" 4.9204"     Bpu=""   Tap="    "  />
+    <linha ID="0316"  De="0325"    Para=" 370"    Rpu=" 0.280"    Xpu=" 4.8404"     Bpu=""   Tap="    "  />
+    <linha ID="0317"  De="0325"    Para=" 384"    Rpu=" 0.332"    Xpu=" 5.6384"     Bpu=""   Tap="    "  />
+    <linha ID="0318"  De="0326"    Para=" 301"    Rpu="      "    Xpu=" 3.500 "     Bpu=""   Tap="1025"  />
+    <linha ID="0319"  De="0326"    Para=" 327"    Rpu="      "    Xpu=" 3.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0320"  De="0326"    Para=" 367"    Rpu=" 0.500"    Xpu=" 5.6909"     Bpu=""   Tap="    "  />
+    <linha ID="0321"  De="0326"    Para=" 367"    Rpu=" 0.500"    Xpu=" 5.6909"     Bpu=""   Tap="    "  />
+    <linha ID="0322"  De="0326"    Para=" 396"    Rpu=" 0.240"    Xpu=" 2.7404"     Bpu=""   Tap="    "  />
+    <linha ID="0323"  De="0328"    Para=" 326"    Rpu="      "    Xpu=" 3.740 "     Bpu=""   Tap="1069"  />
+    <linha ID="0324"  De="0328"    Para=" 330"    Rpu="      "    Xpu=" 3.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0325"  De="0330"    Para=" 392"    Rpu="24.277"    Xpu="43.818 "     Bpu=""   Tap="    "  />
+    <linha ID="0326"  De="0331"    Para=" 332"    Rpu="      "    Xpu=" 2.230 "     Bpu=""   Tap=" 975"  />
+    <linha ID="0327"  De="0332"    Para=" 333"    Rpu="      "    Xpu=" 4.700 "     Bpu=""   Tap="    "  />
+    <linha ID="0328"  De="0336"    Para=" 337"    Rpu="      "    Xpu=" 2.370 "     Bpu=""   Tap=" 975"  />
+    <linha ID="0329"  De="0336"    Para=" 385"    Rpu=" 0.190"    Xpu=" 1.9202"     Bpu=""   Tap="    "  />
+    <linha ID="0330"  De="0337"    Para=" 338"    Rpu="      "    Xpu=" 6.200 "     Bpu=""   Tap="    "  />
+    <linha ID="0331"  De="0337"    Para=" 376"    Rpu="15.686"    Xpu="34.711 "     Bpu=""   Tap="    "  />
+    <linha ID="0332"  De="0337"    Para=" 386"    Rpu=" 5.445"    Xpu="16.225 "     Bpu=""   Tap="    "  />
+    <linha ID="0333"  De="0341"    Para=" 398"    Rpu=" 0.400"    Xpu=" 4.4007"     Bpu=""   Tap="    "  />
+    <linha ID="0334"  De="0342"    Para=" 341"    Rpu=" 2.300"    Xpu=" 3.650 "     Bpu=""   Tap="1005"  />
+    <linha ID="0335"  De="0342"    Para=" 399"    Rpu="13.894"    Xpu="27.274 "     Bpu=""   Tap="    "  />
+    <linha ID="0336"  De="0344"    Para=" 345"    Rpu="      "    Xpu=" 1.240 "     Bpu=""   Tap="1025"  />
+    <linha ID="0337"  De="0344"    Para=" 349"    Rpu=" 0.160"    Xpu=" 2.5702"     Bpu=""   Tap="    "  />
+    <linha ID="0338"  De="0345"    Para=" 373"    Rpu=" 1.510"    Xpu=" 7.931 "     Bpu=""   Tap="    "  />
+    <linha ID="0339"  De="0345"    Para=" 394"    Rpu=" 1.650"    Xpu=" 8.7201"     Bpu=""   Tap="    "  />
+    <linha ID="0340"  De="0346"    Para=" 345"    Rpu="      "    Xpu=" 7.410 "     Bpu=""   Tap=" 970"  />
+    <linha ID="0341"  De="0349"    Para=" 353"    Rpu="      "    Xpu=" 4.700 "     Bpu=""   Tap="    "  />
+    <linha ID="0342"  De="0349"    Para=" 356"    Rpu="      "    Xpu=" 1.290 "     Bpu=""   Tap="1025"  />
+    <linha ID="0343"  De="0349"    Para=" 358"    Rpu="      "    Xpu=" 2.520 "     Bpu=""   Tap="    "  />
+    <linha ID="0344"  De="0349"    Para=" 390"    Rpu=" 0.200"    Xpu=" 3.0702"     Bpu=""   Tap="    "  />
+    <linha ID="0345"  De="0350"    Para=" 356"    Rpu="      "    Xpu="-0.180 "     Bpu=""   Tap="1000"  />
+    <linha ID="0346"  De="0350"    Para=" 372"    Rpu=" 0.140"    Xpu=" 1.5802"     Bpu=""   Tap="    "  />
+    <linha ID="0347"  De="0350"    Para=" 380"    Rpu=" 0.710"    Xpu=" 6.9901"     Bpu=""   Tap="    "  />
+    <linha ID="0348"  De="0351"    Para=" 356"    Rpu="      "    Xpu=" 4.130 "     Bpu=""   Tap="    "  />
+    <linha ID="0349"  De="0353"    Para=" 358"    Rpu="      "    Xpu="-0.280 "     Bpu=""   Tap="1000"  />
+    <linha ID="0350"  De="0353"    Para="1499"    Rpu=" 2.927"    Xpu="14.899 "     Bpu=""   Tap="    "  />
+    <linha ID="0351"  De="0354"    Para=" 358"    Rpu="      "    Xpu=" 7.080 "     Bpu=""   Tap="    "  />
+    <linha ID="0352"  De="0367"    Para=" 368"    Rpu="      "    Xpu=" 2.360 "     Bpu=""   Tap=" 975"  />
+    <linha ID="0353"  De="0367"    Para=" 372"    Rpu=" 0.590"    Xpu=" 6.7201"     Bpu=""   Tap="    "  />
+    <linha ID="0354"  De="0368"    Para="1499"    Rpu="15.535"    Xpu="41.181 "     Bpu=""   Tap="    "  />
+    <linha ID="0355"  De="0370"    Para=" 303"    Rpu="      "    Xpu=" 0.850 "     Bpu=""   Tap="1050"  />
+    <linha ID="0356"  De="0370"    Para=" 535"    Rpu=" 0.082"    Xpu=" 1.3601"     Bpu=""   Tap="    "  />
+    <linha ID="0357"  De="0372"    Para=" 377"    Rpu="      "    Xpu=" 0.860 "     Bpu=""   Tap="    "  />
+    <linha ID="0358"  De="0372"    Para=" 385"    Rpu=" 0.130"    Xpu=" 1.3702"     Bpu=""   Tap="    "  />
+    <linha ID="0359"  De="0373"    Para=" 377"    Rpu="      "    Xpu="-0.100 "     Bpu=""   Tap="1065"  />
+    <linha ID="0360"  De="0374"    Para=" 377"    Rpu="      "    Xpu=" 8.930 "     Bpu=""   Tap="    "  />
+    <linha ID="0361"  De="0376"    Para=" 372"    Rpu="      "    Xpu=" 3.690 "     Bpu=""   Tap="1125"  />
+    <linha ID="0362"  De="0376"    Para=" 386"    Rpu=" 2.140"    Xpu="11.300 "     Bpu=""   Tap="    "  />
+    <linha ID="0363"  De="0376"    Para=" 386"    Rpu=" 2.140"    Xpu="11.300 "     Bpu=""   Tap="    "  />
+    <linha ID="0364"  De="0380"    Para=" 398"    Rpu=" 0.270"    Xpu=" 2.9104"     Bpu=""   Tap="    "  />
+    <linha ID="0365"  De="0381"    Para=" 380"    Rpu="      "    Xpu=" 1.150 "     Bpu=""   Tap=" 999"  />
+    <linha ID="0366"  De="0382"    Para=" 381"    Rpu="      "    Xpu=" 3.800 "     Bpu=""   Tap="1012"  />
+    <linha ID="0367"  De="0382"    Para=" 399"    Rpu=" 8.540"    Xpu="23.510 "     Bpu=""   Tap="    "  />
+    <linha ID="0368"  De="0382"    Para=" 399"    Rpu="12.581"    Xpu="36.670 "     Bpu=""   Tap="    "  />
+    <linha ID="0369"  De="0384"    Para=" 385"    Rpu="      "    Xpu=" 1.090 "     Bpu=""   Tap="1025"  />
+    <linha ID="0370"  De="0384"    Para=" 387"    Rpu="      "    Xpu=" 5.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0371"  De="0384"    Para=" 388"    Rpu="      "    Xpu=" 5.130 "     Bpu=""   Tap="    "  />
+    <linha ID="0372"  De="0386"    Para=" 387"    Rpu="      "    Xpu="-0.440 "     Bpu=""   Tap="1000"  />
+    <linha ID="0373"  De="0386"    Para=" 388"    Rpu="      "    Xpu="-0.450 "     Bpu=""   Tap="1000"  />
+    <linha ID="0374"  De="0389"    Para=" 387"    Rpu="      "    Xpu=" 6.900 "     Bpu=""   Tap=" 975"  />
+    <linha ID="0375"  De="0392"    Para=" 393"    Rpu="20.460"    Xpu="31.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0376"  De="0392"    Para=" 755"    Rpu="13.710"    Xpu="37.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0377"  De="0396"    Para=" 305"    Rpu="      "    Xpu=" 2.200 "     Bpu=""   Tap="1025"  />
+    <linha ID="0378"  De="0399"    Para=" 398"    Rpu="      "    Xpu=" 1.560 "     Bpu=""   Tap=" 966"  />
+    <linha ID="0379"  De="0410"    Para=" 411"    Rpu="      "    Xpu=" 3.120 "     Bpu=""   Tap="1024"  />
+    <linha ID="0380"  De="0410"    Para=" 419"    Rpu=" 0.190"    Xpu=" 1.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0381"  De="0410"    Para=" 420"    Rpu=" 0.190"    Xpu=" 1.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0382"  De="0410"    Para=" 425"    Rpu=" 0.190"    Xpu=" 1.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0383"  De="0410"    Para=" 426"    Rpu=" 0.190"    Xpu=" 1.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0384"  De="0410"    Para=" 590"    Rpu=" 0.300"    Xpu=" 2.200 "     Bpu=""   Tap="    "  />
+    <linha ID="0385"  De="0410"    Para=" 590"    Rpu=" 0.300"    Xpu=" 2.200 "     Bpu=""   Tap="    "  />
+    <linha ID="0386"  De="0410"    Para=" 590"    Rpu=" 0.300"    Xpu=" 2.200 "     Bpu=""   Tap="    "  />
+    <linha ID="0387"  De="0410"    Para=" 590"    Rpu=" 0.300"    Xpu=" 2.200 "     Bpu=""   Tap="    "  />
+    <linha ID="0388"  De="0410"    Para=" 625"    Rpu=" 2.130"    Xpu="12.2203"     Bpu=""   Tap="    "  />
+    <linha ID="0389"  De="0412"    Para=" 590"    Rpu=" 0.430"    Xpu=" 2.390 "     Bpu=""   Tap="    "  />
+    <linha ID="0390"  De="0412"    Para=" 590"    Rpu=" 0.430"    Xpu=" 2.390 "     Bpu=""   Tap="    "  />
+    <linha ID="0391"  De="0413"    Para=" 574"    Rpu="      "    Xpu=" 2.280 "     Bpu=""   Tap=" 955"  />
+    <linha ID="0392"  De="0415"    Para=" 578"    Rpu="      "    Xpu=" 2.430 "     Bpu=""   Tap="    "  />
+    <linha ID="0393"  De="0419"    Para=" 421"    Rpu=" 0.070"    Xpu=" 0.450 "     Bpu=""   Tap="    "  />
+    <linha ID="0394"  De="0420"    Para=" 421"    Rpu=" 0.070"    Xpu=" 0.450 "     Bpu=""   Tap="    "  />
+    <linha ID="0395"  De="0421"    Para=" 422"    Rpu="      "    Xpu=" 2.060 "     Bpu=""   Tap="1029"  />
+    <linha ID="0396"  De="0423"    Para=" 424"    Rpu="      "    Xpu=" 1.360 "     Bpu=""   Tap=" 958"  />
+    <linha ID="0397"  De="0423"    Para=" 495"    Rpu=" 0.014"    Xpu=" 0.140 "     Bpu=""   Tap="    "  />
+    <linha ID="0398"  De="0424"    Para=" 426"    Rpu=" 0.010"    Xpu=" 0.030 "     Bpu=""   Tap="    "  />
+    <linha ID="0399"  De="0425"    Para=" 427"    Rpu=" 0.080"    Xpu=" 0.440 "     Bpu=""   Tap="    "  />
+    <linha ID="0400"  De="0426"    Para=" 428"    Rpu=" 0.080"    Xpu=" 0.440 "     Bpu=""   Tap="    "  />
+    <linha ID="0401"  De="0427"    Para=" 429"    Rpu=" 0.040"    Xpu=" 0.8207"     Bpu=""   Tap="    "  />
+    <linha ID="0402"  De="0428"    Para=" 429"    Rpu=" 0.040"    Xpu=" 0.8207"     Bpu=""   Tap="    "  />
+    <linha ID="0403"  De="0429"    Para=" 430"    Rpu="      "    Xpu=" 4.000 "     Bpu=""   Tap="1088"  />
+    <linha ID="0404"  De="0429"    Para=" 431"    Rpu="      "    Xpu=" 2.700 "     Bpu=""   Tap="1001"  />
+    <linha ID="0405"  De="0435"    Para=" 436"    Rpu="      "    Xpu=" 2.810 "     Bpu=""   Tap=" 997"  />
+    <linha ID="0406"  De="0444"    Para=" 445"    Rpu="      "    Xpu=" 2.810 "     Bpu=""   Tap=" 944"  />
+    <linha ID="0407"  De="0446"    Para=" 447"    Rpu="      "    Xpu=" 3.400 "     Bpu=""   Tap="1035"  />
+    <linha ID="0408"  De="0446"    Para=" 449"    Rpu=" 0.010"    Xpu=" 0.050 "     Bpu=""   Tap="    "  />
+    <linha ID="0409"  De="0448"    Para=" 449"    Rpu="      "    Xpu=" 0.104 "     Bpu=""   Tap="    "  />
+    <linha ID="0410"  De="0448"    Para=" 454"    Rpu=" 0.940"    Xpu=" 5.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0411"  De="0454"    Para=" 455"    Rpu="      "    Xpu=" 2.950 "     Bpu=""   Tap="1012"  />
+    <linha ID="0412"  De="0454"    Para=" 600"    Rpu=" 0.900"    Xpu=" 4.770 "     Bpu=""   Tap="    "  />
+    <linha ID="0413"  De="0455"    Para=" 727"    Rpu=" 1.180"    Xpu=" 3.040 "     Bpu=""   Tap="    "  />
+    <linha ID="0414"  De="0455"    Para=" 728"    Rpu=" 1.180"    Xpu=" 3.040 "     Bpu=""   Tap="    "  />
+    <linha ID="0415"  De="0456"    Para=" 601"    Rpu="      "    Xpu=" 0.102 "     Bpu=""   Tap="    "  />
+    <linha ID="0416"  De="0458"    Para=" 459"    Rpu="      "    Xpu="16.330 "     Bpu=""   Tap=" 968"  />
+    <linha ID="0417"  De="0458"    Para=" 461"    Rpu=" 0.480"    Xpu=" 2.990 "     Bpu=""   Tap="    "  />
+    <linha ID="0418"  De="0458"    Para=" 600"    Rpu=" 0.660"    Xpu=" 3.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0419"  De="0461"    Para=" 462"    Rpu="      "    Xpu="21.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0420"  De="0463"    Para=" 449"    Rpu="      "    Xpu=" 1.360 "     Bpu=""   Tap=" 913"  />
+    <linha ID="0421"  De="0463"    Para=" 464"    Rpu=" 0.140"    Xpu=" 1.4902"     Bpu=""   Tap="    "  />
+    <linha ID="0422"  De="0463"    Para=" 594"    Rpu=" 0.040"    Xpu=" 0.410 "     Bpu=""   Tap="    "  />
+    <linha ID="0423"  De="0463"    Para=" 594"    Rpu=" 0.040"    Xpu=" 0.410 "     Bpu=""   Tap="    "  />
+    <linha ID="0424"  De="0464"    Para=" 465"    Rpu="      "    Xpu=" 2.140 "     Bpu=""   Tap=" 960"  />
+    <linha ID="0425"  De="0464"    Para=" 466"    Rpu=" 0.009"    Xpu=" 0.148 "     Bpu=""   Tap="    "  />
+    <linha ID="0426"  De="0464"    Para=" 466"    Rpu=" 0.009"    Xpu=" 0.148 "     Bpu=""   Tap="    "  />
+    <linha ID="0427"  De="0466"    Para=" 467"    Rpu="      "    Xpu=" 2.814 "     Bpu=""   Tap=" 941"  />
+    <linha ID="0428"  De="0471"    Para=" 472"    Rpu="      "    Xpu=" 1.360 "     Bpu=""   Tap=" 958"  />
+    <linha ID="0429"  De="0471"    Para=" 473"    Rpu="      "    Xpu=" 2.810 "     Bpu=""   Tap=" 979"  />
+    <linha ID="0430"  De="0471"    Para=" 474"    Rpu=" 0.070"    Xpu=" 0.6601"     Bpu=""   Tap="    "  />
+    <linha ID="0431"  De="0471"    Para=" 477"    Rpu=" 0.020"    Xpu=" 0.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0432"  De="0472"    Para=" 478"    Rpu=" 0.050"    Xpu=" 0.440 "     Bpu=""   Tap="    "  />
+    <linha ID="0433"  De="0472"    Para=" 478"    Rpu=" 0.050"    Xpu=" 0.440 "     Bpu=""   Tap="    "  />
+    <linha ID="0434"  De="0472"    Para=" 732"    Rpu="      "    Xpu="12.300 "     Bpu=""   Tap="1011"  />
+    <linha ID="0435"  De="0473"    Para=" 480"    Rpu=" 0.660"    Xpu=" 3.010 "     Bpu=""   Tap="    "  />
+    <linha ID="0436"  De="0473"    Para=" 480"    Rpu=" 0.660"    Xpu=" 3.010 "     Bpu=""   Tap="    "  />
+    <linha ID="0437"  De="0474"    Para=" 475"    Rpu="      "    Xpu=" 1.610 "     Bpu=""   Tap="1003"  />
+    <linha ID="0438"  De="0474"    Para=" 476"    Rpu=" 0.050"    Xpu=" 0.470 "     Bpu=""   Tap="    "  />
+    <linha ID="0439"  De="0476"    Para=" 582"    Rpu=" 0.130"    Xpu=" 1.2402"     Bpu=""   Tap="    "  />
+    <linha ID="0440"  De="0477"    Para=" 582"    Rpu=" 0.130"    Xpu=" 1.2402"     Bpu=""   Tap="    "  />
+    <linha ID="0441"  De="0478"    Para=" 401"    Rpu="      "    Xpu=" 2.188 "     Bpu=""   Tap="1050"  />
+    <linha ID="0442"  De="0478"    Para=" 480"    Rpu="      "    Xpu="16.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0443"  De="0478"    Para=" 484"    Rpu=" 0.630"    Xpu=" 3.370 "     Bpu=""   Tap="    "  />
+    <linha ID="0444"  De="0480"    Para=" 400"    Rpu="      "    Xpu=" 2.298 "     Bpu=""   Tap="1050"  />
+    <linha ID="0445"  De="0480"    Para=" 485"    Rpu=" 1.830"    Xpu="10.210 "     Bpu=""   Tap="    "  />
+    <linha ID="0446"  De="0484"    Para=" 404"    Rpu="      "    Xpu="10.700 "     Bpu=""   Tap="1025"  />
+    <linha ID="0447"  De="0484"    Para=" 485"    Rpu="      "    Xpu=" 3.930 "     Bpu=""   Tap="1014"  />
+    <linha ID="0448"  De="0484"    Para=" 488"    Rpu=" 0.030"    Xpu=" 0.140 "     Bpu=""   Tap="    "  />
+    <linha ID="0449"  De="0484"    Para=" 488"    Rpu=" 0.030"    Xpu=" 0.140 "     Bpu=""   Tap="    "  />
+    <linha ID="0450"  De="0485"    Para=" 403"    Rpu="      "    Xpu=" 9.200 "     Bpu=""   Tap="1025"  />
+    <linha ID="0451"  De="0487"    Para=" 488"    Rpu="      "    Xpu=" 1.360 "     Bpu=""   Tap=" 958"  />
+    <linha ID="0452"  De="0487"    Para=" 491"    Rpu=" 0.010"    Xpu=" 0.180 "     Bpu=""   Tap="    "  />
+    <linha ID="0453"  De="0487"    Para=" 491"    Rpu=" 0.010"    Xpu=" 0.180 "     Bpu=""   Tap="    "  />
+    <linha ID="0454"  De="0487"    Para=" 582"    Rpu=" 0.070"    Xpu=" 0.7001"     Bpu=""   Tap="    "  />
+    <linha ID="0455"  De="0487"    Para=" 582"    Rpu=" 0.070"    Xpu=" 0.7001"     Bpu=""   Tap="    "  />
+    <linha ID="0456"  De="0491"    Para=" 492"    Rpu=" 0.010"    Xpu=" 0.1701"     Bpu=""   Tap="    "  />
+    <linha ID="0457"  De="0491"    Para=" 492"    Rpu=" 0.010"    Xpu=" 0.1701"     Bpu=""   Tap="    "  />
+    <linha ID="0458"  De="0491"    Para=" 495"    Rpu=" 0.020"    Xpu=" 0.350 "     Bpu=""   Tap="    "  />
+    <linha ID="0459"  De="0491"    Para=" 495"    Rpu=" 0.020"    Xpu=" 0.350 "     Bpu=""   Tap="    "  />
+    <linha ID="0460"  De="0492"    Para=" 493"    Rpu="      "    Xpu=" 1.880 "     Bpu=""   Tap=" 971"  />
+    <linha ID="0461"  De="0492"    Para=" 494"    Rpu="      "    Xpu=" 8.650 "     Bpu=""   Tap=" 988"  />
+    <linha ID="0462"  De="0495"    Para=" 496"    Rpu="      "    Xpu=" 2.815 "     Bpu=""   Tap=" 977"  />
+    <linha ID="0463"  De="0500"    Para=" 536"    Rpu="      "    Xpu=" 0.660 "     Bpu=""   Tap="    "  />
+    <linha ID="0464"  De="0501"    Para=" 538"    Rpu="      "    Xpu=" 0.380 "     Bpu=""   Tap="    "  />
+    <linha ID="0465"  De="0502"    Para=" 539"    Rpu="      "    Xpu=" 0.880 "     Bpu=""   Tap="    "  />
+    <linha ID="0466"  De="0513"    Para=" 547"    Rpu="      "    Xpu="11.160 "     Bpu=""   Tap="    "  />
+    <linha ID="0467"  De="0516"    Para=" 634"    Rpu="      "    Xpu=" 6.800 "     Bpu=""   Tap="    "  />
+    <linha ID="0468"  De="0520"    Para=" 542"    Rpu="      "    Xpu=" 6.580 "     Bpu=""   Tap="    "  />
+    <linha ID="0469"  De="0525"    Para=" 720"    Rpu="      "    Xpu="30.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0470"  De="0526"    Para=" 724"    Rpu="      "    Xpu="17.900 "     Bpu=""   Tap="    "  />
+    <linha ID="0471"  De="0532"    Para=" 581"    Rpu="      "    Xpu=" 3.760 "     Bpu=""   Tap="    "  />
+    <linha ID="0472"  De="0533"    Para=" 593"    Rpu="      "    Xpu=" 3.760 "     Bpu=""   Tap="    "  />
+    <linha ID="0473"  De="0536"    Para=" 535"    Rpu="      "    Xpu=" 1.400 "     Bpu=""   Tap=" 979"  />
+    <linha ID="0474"  De="0536"    Para=" 538"    Rpu=" 0.180"    Xpu=" 2.4101"     Bpu=""   Tap="    "  />
+    <linha ID="0475"  De="0536"    Para=" 559"    Rpu=" 0.400"    Xpu=" 5.3902"     Bpu=""   Tap="    "  />
+    <linha ID="0476"  De="0536"    Para=" 563"    Rpu=" 0.420"    Xpu=" 5.6803"     Bpu=""   Tap="    "  />
+    <linha ID="0477"  De="0537"    Para=" 536"    Rpu="      "    Xpu=" 4.630 "     Bpu=""   Tap="1022"  />
+    <linha ID="0478"  De="0537"    Para=" 649"    Rpu=" 5.120"    Xpu="13.500 "     Bpu=""   Tap="    "  />
+    <linha ID="0479"  De="0537"    Para=" 649"    Rpu=" 5.120"    Xpu="13.500 "     Bpu=""   Tap="    "  />
+    <linha ID="0480"  De="0537"    Para=" 674"    Rpu=" 4.340"    Xpu="20.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0481"  De="0537"    Para=" 674"    Rpu=" 4.340"    Xpu="20.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0482"  De="0538"    Para=" 542"    Rpu=" 0.050"    Xpu=" 0.6203"     Bpu=""   Tap="    "  />
+    <linha ID="0483"  De="0538"    Para=" 559"    Rpu=" 0.490"    Xpu=" 6.0903"     Bpu=""   Tap="    "  />
+    <linha ID="0484"  De="0538"    Para=" 559"    Rpu=" 0.490"    Xpu=" 6.0903"     Bpu=""   Tap="    "  />
+    <linha ID="0485"  De="0538"    Para=" 561"    Rpu=" 0.410"    Xpu=" 5.1603"     Bpu=""   Tap="    "  />
+    <linha ID="0486"  De="0538"    Para=" 561"    Rpu=" 0.410"    Xpu=" 5.1603"     Bpu=""   Tap="    "  />
+    <linha ID="0487"  De="0539"    Para=" 542"    Rpu=" 0.070"    Xpu=" 0.9205"     Bpu=""   Tap="    "  />
+    <linha ID="0488"  De="0539"    Para=" 561"    Rpu=" 0.400"    Xpu=" 4.9603"     Bpu=""   Tap="    "  />
+    <linha ID="0489"  De="0539"    Para=" 561"    Rpu=" 0.400"    Xpu=" 4.9603"     Bpu=""   Tap="    "  />
+    <linha ID="0490"  De="0541"    Para=" 503"    Rpu="      "    Xpu=" 4.970 "     Bpu=""   Tap="1025"  />
+    <linha ID="0491"  De="0541"    Para=" 539"    Rpu="      "    Xpu=" 8.330 "     Bpu=""   Tap=" 987"  />
+    <linha ID="0492"  De="0541"    Para=" 647"    Rpu=" 6.570"    Xpu="17.240 "     Bpu=""   Tap="    "  />
+    <linha ID="0493"  De="0541"    Para=" 647"    Rpu=" 6.570"    Xpu="17.240 "     Bpu=""   Tap="    "  />
+    <linha ID="0494"  De="0541"    Para=" 673"    Rpu=" 9.330"    Xpu="24.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0495"  De="0541"    Para=" 673"    Rpu=" 9.330"    Xpu="24.470 "     Bpu=""   Tap="    "  />
+    <linha ID="0496"  De="0541"    Para="1095"    Rpu="21.010"    Xpu="52.8701"     Bpu=""   Tap="    "  />
+    <linha ID="0497"  De="0541"    Para="1095"    Rpu="21.160"    Xpu="52.9401"     Bpu=""   Tap="    "  />
+    <linha ID="0498"  De="0541"    Para="1095"    Rpu="21.010"    Xpu="52.8701"     Bpu=""   Tap="    "  />
+    <linha ID="0499"  De="0541"    Para="1095"    Rpu="21.010"    Xpu="52.8701"     Bpu=""   Tap="    "  />
+    <linha ID="0500"  De="0546"    Para=" 511"    Rpu="      "    Xpu=" 6.660 "     Bpu=""   Tap="1025"  />
+    <linha ID="0501"  De="0546"    Para=" 548"    Rpu=" 7.240"    Xpu="28.810 "     Bpu=""   Tap="    "  />
+    <linha ID="0502"  De="0546"    Para=" 648"    Rpu=" 0.760"    Xpu=" 3.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0503"  De="0546"    Para=" 657"    Rpu=" 0.760"    Xpu=" 3.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0504"  De="0546"    Para=" 659"    Rpu=" 8.280"    Xpu="39.2301"     Bpu=""   Tap="    "  />
+    <linha ID="0505"  De="0546"    Para=" 865"    Rpu=" 1.910"    Xpu=" 6.160 "     Bpu=""   Tap="    "  />
+    <linha ID="0506"  De="0547"    Para=" 549"    Rpu=" 0.090"    Xpu=" 1.1806"     Bpu=""   Tap="    "  />
+    <linha ID="0507"  De="0548"    Para=" 547"    Rpu="      "    Xpu=" 4.650 "     Bpu=""   Tap="1018"  />
+    <linha ID="0508"  De="0548"    Para=" 659"    Rpu=" 6.240"    Xpu="24.080 "     Bpu=""   Tap="    "  />
+    <linha ID="0509"  De="0549"    Para=" 507"    Rpu="      "    Xpu=" 2.160 "     Bpu=""   Tap="1045"  />
+    <linha ID="0510"  De="0549"    Para=" 552"    Rpu=" 0.140"    Xpu=" 1.8201"     Bpu=""   Tap="    "  />
+    <linha ID="0511"  De="0550"    Para=" 549"    Rpu="      "    Xpu="10.670 "     Bpu=""   Tap="1023"  />
+    <linha ID="0512"  De="0550"    Para=" 659"    Rpu=" 4.980"    Xpu="13.060 "     Bpu=""   Tap="    "  />
+    <linha ID="0513"  De="0550"    Para=" 659"    Rpu=" 4.980"    Xpu="13.060 "     Bpu=""   Tap="    "  />
+    <linha ID="0514"  De="0551"    Para=" 553"    Rpu="      "    Xpu=" 0.102 "     Bpu=""   Tap="    "  />
+    <linha ID="0515"  De="0551"    Para=" 554"    Rpu="      "    Xpu="27.500 "     Bpu=""   Tap=" 946"  />
+    <linha ID="0516"  De="0551"    Para=" 554"    Rpu="      "    Xpu="27.500 "     Bpu=""   Tap=" 946"  />
+    <linha ID="0517"  De="0551"    Para=" 611"    Rpu=" 0.630"    Xpu=" 3.6101"     Bpu=""   Tap="    "  />
+    <linha ID="0518"  De="0551"    Para=" 889"    Rpu=" 1.360"    Xpu=" 7.5902"     Bpu=""   Tap="    "  />
+    <linha ID="0519"  De="0552"    Para=" 561"    Rpu=" 0.180"    Xpu=" 2.3601"     Bpu=""   Tap="    "  />
+    <linha ID="0520"  De="0553"    Para=" 552"    Rpu="      "    Xpu=" 7.240 "     Bpu=""   Tap="1028"  />
+    <linha ID="0521"  De="0553"    Para="1031"    Rpu=" 3.772"    Xpu="19.3433"     Bpu=""   Tap="    "  />
+    <linha ID="0522"  De="0554"    Para=" 555"    Rpu=" 2.900"    Xpu=" 5.540 "     Bpu=""   Tap="    "  />
+    <linha ID="0523"  De="0554"    Para=" 613"    Rpu=" 3.060"    Xpu="26.450 "     Bpu=""   Tap="    "  />
+    <linha ID="0524"  De="0555"    Para=" 613"    Rpu="10.690"    Xpu="20.570 "     Bpu=""   Tap="    "  />
+    <linha ID="0525"  De="0559"    Para=" 561"    Rpu=" 0.130"    Xpu=" 1.7201"     Bpu=""   Tap="    "  />
+    <linha ID="0526"  De="0559"    Para=" 567"    Rpu=" 0.180"    Xpu=" 2.3601"     Bpu=""   Tap="    "  />
+    <linha ID="0527"  De="0559"    Para=" 593"    Rpu=" 0.370"    Xpu=" 4.6502"     Bpu=""   Tap="    "  />
+    <linha ID="0528"  De="0559"    Para=" 593"    Rpu=" 0.370"    Xpu=" 4.6502"     Bpu=""   Tap="    "  />
+    <linha ID="0529"  De="0560"    Para=" 559"    Rpu="      "    Xpu=" 4.790 "     Bpu=""   Tap="1009"  />
+    <linha ID="0530"  De="0560"    Para=" 559"    Rpu="      "    Xpu=" 4.790 "     Bpu=""   Tap="1009"  />
+    <linha ID="0531"  De="0560"    Para=" 562"    Rpu="80.668"    Xpu="239.41 "     Bpu=""   Tap="    "  />
+    <linha ID="0532"  De="0560"    Para=" 564"    Rpu=" 3.313"    Xpu="11.636 "     Bpu=""   Tap="    "  />
+    <linha ID="0533"  De="0560"    Para=" 568"    Rpu="20.252"    Xpu="52.334 "     Bpu=""   Tap="    "  />
+    <linha ID="0534"  De="0560"    Para=" 650"    Rpu="64.698"    Xpu="156.32 "     Bpu=""   Tap="    "  />
+    <linha ID="0535"  De="0560"    Para=" 703"    Rpu=" 4.760"    Xpu="12.530 "     Bpu=""   Tap="    "  />
+    <linha ID="0536"  De="0560"    Para=" 703"    Rpu=" 4.760"    Xpu="12.530 "     Bpu=""   Tap="    "  />
+    <linha ID="0537"  De="0561"    Para=" 577"    Rpu=" 0.260"    Xpu=" 3.2502"     Bpu=""   Tap="    "  />
+    <linha ID="0538"  De="0561"    Para=" 581"    Rpu=" 0.340"    Xpu=" 4.8503"     Bpu=""   Tap="    "  />
+    <linha ID="0539"  De="0561"    Para=" 584"    Rpu=" 0.300"    Xpu=" 3.7602"     Bpu=""   Tap="    "  />
+    <linha ID="0540"  De="0561"    Para=" 584"    Rpu=" 0.300"    Xpu=" 3.7602"     Bpu=""   Tap="    "  />
+    <linha ID="0541"  De="0562"    Para=" 561"    Rpu="      "    Xpu=" 8.310 "     Bpu=""   Tap="1024"  />
+    <linha ID="0542"  De="0562"    Para=" 632"    Rpu=" 3.620"    Xpu=" 9.490 "     Bpu=""   Tap="    "  />
+    <linha ID="0543"  De="0562"    Para=" 632"    Rpu=" 3.620"    Xpu=" 9.490 "     Bpu=""   Tap="    "  />
+    <linha ID="0544"  De="0562"    Para=" 661"    Rpu="14.249"    Xpu="39.395 "     Bpu=""   Tap="    "  />
+    <linha ID="0545"  De="0563"    Para=" 567"    Rpu=" 0.230"    Xpu=" 3.0601"     Bpu=""   Tap="    "  />
+    <linha ID="0546"  De="0564"    Para=" 563"    Rpu="      "    Xpu=" 4.710 "     Bpu=""   Tap=" 990"  />
+    <linha ID="0547"  De="0564"    Para=" 691"    Rpu=" 8.070"    Xpu="20.270 "     Bpu=""   Tap="    "  />
+    <linha ID="0548"  De="0564"    Para=" 699"    Rpu=" 7.820"    Xpu="20.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0549"  De="0564"    Para=" 699"    Rpu=" 7.830"    Xpu="20.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0550"  De="0567"    Para=" 571"    Rpu=" 0.030"    Xpu=" 0.3401"     Bpu=""   Tap="    "  />
+    <linha ID="0551"  De="0568"    Para=" 567"    Rpu="      "    Xpu=" 4.650 "     Bpu=""   Tap="1045"  />
+    <linha ID="0552"  De="0568"    Para=" 567"    Rpu="      "    Xpu=" 4.610 "     Bpu=""   Tap="1045"  />
+    <linha ID="0553"  De="0568"    Para=" 567"    Rpu="      "    Xpu=" 4.450 "     Bpu=""   Tap="1045"  />
+    <linha ID="0554"  De="0568"    Para=" 572"    Rpu=" 0.657"    Xpu=" 2.999 "     Bpu=""   Tap="    "  />
+    <linha ID="0555"  De="0568"    Para=" 626"    Rpu="14.108"    Xpu="38.019 "     Bpu=""   Tap="    "  />
+    <linha ID="0556"  De="0568"    Para=" 692"    Rpu=" 1.610"    Xpu=" 7.630 "     Bpu=""   Tap="    "  />
+    <linha ID="0557"  De="0568"    Para=" 692"    Rpu=" 1.600"    Xpu=" 7.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0558"  De="0568"    Para=" 698"    Rpu=" 2.294"    Xpu=" 8.230 "     Bpu=""   Tap="    "  />
+    <linha ID="0559"  De="0571"    Para=" 584"    Rpu=" 0.090"    Xpu=" 1.2207"     Bpu=""   Tap="    "  />
+    <linha ID="0560"  De="0572"    Para=" 571"    Rpu="      "    Xpu=" 4.660 "     Bpu=""   Tap="1046"  />
+    <linha ID="0561"  De="0574"    Para=" 593"    Rpu=" 0.150"    Xpu=" 1.9801"     Bpu=""   Tap="    "  />
+    <linha ID="0562"  De="0574"    Para=" 599"    Rpu=" 0.190"    Xpu=" 2.4401"     Bpu=""   Tap="    "  />
+    <linha ID="0563"  De="0575"    Para=" 574"    Rpu="      "    Xpu=" 4.650 "     Bpu=""   Tap="1031"  />
+    <linha ID="0564"  De="0575"    Para=" 681"    Rpu=" 2.630"    Xpu="12.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0565"  De="0575"    Para=" 681"    Rpu=" 2.630"    Xpu="12.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0566"  De="0577"    Para=" 578"    Rpu=" 0.010"    Xpu=" 0.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0567"  De="0577"    Para=" 581"    Rpu=" 0.130"    Xpu=" 1.6001"     Bpu=""   Tap="    "  />
+    <linha ID="0568"  De="0581"    Para=" 584"    Rpu=" 0.090"    Xpu=" 1.2107"     Bpu=""   Tap="    "  />
+    <linha ID="0569"  De="0581"    Para=" 593"    Rpu=" 0.090"    Xpu=" 1.2407"     Bpu=""   Tap="    "  />
+    <linha ID="0570"  De="0582"    Para=" 581"    Rpu="      "    Xpu=" 0.720 "     Bpu=""   Tap="1030"  />
+    <linha ID="0571"  De="0582"    Para=" 581"    Rpu="      "    Xpu=" 0.720 "     Bpu=""   Tap="1030"  />
+    <linha ID="0572"  De="0583"    Para=" 581"    Rpu="      "    Xpu=" 9.660 "     Bpu=""   Tap="1059"  />
+    <linha ID="0573"  De="0583"    Para=" 742"    Rpu=" 0.190"    Xpu=" 0.510 "     Bpu=""   Tap="    "  />
+    <linha ID="0574"  De="0583"    Para=" 746"    Rpu=" 8.060"    Xpu="23.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0575"  De="0584"    Para=" 586"    Rpu="      "    Xpu=" 0.835 "     Bpu=""   Tap="    "  />
+    <linha ID="0576"  De="0584"    Para=" 587"    Rpu="      "    Xpu=" 0.835 "     Bpu=""   Tap="    "  />
+    <linha ID="0577"  De="0586"    Para=" 588"    Rpu="      "    Xpu=" 2.020 "     Bpu=""   Tap="    "  />
+    <linha ID="0578"  De="0587"    Para=" 589"    Rpu="      "    Xpu=" 2.020 "     Bpu=""   Tap="    "  />
+    <linha ID="0579"  De="0590"    Para=" 586"    Rpu="      "    Xpu="-0.085 "     Bpu=""   Tap=" 985"  />
+    <linha ID="0580"  De="0590"    Para=" 587"    Rpu="      "    Xpu="-0.085 "     Bpu=""   Tap=" 985"  />
+    <linha ID="0581"  De="0591"    Para=" 584"    Rpu="      "    Xpu=" 8.270 "     Bpu=""   Tap="1061"  />
+    <linha ID="0582"  De="0591"    Para=" 694"    Rpu=" 5.600"    Xpu="14.760 "     Bpu=""   Tap="    "  />
+    <linha ID="0583"  De="0591"    Para=" 694"    Rpu=" 5.600"    Xpu="14.760 "     Bpu=""   Tap="    "  />
+    <linha ID="0584"  De="0594"    Para=" 593"    Rpu="      "    Xpu=" 0.720 "     Bpu=""   Tap=" 908"  />
+    <linha ID="0585"  De="0594"    Para=" 593"    Rpu="      "    Xpu=" 0.720 "     Bpu=""   Tap=" 908"  />
+    <linha ID="0586"  De="0595"    Para=" 593"    Rpu="      "    Xpu=" 9.190 "     Bpu=""   Tap="1037"  />
+    <linha ID="0587"  De="0595"    Para=" 593"    Rpu="      "    Xpu=" 9.730 "     Bpu=""   Tap="1037"  />
+    <linha ID="0588"  De="0595"    Para=" 677"    Rpu=" 4.020"    Xpu="10.570 "     Bpu=""   Tap="    "  />
+    <linha ID="0589"  De="0595"    Para=" 694"    Rpu=" 5.420"    Xpu="14.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0590"  De="0595"    Para=" 709"    Rpu=" 3.400"    Xpu=" 8.950 "     Bpu=""   Tap="    "  />
+    <linha ID="0591"  De="0595"    Para=" 710"    Rpu=" 0.720"    Xpu=" 1.910 "     Bpu=""   Tap="    "  />
+    <linha ID="0592"  De="0595"    Para=" 725"    Rpu=" 6.170"    Xpu="16.270 "     Bpu=""   Tap="    "  />
+    <linha ID="0593"  De="0595"    Para=" 726"    Rpu=" 1.700"    Xpu=" 4.470 "     Bpu=""   Tap="    "  />
+    <linha ID="0594"  De="0599"    Para=" 598"    Rpu="      "    Xpu=" 1.030 "     Bpu=""   Tap=" 980"  />
+    <linha ID="0595"  De="0599"    Para=" 600"    Rpu="      "    Xpu=" 4.770 "     Bpu=""   Tap="    "  />
+    <linha ID="0596"  De="0601"    Para=" 599"    Rpu="      "    Xpu=" 4.650 "     Bpu=""   Tap=" 980"  />
+    <linha ID="0597"  De="0601"    Para=" 599"    Rpu="      "    Xpu=" 4.650 "     Bpu=""   Tap=" 980"  />
+    <linha ID="0598"  De="0611"    Para=" 612"    Rpu=" 0.120"    Xpu=" 0.710 "     Bpu=""   Tap="    "  />
+    <linha ID="0599"  De="0611"    Para=" 615"    Rpu=" 0.430"    Xpu=" 2.490 "     Bpu=""   Tap="    "  />
+    <linha ID="0600"  De="0613"    Para=" 512"    Rpu="      "    Xpu="11.720 "     Bpu=""   Tap="1045"  />
+    <linha ID="0601"  De="0613"    Para=" 612"    Rpu="      "    Xpu="23.630 "     Bpu=""   Tap="1068"  />
+    <linha ID="0602"  De="0613"    Para=" 616"    Rpu=" 7.200"    Xpu="14.590 "     Bpu=""   Tap="    "  />
+    <linha ID="0603"  De="0613"    Para=" 876"    Rpu=" 8.580"    Xpu="17.420 "     Bpu=""   Tap="    "  />
+    <linha ID="0604"  De="0613"    Para=" 876"    Rpu=" 8.580"    Xpu="17.420 "     Bpu=""   Tap="    "  />
+    <linha ID="0605"  De="0615"    Para=" 514"    Rpu="      "    Xpu=" 3.770 "     Bpu=""   Tap="1050"  />
+    <linha ID="0606"  De="0615"    Para=" 618"    Rpu=" 0.680"    Xpu=" 3.9101"     Bpu=""   Tap="    "  />
+    <linha ID="0607"  De="0615"    Para=" 625"    Rpu=" 2.520"    Xpu="13.4402"     Bpu=""   Tap="    "  />
+    <linha ID="0608"  De="0615"    Para=" 884"    Rpu=" 2.010"    Xpu="10.2901"     Bpu=""   Tap="    "  />
+    <linha ID="0609"  De="0616"    Para=" 615"    Rpu="      "    Xpu="23.630 "     Bpu=""   Tap="1027"  />
+    <linha ID="0610"  De="0616"    Para=" 615"    Rpu="      "    Xpu="23.630 "     Bpu=""   Tap="1027"  />
+    <linha ID="0611"  De="0616"    Para=" 629"    Rpu="25.296"    Xpu="48.213 "     Bpu=""   Tap="    "  />
+    <linha ID="0612"  De="0618"    Para=" 506"    Rpu="      "    Xpu="25.250 "     Bpu=""   Tap="1050"  />
+    <linha ID="0613"  De="0618"    Para=" 619"    Rpu="      "    Xpu="11.350 "     Bpu=""   Tap=" 995"  />
+    <linha ID="0614"  De="0618"    Para=" 619"    Rpu="      "    Xpu="11.350 "     Bpu=""   Tap=" 995"  />
+    <linha ID="0615"  De="0618"    Para=" 625"    Rpu=" 1.080"    Xpu=" 6.2302"     Bpu=""   Tap="    "  />
+    <linha ID="0616"  De="0619"    Para=" 624"    Rpu=" 6.295"    Xpu="16.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0617"  De="0623"    Para=" 624"    Rpu="      "    Xpu="12.080 "     Bpu=""   Tap=" 930"  />
+    <linha ID="0618"  De="0623"    Para=" 624"    Rpu="      "    Xpu="12.080 "     Bpu=""   Tap=" 930"  />
+    <linha ID="0619"  De="0623"    Para=" 625"    Rpu=" 2.180"    Xpu="11.6401"     Bpu=""   Tap="    "  />
+    <linha ID="0620"  De="0624"    Para=" 740"    Rpu=" 5.260"    Xpu="13.880 "     Bpu=""   Tap="    "  />
+    <linha ID="0621"  De="0624"    Para=" 740"    Rpu=" 5.260"    Xpu="13.880 "     Bpu=""   Tap="    "  />
+    <linha ID="0622"  De="0624"    Para=" 747"    Rpu=" 9.410"    Xpu="24.810 "     Bpu=""   Tap="    "  />
+    <linha ID="0623"  De="0624"    Para=" 747"    Rpu=" 9.410"    Xpu="24.810 "     Bpu=""   Tap="    "  />
+    <linha ID="0624"  De="0625"    Para=" 628"    Rpu="      "    Xpu=" 0.093 "     Bpu=""   Tap="    "  />
+    <linha ID="0625"  De="0626"    Para=" 625"    Rpu="      "    Xpu="28.600 "     Bpu=""   Tap="1050"  />
+    <linha ID="0626"  De="0626"    Para=" 631"    Rpu=" 0.670"    Xpu=" 1.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0627"  De="0626"    Para=" 634"    Rpu=" 4.810"    Xpu="12.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0628"  De="0626"    Para=" 748"    Rpu=" 1.980"    Xpu=" 9.390 "     Bpu=""   Tap="    "  />
+    <linha ID="0629"  De="0628"    Para=" 626"    Rpu="      "    Xpu="12.300 "     Bpu=""   Tap=" 985"  />
+    <linha ID="0630"  De="0628"    Para=" 626"    Rpu="      "    Xpu="12.300 "     Bpu=""   Tap=" 985"  />
+    <linha ID="0631"  De="0629"    Para=" 626"    Rpu="      "    Xpu="54.500 "     Bpu=""   Tap="1069"  />
+    <linha ID="0632"  De="0629"    Para=" 626"    Rpu="      "    Xpu="54.500 "     Bpu=""   Tap="1069"  />
+    <linha ID="0633"  De="0630"    Para=" 646"    Rpu=" 0.440"    Xpu=" 1.160 "     Bpu=""   Tap="    "  />
+    <linha ID="0634"  De="0630"    Para=" 673"    Rpu=" 3.870"    Xpu="10.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0635"  De="0631"    Para=" 634"    Rpu=" 4.140"    Xpu="10.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0636"  De="0632"    Para=" 645"    Rpu=" 5.390"    Xpu="14.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0637"  De="0632"    Para=" 645"    Rpu=" 5.390"    Xpu="14.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0638"  De="0633"    Para=" 515"    Rpu="      "    Xpu=" 6.730 "     Bpu=""   Tap="1025"  />
+    <linha ID="0639"  De="0633"    Para=" 634"    Rpu=" 4.850"    Xpu="12.730 "     Bpu=""   Tap="    "  />
+    <linha ID="0640"  De="0633"    Para=" 650"    Rpu=" 2.990"    Xpu=" 7.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0641"  De="0634"    Para=" 635"    Rpu="      "    Xpu="34.300 "     Bpu=""   Tap=" 983"  />
+    <linha ID="0642"  De="0634"    Para=" 650"    Rpu=" 1.860"    Xpu=" 4.880 "     Bpu=""   Tap="    "  />
+    <linha ID="0643"  De="0634"    Para=" 687"    Rpu=" 2.090"    Xpu=" 5.490 "     Bpu=""   Tap="    "  />
+    <linha ID="0644"  De="0634"    Para=" 701"    Rpu="11.160"    Xpu="29.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0645"  De="0636"    Para=" 645"    Rpu=" 6.900"    Xpu="17.860 "     Bpu=""   Tap="    "  />
+    <linha ID="0646"  De="0636"    Para=" 645"    Rpu=" 6.900"    Xpu="17.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0647"  De="0636"    Para=" 661"    Rpu=" 4.500"    Xpu="21.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0648"  De="0636"    Para=" 665"    Rpu=" 4.720"    Xpu="12.210 "     Bpu=""   Tap="    "  />
+    <linha ID="0649"  De="0636"    Para=" 671"    Rpu=" 3.530"    Xpu="16.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0650"  De="0636"    Para=" 675"    Rpu=" 2.000"    Xpu=" 5.170 "     Bpu=""   Tap="    "  />
+    <linha ID="0651"  De="0638"    Para=" 659"    Rpu=" 6.480"    Xpu="16.780 "     Bpu=""   Tap="    "  />
+    <linha ID="0652"  De="0638"    Para=" 660"    Rpu=" 5.800"    Xpu="15.010 "     Bpu=""   Tap="    "  />
+    <linha ID="0653"  De="0638"    Para=" 673"    Rpu=" 5.260"    Xpu="13.790 "     Bpu=""   Tap="    "  />
+    <linha ID="0654"  De="0638"    Para=" 673"    Rpu=" 5.260"    Xpu="13.790 "     Bpu=""   Tap="    "  />
+    <linha ID="0655"  De="0645"    Para=" 517"    Rpu="      "    Xpu=" 8.750 "     Bpu=""   Tap="1025"  />
+    <linha ID="0656"  De="0646"    Para=" 653"    Rpu=" 4.320"    Xpu="11.340 "     Bpu=""   Tap="    "  />
+    <linha ID="0657"  De="0647"    Para=" 649"    Rpu=" 5.350"    Xpu="14.110 "     Bpu=""   Tap="    "  />
+    <linha ID="0658"  De="0648"    Para="1096"    Rpu=" 4.040"    Xpu="10.470 "     Bpu=""   Tap="    "  />
+    <linha ID="0659"  De="0649"    Para=" 674"    Rpu=" 7.070"    Xpu="18.550 "     Bpu=""   Tap="    "  />
+    <linha ID="0660"  De="0649"    Para=" 674"    Rpu=" 7.070"    Xpu="18.560 "     Bpu=""   Tap="    "  />
+    <linha ID="0661"  De="0653"    Para=" 518"    Rpu="      "    Xpu=" 4.170 "     Bpu=""   Tap="1050"  />
+    <linha ID="0662"  De="0653"    Para=" 654"    Rpu=" 1.910"    Xpu=" 9.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0663"  De="0653"    Para=" 661"    Rpu=" 4.060"    Xpu="19.220 "     Bpu=""   Tap="    "  />
+    <linha ID="0664"  De="0653"    Para=" 665"    Rpu=" 3.830"    Xpu="18.180 "     Bpu=""   Tap="    "  />
+    <linha ID="0665"  De="0653"    Para=" 665"    Rpu=" 3.830"    Xpu="18.180 "     Bpu=""   Tap="    "  />
+    <linha ID="0666"  De="0653"    Para=" 673"    Rpu=" 8.630"    Xpu="22.650 "     Bpu=""   Tap="    "  />
+    <linha ID="0667"  De="0654"    Para=" 655"    Rpu="      "    Xpu="34.000 "     Bpu=""   Tap="1006"  />
+    <linha ID="0668"  De="0654"    Para=" 661"    Rpu=" 2.150"    Xpu="10.130 "     Bpu=""   Tap="    "  />
+    <linha ID="0669"  De="0659"    Para=" 660"    Rpu=" 0.680"    Xpu=" 1.770 "     Bpu=""   Tap="    "  />
+    <linha ID="0670"  De="0661"    Para=" 519"    Rpu="      "    Xpu=" 5.400 "     Bpu=""   Tap="1050"  />
+    <linha ID="0671"  De="0661"    Para=" 671"    Rpu=" 0.970"    Xpu=" 4.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0672"  De="0665"    Para=" 666"    Rpu="      "    Xpu="35.600 "     Bpu=""   Tap=" 943"  />
+    <linha ID="0673"  De="0665"    Para=" 674"    Rpu=" 7.940"    Xpu="20.830 "     Bpu=""   Tap="    "  />
+    <linha ID="0674"  De="0665"    Para=" 674"    Rpu=" 7.940"    Xpu="20.830 "     Bpu=""   Tap="    "  />
+    <linha ID="0675"  De="0665"    Para=" 675"    Rpu=" 2.720"    Xpu=" 7.040 "     Bpu=""   Tap="    "  />
+    <linha ID="0676"  De="0666"    Para=" 672"    Rpu="40.720"    Xpu="68.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0677"  De="0671"    Para=" 672"    Rpu="      "    Xpu="27.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0678"  De="0671"    Para=" 672"    Rpu="      "    Xpu="27.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0679"  De="0677"    Para=" 694"    Rpu=" 1.580"    Xpu=" 4.170 "     Bpu=""   Tap="    "  />
+    <linha ID="0680"  De="0678"    Para=" 681"    Rpu=" 0.960"    Xpu=" 2.530 "     Bpu=""   Tap="    "  />
+    <linha ID="0681"  De="0678"    Para=" 696"    Rpu=" 6.180"    Xpu="16.230 "     Bpu=""   Tap="    "  />
+    <linha ID="0682"  De="0680"    Para=" 681"    Rpu=" 3.420"    Xpu=" 8.990 "     Bpu=""   Tap="    "  />
+    <linha ID="0683"  De="0680"    Para=" 698"    Rpu=" 4.440"    Xpu="11.670 "     Bpu=""   Tap="    "  />
+    <linha ID="0684"  De="0681"    Para=" 694"    Rpu=" 4.040"    Xpu="10.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0685"  De="0681"    Para=" 694"    Rpu=" 4.030"    Xpu="10.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0686"  De="0682"    Para=" 521"    Rpu="      "    Xpu="24.600 "     Bpu=""   Tap="1028"  />
+    <linha ID="0687"  De="0682"    Para=" 688"    Rpu=" 3.550"    Xpu=" 9.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0688"  De="0682"    Para=" 688"    Rpu=" 3.550"    Xpu=" 9.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0689"  De="0683"    Para=" 703"    Rpu=" 0.670"    Xpu=" 1.750 "     Bpu=""   Tap="    "  />
+    <linha ID="0690"  De="0683"    Para=" 703"    Rpu=" 0.670"    Xpu=" 1.750 "     Bpu=""   Tap="    "  />
+    <linha ID="0691"  De="0686"    Para=" 699"    Rpu=" 1.520"    Xpu=" 4.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0692"  De="0686"    Para=" 702"    Rpu=" 3.110"    Xpu=" 8.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0693"  De="0687"    Para=" 701"    Rpu="16.061"    Xpu="42.132 "     Bpu=""   Tap="    "  />
+    <linha ID="0694"  De="0687"    Para=" 703"    Rpu=" 6.616"    Xpu="17.319 "     Bpu=""   Tap="    "  />
+    <linha ID="0695"  De="0688"    Para=" 522"    Rpu="      "    Xpu=" 7.500 "     Bpu=""   Tap="1004"  />
+    <linha ID="0696"  De="0688"    Para=" 691"    Rpu=" 4.920"    Xpu="12.910 "     Bpu=""   Tap="    "  />
+    <linha ID="0697"  De="0688"    Para=" 693"    Rpu=" 0.810"    Xpu=" 1.740 "     Bpu=""   Tap="    "  />
+    <linha ID="0698"  De="0688"    Para=" 693"    Rpu=" 0.810"    Xpu=" 1.740 "     Bpu=""   Tap="    "  />
+    <linha ID="0699"  De="0688"    Para=" 705"    Rpu=" 2.900"    Xpu=" 6.285 "     Bpu=""   Tap="    "  />
+    <linha ID="0700"  De="0692"    Para=" 695"    Rpu=" 2.485"    Xpu=" 6.520 "     Bpu=""   Tap="    "  />
+    <linha ID="0701"  De="0692"    Para=" 701"    Rpu=" 1.900"    Xpu=" 4.990 "     Bpu=""   Tap="    "  />
+    <linha ID="0702"  De="0692"    Para=" 701"    Rpu=" 1.900"    Xpu=" 4.990 "     Bpu=""   Tap="    "  />
+    <linha ID="0703"  De="0693"    Para=" 523"    Rpu="      "    Xpu="20.100 "     Bpu=""   Tap="1004"  />
+    <linha ID="0704"  De="0693"    Para=" 699"    Rpu=" 6.220"    Xpu="16.330 "     Bpu=""   Tap="    "  />
+    <linha ID="0705"  De="0693"    Para=" 699"    Rpu=" 6.230"    Xpu="16.320 "     Bpu=""   Tap="    "  />
+    <linha ID="0706"  De="0694"    Para=" 721"    Rpu="      "    Xpu="25.470 "     Bpu=""   Tap=" 994"  />
+    <linha ID="0707"  De="0695"    Para=" 697"    Rpu=" 0.240"    Xpu=" 0.630 "     Bpu=""   Tap="    "  />
+    <linha ID="0708"  De="0695"    Para=" 698"    Rpu=" 0.630"    Xpu=" 1.650 "     Bpu=""   Tap="    "  />
+    <linha ID="0709"  De="0695"    Para=" 698"    Rpu=" 0.630"    Xpu=" 1.650 "     Bpu=""   Tap="    "  />
+    <linha ID="0710"  De="0695"    Para=" 705"    Rpu=" 4.960"    Xpu="13.030 "     Bpu=""   Tap="    "  />
+    <linha ID="0711"  De="0696"    Para=" 698"    Rpu=" 0.720"    Xpu=" 1.900 "     Bpu=""   Tap="    "  />
+    <linha ID="0712"  De="0697"    Para=" 700"    Rpu=" 2.630"    Xpu=" 6.920 "     Bpu=""   Tap="    "  />
+    <linha ID="0713"  De="0698"    Para=" 705"    Rpu=" 3.660"    Xpu="13.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0714"  De="0698"    Para=" 705"    Rpu=" 3.660"    Xpu="13.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0715"  De="0699"    Para=" 701"    Rpu=" 3.661"    Xpu=" 9.399 "     Bpu=""   Tap="    "  />
+    <linha ID="0716"  De="0699"    Para=" 703"    Rpu=" 5.790"    Xpu="15.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0717"  De="0700"    Para=" 705"    Rpu=" 2.330"    Xpu=" 6.110 "     Bpu=""   Tap="    "  />
+    <linha ID="0718"  De="0701"    Para=" 703"    Rpu=" 5.590"    Xpu="14.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0719"  De="0701"    Para=" 703"    Rpu=" 4.013"    Xpu="10.557 "     Bpu=""   Tap="    "  />
+    <linha ID="0720"  De="0702"    Para=" 703"    Rpu=" 1.160"    Xpu=" 3.040 "     Bpu=""   Tap="    "  />
+    <linha ID="0721"  De="0709"    Para=" 711"    Rpu=" 5.020"    Xpu="13.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0722"  De="0709"    Para=" 726"    Rpu=" 1.700"    Xpu=" 4.470 "     Bpu=""   Tap="    "  />
+    <linha ID="0723"  De="0709"    Para=" 730"    Rpu=" 7.000"    Xpu="18.450 "     Bpu=""   Tap="    "  />
+    <linha ID="0724"  De="0709"    Para=" 734"    Rpu=" 4.100"    Xpu="10.800 "     Bpu=""   Tap="    "  />
+    <linha ID="0725"  De="0709"    Para=" 734"    Rpu=" 0.320"    Xpu=" 8.440 "     Bpu=""   Tap="    "  />
+    <linha ID="0726"  De="0709"    Para=" 734"    Rpu=" 1.797"    Xpu=" 4.738 "     Bpu=""   Tap="    "  />
+    <linha ID="0727"  De="0710"    Para=" 725"    Rpu=" 5.450"    Xpu="14.360 "     Bpu=""   Tap="    "  />
+    <linha ID="0728"  De="0711"    Para=" 730"    Rpu=" 2.000"    Xpu=" 5.260 "     Bpu=""   Tap="    "  />
+    <linha ID="0729"  De="0712"    Para=" 713"    Rpu="      "    Xpu="22.730 "     Bpu=""   Tap=" 987"  />
+    <linha ID="0730"  De="0712"    Para=" 730"    Rpu=" 2.120"    Xpu=" 5.590 "     Bpu=""   Tap="    "  />
+    <linha ID="0731"  De="0712"    Para=" 730"    Rpu=" 2.120"    Xpu=" 5.590 "     Bpu=""   Tap="    "  />
+    <linha ID="0732"  De="0713"    Para=" 724"    Rpu=" 7.840"    Xpu="20.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0733"  De="0713"    Para=" 724"    Rpu=" 7.840"    Xpu="20.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0734"  De="0713"    Para=" 733"    Rpu=" 5.290"    Xpu="13.520 "     Bpu=""   Tap="    "  />
+    <linha ID="0735"  De="0717"    Para=" 724"    Rpu=" 5.830"    Xpu="15.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0736"  De="0717"    Para=" 727"    Rpu=" 0.710"    Xpu=" 1.820 "     Bpu=""   Tap="    "  />
+    <linha ID="0737"  De="0720"    Para=" 721"    Rpu="18.770"    Xpu="49.450 "     Bpu=""   Tap="    "  />
+    <linha ID="0738"  De="0720"    Para=" 727"    Rpu=" 5.350"    Xpu="14.060 "     Bpu=""   Tap="    "  />
+    <linha ID="0739"  De="0720"    Para=" 728"    Rpu=" 5.350"    Xpu="14.060 "     Bpu=""   Tap="    "  />
+    <linha ID="0740"  De="0720"    Para=" 729"    Rpu="10.940"    Xpu="28.820 "     Bpu=""   Tap="    "  />
+    <linha ID="0741"  De="0721"    Para=" 729"    Rpu=" 7.830"    Xpu="20.630 "     Bpu=""   Tap="    "  />
+    <linha ID="0742"  De="0723"    Para=" 732"    Rpu=" 0.310"    Xpu=" 1.460 "     Bpu=""   Tap="    "  />
+    <linha ID="0743"  De="0723"    Para=" 735"    Rpu=" 0.970"    Xpu=" 4.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0744"  De="0724"    Para=" 728"    Rpu=" 6.540"    Xpu="16.820 "     Bpu=""   Tap="    "  />
+    <linha ID="0745"  De="0725"    Para=" 730"    Rpu=" 2.700"    Xpu=" 7.120 "     Bpu=""   Tap="    "  />
+    <linha ID="0746"  De="0725"    Para=" 730"    Rpu=" 2.700"    Xpu=" 7.120 "     Bpu=""   Tap="    "  />
+    <linha ID="0747"  De="0734"    Para=" 736"    Rpu=" 1.280"    Xpu=" 6.080 "     Bpu=""   Tap="    "  />
+    <linha ID="0748"  De="0740"    Para=" 748"    Rpu=" 3.972"    Xpu="10.325 "     Bpu=""   Tap="    "  />
+    <linha ID="0749"  De="0742"    Para=" 743"    Rpu=" 3.300"    Xpu=" 8.700 "     Bpu=""   Tap="    "  />
+    <linha ID="0750"  De="0743"    Para=" 746"    Rpu=" 4.560"    Xpu="14.400 "     Bpu=""   Tap="    "  />
+    <linha ID="0751"  De="0746"    Para=" 747"    Rpu=" 9.260"    Xpu="25.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0752"  De="0746"    Para=" 747"    Rpu=" 9.260"    Xpu="25.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0753"  De="0754"    Para=" 769"    Rpu=" 0.130"    Xpu=" 0.700 "     Bpu=""   Tap="    "  />
+    <linha ID="0754"  De="0755"    Para=" 750"    Rpu="      "    Xpu="29.300 "     Bpu=""   Tap="1004"  />
+    <linha ID="0755"  De="0755"    Para=" 751"    Rpu="      "    Xpu=" 9.600 "     Bpu=""   Tap="1005"  />
+    <linha ID="0756"  De="0755"    Para=" 756"    Rpu="      "    Xpu=" 5.590 "     Bpu=""   Tap="    "  />
+    <linha ID="0757"  De="0755"    Para=" 758"    Rpu="      "    Xpu="-0.830 "     Bpu=""   Tap="1004"  />
+    <linha ID="0758"  De="0755"    Para=" 782"    Rpu=" 8.520"    Xpu="24.740 "     Bpu=""   Tap="    "  />
+    <linha ID="0759"  De="0756"    Para=" 752"    Rpu="      "    Xpu="18.079 "     Bpu=""   Tap="1025"  />
+    <linha ID="0760"  De="0756"    Para=" 753"    Rpu="      "    Xpu=" 3.623 "     Bpu=""   Tap="1050"  />
+    <linha ID="0761"  De="0756"    Para=" 760"    Rpu=" 4.163"    Xpu="19.4333"     Bpu=""   Tap="    "  />
+    <linha ID="0762"  De="0756"    Para=" 790"    Rpu=" 1.812"    Xpu=" 8.7421"     Bpu=""   Tap="    "  />
+    <linha ID="0763"  De="0757"    Para=" 758"    Rpu="      "    Xpu=" 7.750 "     Bpu=""   Tap="    "  />
+    <linha ID="0764"  De="0759"    Para=" 758"    Rpu="      "    Xpu="21.530 "     Bpu=""   Tap=" 957"  />
+    <linha ID="0765"  De="0760"    Para=" 761"    Rpu="      "    Xpu=" 3.147 "     Bpu=""   Tap=" 927"  />
+    <linha ID="0766"  De="0760"    Para=" 762"    Rpu="      "    Xpu="30.500 "     Bpu=""   Tap=" 911"  />
+    <linha ID="0767"  De="0760"    Para=" 763"    Rpu=" 0.261"    Xpu=" 1.235 "     Bpu=""   Tap="    "  />
+    <linha ID="0768"  De="0760"    Para=" 790"    Rpu=" 2.388"    Xpu="10.9801"     Bpu=""   Tap="    "  />
+    <linha ID="0769"  De="0761"    Para=" 770"    Rpu=" 0.510"    Xpu=" 2.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0770"  De="0761"    Para=" 772"    Rpu=" 0.970"    Xpu=" 2.820 "     Bpu=""   Tap="    "  />
+    <linha ID="0771"  De="0761"    Para=" 776"    Rpu=" 5.160"    Xpu="15.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0772"  De="0763"    Para=" 764"    Rpu="      "    Xpu="38.560 "     Bpu=""   Tap=" 909"  />
+    <linha ID="0773"  De="0763"    Para=" 765"    Rpu="      "    Xpu="26.800 "     Bpu=""   Tap=" 921"  />
+    <linha ID="0774"  De="0763"    Para=" 766"    Rpu=" 0.576"    Xpu=" 2.708 "     Bpu=""   Tap="    "  />
+    <linha ID="0775"  De="0766"    Para=" 768"    Rpu="      "    Xpu="11.677 "     Bpu=""   Tap=" 878"  />
+    <linha ID="0776"  De="0767"    Para=" 768"    Rpu=" 0.580"    Xpu=" 2.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0777"  De="0767"    Para=" 771"    Rpu=" 3.800"    Xpu="11.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0778"  De="0768"    Para=" 769"    Rpu=" 0.430"    Xpu=" 2.330 "     Bpu=""   Tap="    "  />
+    <linha ID="0779"  De="0768"    Para=" 769"    Rpu=" 0.430"    Xpu=" 2.330 "     Bpu=""   Tap="    "  />
+    <linha ID="0780"  De="0768"    Para=" 775"    Rpu=" 4.420"    Xpu="12.860 "     Bpu=""   Tap="    "  />
+    <linha ID="0781"  De="0769"    Para=" 774"    Rpu=" 0.600"    Xpu=" 1.690 "     Bpu=""   Tap="    "  />
+    <linha ID="0782"  De="0772"    Para=" 773"    Rpu=" 0.580"    Xpu=" 1.680 "     Bpu=""   Tap="    "  />
+    <linha ID="0783"  De="0776"    Para=" 777"    Rpu=" 1.020"    Xpu=" 3.120 "     Bpu=""   Tap="    "  />
+    <linha ID="0784"  De="0777"    Para=" 778"    Rpu=" 3.740"    Xpu="10.870 "     Bpu=""   Tap="    "  />
+    <linha ID="0785"  De="0779"    Para=" 780"    Rpu=" 8.520"    Xpu="24.550 "     Bpu=""   Tap="    "  />
+    <linha ID="0786"  De="0780"    Para=" 781"    Rpu=" 7.260"    Xpu="20.890 "     Bpu=""   Tap="    "  />
+    <linha ID="0787"  De="0782"    Para=" 783"    Rpu=" 7.600"    Xpu="22.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0788"  De="0784"    Para=" 785"    Rpu=" 1.400"    Xpu=" 4.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0789"  De="0787"    Para=" 788"    Rpu=" 0.294"    Xpu=" 1.418 "     Bpu=""   Tap="    "  />
+    <linha ID="0790"  De="0787"    Para=" 789"    Rpu=" 0.850"    Xpu=" 4.113 "     Bpu=""   Tap="    "  />
+    <linha ID="0791"  De="0800"    Para=" 824"    Rpu="      "    Xpu=" 3.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0792"  De="0801"    Para=" 824"    Rpu="      "    Xpu=" 3.270 "     Bpu=""   Tap="    "  />
+    <linha ID="0793"  De="0802"    Para=" 824"    Rpu="      "    Xpu=" 3.290 "     Bpu=""   Tap="    "  />
+    <linha ID="0794"  De="0803"    Para=" 824"    Rpu="      "    Xpu=" 3.230 "     Bpu=""   Tap="    "  />
+    <linha ID="0795"  De="0808"    Para=" 848"    Rpu="      "    Xpu="43.980 "     Bpu=""   Tap="    "  />
+    <linha ID="0796"  De="0809"    Para=" 848"    Rpu="      "    Xpu="43.980 "     Bpu=""   Tap="    "  />
+    <linha ID="0797"  De="0816"    Para=" 819"    Rpu=" 0.350"    Xpu=" 1.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0798"  De="0816"    Para=" 819"    Rpu=" 1.655"    Xpu="34.858 "     Bpu=""   Tap="    "  />
+    <linha ID="0799"  De="0816"    Para=" 820"    Rpu=" 9.054"    Xpu="55.068 "     Bpu=""   Tap="    "  />
+    <linha ID="0800"  De="0816"    Para=" 821"    Rpu=" 0.510"    Xpu=" 2.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0801"  De="0816"    Para=" 821"    Rpu=" 4.130"    Xpu="76.859 "     Bpu=""   Tap="    "  />
+    <linha ID="0802"  De="0816"    Para=" 831"    Rpu=" 1.790"    Xpu=" 9.1501"     Bpu=""   Tap="    "  />
+    <linha ID="0803"  De="0817"    Para=" 818"    Rpu=" 0.030"    Xpu=" 0.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0804"  De="0817"    Para=" 818"    Rpu=" 0.030"    Xpu=" 0.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0805"  De="0817"    Para=" 818"    Rpu=" 0.030"    Xpu=" 0.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0806"  De="0817"    Para=" 818"    Rpu=" 0.030"    Xpu=" 0.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0807"  De="0817"    Para=" 819"    Rpu=" 1.260"    Xpu=" 6.4201"     Bpu=""   Tap="    "  />
+    <linha ID="0808"  De="0817"    Para=" 820"    Rpu=" 1.450"    Xpu=" 7.3601"     Bpu=""   Tap="    "  />
+    <linha ID="0809"  De="0818"    Para=" 804"    Rpu="      "    Xpu="19.210 "     Bpu=""   Tap="1043"  />
+    <linha ID="0810"  De="0818"    Para=" 805"    Rpu="      "    Xpu="19.290 "     Bpu=""   Tap="1043"  />
+    <linha ID="0811"  De="0818"    Para=" 806"    Rpu="      "    Xpu="19.300 "     Bpu=""   Tap="1043"  />
+    <linha ID="0812"  De="0818"    Para=" 807"    Rpu="      "    Xpu="19.370 "     Bpu=""   Tap="1043"  />
+    <linha ID="0813"  De="0819"    Para=" 820"    Rpu=" 4.070"    Xpu="45.918 "     Bpu=""   Tap="    "  />
+    <linha ID="0814"  De="0819"    Para=" 821"    Rpu="14.384"    Xpu="102.23 "     Bpu=""   Tap="    "  />
+    <linha ID="0815"  De="0820"    Para=" 821"    Rpu=" 0.690"    Xpu=" 3.360 "     Bpu=""   Tap="    "  />
+    <linha ID="0816"  De="0820"    Para=" 821"    Rpu=" 2.077"    Xpu="67.340 "     Bpu=""   Tap="    "  />
+    <linha ID="0817"  De="0821"    Para=" 960"    Rpu="      "    Xpu=" 0.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0818"  De="0824"    Para=" 933"    Rpu=" 0.010"    Xpu=" 0.1301"     Bpu=""   Tap="    "  />
+    <linha ID="0819"  De="0824"    Para=" 933"    Rpu=" 0.010"    Xpu=" 0.1201"     Bpu=""   Tap="    "  />
+    <linha ID="0820"  De="0825"    Para=" 826"    Rpu="10.560"    Xpu="21.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0821"  De="0825"    Para=" 935"    Rpu="47.450"    Xpu="129.36 "     Bpu=""   Tap="    "  />
+    <linha ID="0822"  De="0826"    Para=" 833"    Rpu=" 8.190"    Xpu="16.790 "     Bpu=""   Tap="    "  />
+    <linha ID="0823"  De="0826"    Para=" 935"    Rpu="87.570"    Xpu="212.66 "     Bpu=""   Tap="    "  />
+    <linha ID="0824"  De="0829"    Para=" 830"    Rpu="      "    Xpu="10.910 "     Bpu=""   Tap="1003"  />
+    <linha ID="0825"  De="0829"    Para=" 830"    Rpu="      "    Xpu="13.840 "     Bpu=""   Tap="1003"  />
+    <linha ID="0826"  De="0829"    Para=" 831"    Rpu=" 0.420"    Xpu=" 2.120 "     Bpu=""   Tap="    "  />
+    <linha ID="0827"  De="0829"    Para=" 884"    Rpu=" 2.590"    Xpu="13.4802"     Bpu=""   Tap="    "  />
+    <linha ID="0828"  De="0829"    Para=" 934"    Rpu=" 3.440"    Xpu="17.8103"     Bpu=""   Tap="    "  />
+    <linha ID="0829"  De="0830"    Para=" 833"    Rpu=" 1.150"    Xpu=" 2.380 "     Bpu=""   Tap="    "  />
+    <linha ID="0830"  De="0834"    Para="1054"    Rpu="      "    Xpu=" 0.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0831"  De="0838"    Para=" 851"    Rpu=" 3.150"    Xpu=" 9.640 "     Bpu=""   Tap="    "  />
+    <linha ID="0832"  De="0838"    Para=" 854"    Rpu=" 6.450"    Xpu="19.490 "     Bpu=""   Tap="    "  />
+    <linha ID="0833"  De="0838"    Para=" 874"    Rpu=" 7.130"    Xpu="21.560 "     Bpu=""   Tap="    "  />
+    <linha ID="0834"  De="0839"    Para=" 840"    Rpu="      "    Xpu=" 6.710 "     Bpu=""   Tap="1019"  />
+    <linha ID="0835"  De="0839"    Para=" 840"    Rpu="      "    Xpu=" 6.640 "     Bpu=""   Tap="1019"  />
+    <linha ID="0836"  De="0839"    Para=" 840"    Rpu="      "    Xpu=" 6.290 "     Bpu=""   Tap="1019"  />
+    <linha ID="0837"  De="0839"    Para="1047"    Rpu=" 1.220"    Xpu=" 7.6901"     Bpu=""   Tap="    "  />
+    <linha ID="0838"  De="0839"    Para="1047"    Rpu=" 1.220"    Xpu=" 7.6901"     Bpu=""   Tap="    "  />
+    <linha ID="0839"  De="0839"    Para="1088"    Rpu=" 1.120"    Xpu="10.3003"     Bpu=""   Tap="    "  />
+    <linha ID="0840"  De="0840"    Para=" 841"    Rpu=" 4.080"    Xpu="12.350 "     Bpu=""   Tap="    "  />
+    <linha ID="0841"  De="0840"    Para=" 844"    Rpu=" 5.440"    Xpu="34.310 "     Bpu=""   Tap="    "  />
+    <linha ID="0842"  De="0840"    Para=" 854"    Rpu=" 1.710"    Xpu=" 4.920 "     Bpu=""   Tap="    "  />
+    <linha ID="0843"  De="0840"    Para=" 854"    Rpu=" 1.710"    Xpu=" 4.920 "     Bpu=""   Tap="    "  />
+    <linha ID="0844"  De="0840"    Para=" 854"    Rpu=" 2.360"    Xpu=" 7.090 "     Bpu=""   Tap="    "  />
+    <linha ID="0845"  De="0841"    Para=" 850"    Rpu=" 2.560"    Xpu=" 7.780 "     Bpu=""   Tap="    "  />
+    <linha ID="0846"  De="0842"    Para=" 845"    Rpu=" 3.090"    Xpu=" 9.110 "     Bpu=""   Tap="    "  />
+    <linha ID="0847"  De="0842"    Para=" 848"    Rpu=" 1.850"    Xpu=" 5.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0848"  De="0844"    Para=" 850"    Rpu=" 4.910"    Xpu="15.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0849"  De="0844"    Para="1111"    Rpu=" 0.610"    Xpu=" 1.860 "     Bpu=""   Tap="    "  />
+    <linha ID="0850"  De="0845"    Para=" 853"    Rpu=" 3.650"    Xpu="11.130 "     Bpu=""   Tap="    "  />
+    <linha ID="0851"  De="0845"    Para=" 855"    Rpu=" 4.740"    Xpu="14.470 "     Bpu=""   Tap="    "  />
+    <linha ID="0852"  De="0847"    Para=" 849"    Rpu=" 4.780"    Xpu="14.600 "     Bpu=""   Tap="    "  />
+    <linha ID="0853"  De="0847"    Para=" 851"    Rpu=" 3.970"    Xpu="12.140 "     Bpu=""   Tap="    "  />
+    <linha ID="0854"  De="0847"    Para="1094"    Rpu=" 0.890"    Xpu=" 4.380 "     Bpu=""   Tap="    "  />
+    <linha ID="0855"  De="0848"    Para=" 854"    Rpu=" 6.710"    Xpu="19.810 "     Bpu=""   Tap="    "  />
+    <linha ID="0856"  De="0849"    Para=" 857"    Rpu=" 4.640"    Xpu=" 9.500 "     Bpu=""   Tap="    "  />
+    <linha ID="0857"  De="0852"    Para=" 853"    Rpu="      "    Xpu="10.890 "     Bpu=""   Tap=" 994"  />
+    <linha ID="0858"  De="0852"    Para=" 853"    Rpu="      "    Xpu="20.530 "     Bpu=""   Tap=" 994"  />
+    <linha ID="0859"  De="0852"    Para="1050"    Rpu="      "    Xpu=" 0.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0860"  De="0854"    Para=" 857"    Rpu=" 5.020"    Xpu="10.270 "     Bpu=""   Tap="    "  />
+    <linha ID="0861"  De="0859"    Para=" 869"    Rpu=" 6.710"    Xpu="14.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0862"  De="0859"    Para=" 870"    Rpu=" 2.870"    Xpu=" 6.070 "     Bpu=""   Tap="    "  />
+    <linha ID="0863"  De="0860"    Para=" 866"    Rpu=" 2.580"    Xpu=" 7.530 "     Bpu=""   Tap="    "  />
+    <linha ID="0864"  De="0860"    Para=" 866"    Rpu="37.620"    Xpu="128.72 "     Bpu=""   Tap="    "  />
+    <linha ID="0865"  De="0860"    Para=" 871"    Rpu=" 0.860"    Xpu=" 1.770 "     Bpu=""   Tap="    "  />
+    <linha ID="0866"  De="0861"    Para=" 869"    Rpu=" 8.330"    Xpu="18.760 "     Bpu=""   Tap="    "  />
+    <linha ID="0867"  De="0861"    Para=" 871"    Rpu=" 5.670"    Xpu="11.990 "     Bpu=""   Tap="    "  />
+    <linha ID="0868"  De="0861"    Para=" 874"    Rpu=" 9.140"    Xpu="19.400 "     Bpu=""   Tap="    "  />
+    <linha ID="0869"  De="0862"    Para=" 865"    Rpu=" 4.720"    Xpu="13.730 "     Bpu=""   Tap="    "  />
+    <linha ID="0870"  De="0862"    Para=" 874"    Rpu=" 4.740"    Xpu="13.820 "     Bpu=""   Tap="    "  />
+    <linha ID="0871"  De="0863"    Para=" 866"    Rpu=" 4.710"    Xpu="13.690 "     Bpu=""   Tap="    "  />
+    <linha ID="0872"  De="0863"    Para=" 874"    Rpu=" 4.450"    Xpu="13.590 "     Bpu=""   Tap="    "  />
+    <linha ID="0873"  De="0864"    Para=" 867"    Rpu=" 3.860"    Xpu=" 8.150 "     Bpu=""   Tap="    "  />
+    <linha ID="0874"  De="0864"    Para=" 869"    Rpu=" 1.560"    Xpu=" 3.240 "     Bpu=""   Tap="    "  />
+    <linha ID="0875"  De="0865"    Para=" 870"    Rpu=" 6.290"    Xpu="19.190 "     Bpu=""   Tap="    "  />
+    <linha ID="0876"  De="0867"    Para=" 879"    Rpu=" 3.320"    Xpu=" 7.000 "     Bpu=""   Tap="    "  />
+    <linha ID="0877"  De="0868"    Para=" 869"    Rpu="      "    Xpu=" 6.520 "     Bpu=""   Tap="1007"  />
+    <linha ID="0878"  De="0868"    Para=" 869"    Rpu="      "    Xpu=" 6.650 "     Bpu=""   Tap="1007"  />
+    <linha ID="0879"  De="0868"    Para=" 878"    Rpu=" 1.100"    Xpu=" 5.680 "     Bpu=""   Tap="    "  />
+    <linha ID="0880"  De="0868"    Para="1031"    Rpu="      "    Xpu=" 0.100 "     Bpu=""   Tap="    "  />
+    <linha ID="0881"  De="0876"    Para=" 875"    Rpu="      "    Xpu="38.670 "     Bpu=""   Tap="1022"  />
+    <linha ID="0882"  De="0876"    Para=" 875"    Rpu="      "    Xpu="37.870 "     Bpu=""   Tap="1022"  />
+    <linha ID="0883"  De="0877"    Para=" 880"    Rpu=" 2.770"    Xpu=" 5.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0884"  De="0877"    Para=" 882"    Rpu=" 6.280"    Xpu="12.730 "     Bpu=""   Tap="    "  />
+    <linha ID="0885"  De="0878"    Para=" 879"    Rpu="      "    Xpu="10.870 "     Bpu=""   Tap="1004"  />
+    <linha ID="0886"  De="0878"    Para=" 879"    Rpu="      "    Xpu="11.100 "     Bpu=""   Tap="1004"  />
+    <linha ID="0887"  De="0878"    Para=" 884"    Rpu=" 2.180"    Xpu="11.3501"     Bpu=""   Tap="    "  />
+    <linha ID="0888"  De="0878"    Para=" 954"    Rpu=" 2.170"    Xpu="11.2301"     Bpu=""   Tap="    "  />
+    <linha ID="0889"  De="0878"    Para="1029"    Rpu=" 0.340"    Xpu=" 4.0701"     Bpu=""   Tap="    "  />
+    <linha ID="0890"  De="0879"    Para=" 888"    Rpu=" 8.180"    Xpu="24.980 "     Bpu=""   Tap="    "  />
+    <linha ID="0891"  De="0879"    Para=" 892"    Rpu=" 7.860"    Xpu="12.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0892"  De="0880"    Para=" 887"    Rpu="10.390"    Xpu="21.310 "     Bpu=""   Tap="    "  />
+    <linha ID="0893"  De="0881"    Para=" 885"    Rpu=" 2.790"    Xpu=" 8.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0894"  De="0881"    Para=" 890"    Rpu=" 3.380"    Xpu="10.270 "     Bpu=""   Tap="    "  />
+    <linha ID="0895"  De="0882"    Para=" 887"    Rpu=" 6.810"    Xpu="14.850 "     Bpu=""   Tap="    "  />
+    <linha ID="0896"  De="0887"    Para=" 892"    Rpu=" 1.050"    Xpu=" 2.300 "     Bpu=""   Tap="    "  />
+    <linha ID="0897"  De="0887"    Para=" 892"    Rpu=" 1.050"    Xpu=" 2.300 "     Bpu=""   Tap="    "  />
+    <linha ID="0898"  De="0889"    Para=" 890"    Rpu="      "    Xpu=" 6.710 "     Bpu=""   Tap=" 995"  />
+    <linha ID="0899"  De="0889"    Para=" 890"    Rpu="      "    Xpu=" 6.620 "     Bpu=""   Tap=" 995"  />
+    <linha ID="0900"  De="0889"    Para="1029"    Rpu=" 0.410"    Xpu=" 2.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0901"  De="0890"    Para=" 891"    Rpu=" 1.700"    Xpu=" 4.700 "     Bpu=""   Tap="    "  />
+    <linha ID="0902"  De="0890"    Para=" 892"    Rpu=" 1.400"    Xpu=" 4.040 "     Bpu=""   Tap="    "  />
+    <linha ID="0903"  De="0891"    Para=" 892"    Rpu=" 0.300"    Xpu=" 0.610 "     Bpu=""   Tap="    "  />
+    <linha ID="0904"  De="0925"    Para="1062"    Rpu=" 0.034"    Xpu=" 4.359 "     Bpu=""   Tap="    "  />
+    <linha ID="0905"  De="0926"    Para="1062"    Rpu=" 0.034"    Xpu=" 4.365 "     Bpu=""   Tap="    "  />
+    <linha ID="0906"  De="0927"    Para="1063"    Rpu=" 0.034"    Xpu=" 4.340 "     Bpu=""   Tap="    "  />
+    <linha ID="0907"  De="0928"    Para="1063"    Rpu=" 0.034"    Xpu=" 4.323 "     Bpu=""   Tap="    "  />
+    <linha ID="0908"  De="0930"    Para="1182"    Rpu=" 2.499"    Xpu="38.975 "     Bpu=""   Tap="1030"  />
+    <linha ID="0909"  De="0930"    Para="1182"    Rpu=" 2.508"    Xpu="39.166 "     Bpu=""   Tap="1030"  />
+    <linha ID="0910"  De="0930"    Para="1285"    Rpu=" 9.000"    Xpu="28.280 "     Bpu=""   Tap="    "  />
+    <linha ID="0911"  De="0933"    Para=" 956"    Rpu=" 0.162"    Xpu=" 2.0482"     Bpu=""   Tap="    "  />
+    <linha ID="0912"  De="0933"    Para=" 959"    Rpu=" 0.216"    Xpu=" 2.7333"     Bpu=""   Tap="    "  />
+    <linha ID="0913"  De="0933"    Para=" 959"    Rpu=" 0.236"    Xpu=" 2.9753"     Bpu=""   Tap="    "  />
+    <linha ID="0914"  De="0933"    Para=" 999"    Rpu=" 0.159"    Xpu=" 2.0122"     Bpu=""   Tap="    "  />
+    <linha ID="0915"  De="0933"    Para="1060"    Rpu=" 0.107"    Xpu=" 1.3311"     Bpu=""   Tap="    "  />
+    <linha ID="0916"  De="0934"    Para=" 933"    Rpu=" 0.031"    Xpu=" 1.207 "     Bpu=""   Tap=" 991"  />
+    <linha ID="0917"  De="0934"    Para=" 935"    Rpu=" 0.286"    Xpu="10.614 "     Bpu=""   Tap="1001"  />
+    <linha ID="0918"  De="0934"    Para="1047"    Rpu=" 3.045"    Xpu="15.7382"     Bpu=""   Tap="    "  />
+    <linha ID="0919"  De="0934"    Para="1047"    Rpu=" 3.041"    Xpu="15.7182"     Bpu=""   Tap="    "  />
+    <linha ID="0920"  De="0934"    Para="1054"    Rpu=" 2.460"    Xpu="12.6522"     Bpu=""   Tap="    "  />
+    <linha ID="0921"  De="0938"    Para=" 959"    Rpu=" 0.127"    Xpu=" 1.6031"     Bpu=""   Tap="    "  />
+    <linha ID="0922"  De="0939"    Para=" 938"    Rpu=" 0.031"    Xpu=" 1.152 "     Bpu=""   Tap="1152"  />
+    <linha ID="0923"  De="0939"    Para="1010"    Rpu=" 3.741"    Xpu="19.3593"     Bpu=""   Tap="    "  />
+    <linha ID="0924"  De="0939"    Para="1015"    Rpu=" 1.267"    Xpu=" 6.5711"     Bpu=""   Tap="    "  />
+    <linha ID="0925"  De="0939"    Para="1015"    Rpu=" 1.280"    Xpu=" 6.5671"     Bpu=""   Tap="    "  />
+    <linha ID="0926"  De="0939"    Para="1034"    Rpu=" 2.532"    Xpu="13.1322"     Bpu=""   Tap="    "  />
+    <linha ID="0927"  De="0940"    Para=" 939"    Rpu=" 0.809"    Xpu="12.529 "     Bpu=""   Tap="1057"  />
+    <linha ID="0928"  De="0940"    Para=" 939"    Rpu=" 0.809"    Xpu="12.625 "     Bpu=""   Tap="1057"  />
+    <linha ID="0929"  De="0940"    Para=" 939"    Rpu=" 0.348"    Xpu=" 6.283 "     Bpu=""   Tap="1057"  />
+    <linha ID="0930"  De="0940"    Para=" 939"    Rpu=" 0.564"    Xpu=" 6.035 "     Bpu=""   Tap="1057"  />
+    <linha ID="0931"  De="0940"    Para=" 985"    Rpu=" 4.060"    Xpu="10.490 "     Bpu=""   Tap="    "  />
+    <linha ID="0932"  De="0940"    Para=" 985"    Rpu=" 3.710"    Xpu="10.620 "     Bpu=""   Tap="    "  />
+    <linha ID="0933"  De="0943"    Para="1016"    Rpu=" 8.838"    Xpu="27.456 "     Bpu=""   Tap="    "  />
+    <linha ID="0934"  De="0943"    Para="1054"    Rpu=" 0.908"    Xpu=" 4.708 "     Bpu=""   Tap="    "  />
+    <linha ID="0935"  De="0951"    Para=" 901"    Rpu=" 0.392"    Xpu="24.420 "     Bpu=""   Tap="1050"  />
+    <linha ID="0936"  De="0951"    Para=" 952"    Rpu=" 0.290"    Xpu="11.995 "     Bpu=""   Tap=" 976"  />
+    <linha ID="0937"  De="0951"    Para=" 962"    Rpu=" 3.370"    Xpu="12.5002"     Bpu=""   Tap="    "  />
+    <linha ID="0938"  De="0951"    Para="1203"    Rpu=" 0.288"    Xpu="11.663 "     Bpu=""   Tap=" 949"  />
+    <linha ID="0939"  De="0951"    Para="1258"    Rpu=" 0.834"    Xpu=" 4.315 "     Bpu=""   Tap="    "  />
+    <linha ID="0940"  De="0951"    Para="1274"    Rpu=" 1.353"    Xpu=" 7.5201"     Bpu=""   Tap="    "  />
+    <linha ID="0941"  De="0952"    Para="1202"    Rpu="      "    Xpu=" 0.095 "     Bpu=""   Tap="    "  />
+    <linha ID="0942"  De="0954"    Para=" 860"    Rpu="      "    Xpu=" 5.870 "     Bpu=""   Tap="1029"  />
+    <linha ID="0943"  De="0954"    Para="1031"    Rpu=" 1.514"    Xpu=" 7.8361"     Bpu=""   Tap="    "  />
+    <linha ID="0944"  De="0954"    Para="1047"    Rpu=" 3.434"    Xpu="17.7713"     Bpu=""   Tap="    "  />
+    <linha ID="0945"  De="0954"    Para="1047"    Rpu=" 3.429"    Xpu="17.7813"     Bpu=""   Tap="    "  />
+    <linha ID="0946"  De="0956"    Para=" 976"    Rpu=" 0.245"    Xpu=" 3.0923"     Bpu=""   Tap="    "  />
+    <linha ID="0947"  De="0960"    Para=" 959"    Rpu=" 0.032"    Xpu=" 1.163 "     Bpu=""   Tap="1065"  />
+    <linha ID="0948"  De="0960"    Para=" 959"    Rpu=" 0.031"    Xpu=" 1.166 "     Bpu=""   Tap="1065"  />
+    <linha ID="0949"  De="0960"    Para="1015"    Rpu=" 1.892"    Xpu=" 9.7761"     Bpu=""   Tap="    "  />
+    <linha ID="0950"  De="0960"    Para="1015"    Rpu=" 1.895"    Xpu=" 9.7041"     Bpu=""   Tap="    "  />
+    <linha ID="0951"  De="0960"    Para="1054"    Rpu=" 2.210"    Xpu="11.4751"     Bpu=""   Tap="    "  />
+    <linha ID="0952"  De="0962"    Para=" 963"    Rpu=" 0.148"    Xpu="10.889 "     Bpu=""   Tap="1100"  />
+    <linha ID="0953"  De="0962"    Para="1041"    Rpu=" 4.624"    Xpu="23.4834"     Bpu=""   Tap="    "  />
+    <linha ID="0954"  De="0962"    Para="1041"    Rpu=" 4.601"    Xpu="23.7684"     Bpu=""   Tap="    "  />
+    <linha ID="0955"  De="0962"    Para="1057"    Rpu=" 3.854"    Xpu="19.9363"     Bpu=""   Tap="    "  />
+    <linha ID="0956"  De="0962"    Para="1196"    Rpu=" 1.200"    Xpu=" 6.1401"     Bpu=""   Tap="    "  />
+    <linha ID="0957"  De="0962"    Para="1200"    Rpu=" 0.390"    Xpu=" 2.130 "     Bpu=""   Tap="    "  />
+    <linha ID="0958"  De="0962"    Para="1207"    Rpu=" 0.285"    Xpu="10.988 "     Bpu=""   Tap=" 894"  />
+    <linha ID="0959"  De="0962"    Para="1210"    Rpu=" 1.650"    Xpu=" 8.4501"     Bpu=""   Tap="    "  />
+    <linha ID="0960"  De="0963"    Para=" 964"    Rpu=" 0.474"    Xpu="11.111 "     Bpu=""   Tap="    "  />
+    <linha ID="0961"  De="0963"    Para="1207"    Rpu=" 0.144"    Xpu="-0.311 "     Bpu=""   Tap="1000"  />
+    <linha ID="0962"  De="0967"    Para=" 968"    Rpu=" 1.480"    Xpu="30.229 "     Bpu=""   Tap="1017"  />
+    <linha ID="0963"  De="0967"    Para=" 968"    Rpu=" 1.446"    Xpu="29.607 "     Bpu=""   Tap="1017"  />
+    <linha ID="0964"  De="0967"    Para=" 968"    Rpu=" 1.448"    Xpu="29.424 "     Bpu=""   Tap="1017"  />
+    <linha ID="0965"  De="0967"    Para=" 985"    Rpu=" 7.500"    Xpu="27.020 "     Bpu=""   Tap="    "  />
+    <linha ID="0966"  De="0967"    Para="1035"    Rpu=" 0.580"    Xpu=" 2.370 "     Bpu=""   Tap="    "  />
+    <linha ID="0967"  De="0967"    Para="1035"    Rpu=" 0.580"    Xpu=" 2.370 "     Bpu=""   Tap="    "  />
+    <linha ID="0968"  De="0967"    Para="1066"    Rpu=" 2.460"    Xpu="10.480 "     Bpu=""   Tap="    "  />
+    <linha ID="0969"  De="0976"    Para="0995"    Rpu=" 0.315"    Xpu=" 3.9774"     Bpu=""   Tap="    "  />
+    <linha ID="0970"  De="0985"    Para="0987"    Rpu=" 0.323"    Xpu="18.170 "     Bpu=""   Tap="1052"  />
+    <linha ID="0971"  De="0985"    Para="0988"    Rpu=" 0.317"    Xpu="18.250 "     Bpu=""   Tap=" 970"  />
+    <linha ID="0972"  De="0985"    Para="1016"    Rpu=" 4.610"    Xpu="18.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0973"  De="0985"    Para="1016"    Rpu=" 4.610"    Xpu="18.720 "     Bpu=""   Tap="    "  />
+    <linha ID="0974"  De="0985"    Para="1066"    Rpu=" 2.690"    Xpu="11.810 "     Bpu=""   Tap="    "  />
+    <linha ID="0975"  De="0986"    Para="0987"    Rpu=" 0.268"    Xpu="-1.583 "     Bpu=""   Tap="1004"  />
+    <linha ID="0976"  De="0986"    Para="0988"    Rpu=" 0.276"    Xpu="-1.910 "     Bpu=""   Tap="1004"  />
+    <linha ID="0977"  De="0989"    Para="0987"    Rpu=" 0.587"    Xpu="14.941 "     Bpu=""   Tap=" 956"  />
+    <linha ID="0978"  De="0990"    Para="0988"    Rpu=" 0.574"    Xpu="16.630 "     Bpu=""   Tap=" 956"  />
+    <linha ID="0979"  De="0995"    Para="1060"    Rpu=" 0.172"    Xpu=" 2.1702"     Bpu=""   Tap="    "  />
+    <linha ID="0980"  De="0999"    Para="1028"    Rpu=" 0.110"    Xpu=" 1.3941"     Bpu=""   Tap="    "  />
+    <linha ID="0981"  De="0999"    Para="1060"    Rpu=" 0.154"    Xpu=" 1.9402"     Bpu=""   Tap="    "  />
+    <linha ID="0982"  De="1006"    Para="0909"    Rpu="      "    Xpu="14.129 "     Bpu=""   Tap="1050"  />
+    <linha ID="0983"  De="1006"    Para="1010"    Rpu=" 0.014"    Xpu=" 0.074 "     Bpu=""   Tap="    "  />
+    <linha ID="0984"  De="1006"    Para="1034"    Rpu=" 2.280"    Xpu="11.8282"     Bpu=""   Tap="    "  />
+    <linha ID="0985"  De="1007"    Para="0907"    Rpu="      "    Xpu="17.411 "     Bpu=""   Tap="1048"  />
+    <linha ID="0986"  De="1007"    Para="1006"    Rpu=" 0.841"    Xpu="11.826 "     Bpu=""   Tap="1103"  />
+    <linha ID="0987"  De="1007"    Para="1006"    Rpu=" 0.824"    Xpu="11.826 "     Bpu=""   Tap="1103"  />
+    <linha ID="0988"  De="1007"    Para="1008"    Rpu=" 0.939"    Xpu="16.967 "     Bpu=""   Tap=" 991"  />
+    <linha ID="0989"  De="1007"    Para="1008"    Rpu=" 1.170"    Xpu="33.121 "     Bpu=""   Tap=" 991"  />
+    <linha ID="0990"  De="1007"    Para="1009"    Rpu=" 1.788"    Xpu="43.995 "     Bpu=""   Tap=" 983"  />
+    <linha ID="0991"  De="1007"    Para="1035"    Rpu=" 6.600"    Xpu="26.830 "     Bpu=""   Tap="    "  />
+    <linha ID="0992"  De="1007"    Para="1035"    Rpu=" 7.280"    Xpu="29.570 "     Bpu=""   Tap="    "  />
+    <linha ID="0993"  De="1007"    Para="1069"    Rpu="-145.1"    Xpu="-104.3 "     Bpu=""   Tap="1000"  />
+    <linha ID="0994"  De="1007"    Para="1072"    Rpu="21.694"    Xpu="36.710 "     Bpu=""   Tap="    "  />
+    <linha ID="0995"  De="1010"    Para="0911"    Rpu="      "    Xpu=" 8.904 "     Bpu=""   Tap="1050"  />
+    <linha ID="0996"  De="1010"    Para="1057"    Rpu=" 0.897"    Xpu=" 4.637 "     Bpu=""   Tap="    "  />
+    <linha ID="0997"  De="1010"    Para="1057"    Rpu=" 0.940"    Xpu=" 4.842 "     Bpu=""   Tap="    "  />
+    <linha ID="0998"  De="1016"    Para="1015"    Rpu=" 0.957"    Xpu="12.589 "     Bpu=""   Tap="1046"  />
+    <linha ID="0999"  De="1016"    Para="1015"    Rpu=" 0.765"    Xpu="12.637 "     Bpu=""   Tap="1046"  />
+    <linha ID="1000"  De="1016"    Para="1015"    Rpu=" 0.767"    Xpu="12.721 "     Bpu=""   Tap="1046"  />
+    <linha ID="1001"  De="1016"    Para="1015"    Rpu=" 0.825"    Xpu="12.661 "     Bpu=""   Tap="1046"  />
+    <linha ID="1002"  De="1016"    Para="1027"    Rpu=" 0.616"    Xpu="18.754 "     Bpu=""   Tap=" 952"  />
+    <linha ID="1003"  De="1016"    Para="1027"    Rpu=" 1.025"    Xpu="32.105 "     Bpu=""   Tap=" 952"  />
+    <linha ID="1004"  De="1016"    Para="1027"    Rpu=" 0.991"    Xpu="31.547 "     Bpu=""   Tap=" 952"  />
+    <linha ID="1005"  De="1016"    Para="1027"    Rpu=" 6.940"    Xpu="19.910 "     Bpu=""   Tap=" 952"  />
+    <linha ID="1006"  De="1029"    Para="1028"    Rpu=" 0.039"    Xpu=" 1.207 "     Bpu=""   Tap=" 949"  />
+    <linha ID="1007"  De="1035"    Para="1034"    Rpu=" 1.442"    Xpu="11.810 "     Bpu=""   Tap="1080"  />
+    <linha ID="1008"  De="1035"    Para="1034"    Rpu=" 1.107"    Xpu="13.104 "     Bpu=""   Tap="1080"  />
+    <linha ID="1009"  De="1041"    Para="0917"    Rpu=" 0.196"    Xpu=" 9.193 "     Bpu=""   Tap="1025"  />
+    <linha ID="1010"  De="1041"    Para="0918"    Rpu=" 0.203"    Xpu=" 9.262 "     Bpu=""   Tap="1025"  />
+    <linha ID="1011"  De="1041"    Para="1043"    Rpu=" 0.195"    Xpu=" 4.600 "     Bpu=""   Tap="    "  />
+    <linha ID="1012"  De="1041"    Para="1069"    Rpu=" 1.505"    Xpu=" 7.7761"     Bpu=""   Tap="    "  />
+    <linha ID="1013"  De="1041"    Para="1069"    Rpu=" 1.503"    Xpu=" 7.7761"     Bpu=""   Tap="    "  />
+    <linha ID="1014"  De="1041"    Para="1213"    Rpu=" 2.210"    Xpu=" 8.7501"     Bpu=""   Tap="    "  />
+    <linha ID="1015"  De="1041"    Para="1281"    Rpu=" 1.830"    Xpu=" 9.1501"     Bpu=""   Tap="    "  />
+    <linha ID="1016"  De="1042"    Para="1043"    Rpu=" 0.491"    Xpu="-0.560 "     Bpu=""   Tap="1064"  />
+    <linha ID="1017"  De="1043"    Para="1044"    Rpu=" 0.665"    Xpu="11.107 "     Bpu=""   Tap="    "  />
+    <linha ID="1018"  De="1047"    Para="0919"    Rpu="      "    Xpu=" 2.319 "     Bpu=""   Tap="1025"  />
+    <linha ID="1019"  De="1047"    Para="0920"    Rpu="      "    Xpu=" 3.478 "     Bpu=""   Tap="1025"  />
+    <linha ID="1020"  De="1047"    Para="1048"    Rpu=" 1.387"    Xpu="48.873 "     Bpu=""   Tap="1033"  />
+    <linha ID="1021"  De="1047"    Para="1050"    Rpu=" 1.629"    Xpu=" 8.3441"     Bpu=""   Tap="    "  />
+    <linha ID="1022"  De="1047"    Para="1069"    Rpu=" 3.074"    Xpu="15.8852"     Bpu=""   Tap="    "  />
+    <linha ID="1023"  De="1048"    Para="1061"    Rpu="19.458"    Xpu="45.953 "     Bpu=""   Tap="    "  />
+    <linha ID="1024"  De="1050"    Para="1069"    Rpu=" 1.510"    Xpu=" 7.7321"     Bpu=""   Tap="    "  />
+    <linha ID="1025"  De="1057"    Para="1058"    Rpu=" 0.278"    Xpu="11.716 "     Bpu=""   Tap=" 897"  />
+    <linha ID="1026"  De="1057"    Para="1058"    Rpu=" 0.923"    Xpu="50.304 "     Bpu=""   Tap=" 897"  />
+    <linha ID="1027"  De="1057"    Para="1058"    Rpu=" 0.286"    Xpu="12.008 "     Bpu=""   Tap=" 897"  />
+    <linha ID="1028"  De="1060"    Para="1062"    Rpu=" 0.016"    Xpu=" 0.097 "     Bpu=""   Tap="    "  />
+    <linha ID="1029"  De="1060"    Para="1063"    Rpu=" 0.016"    Xpu=" 0.101 "     Bpu=""   Tap="    "  />
+    <linha ID="1030"  De="1069"    Para="1072"    Rpu=" 0.143"    Xpu="14.510 "     Bpu=""   Tap=" 948"  />
+    <linha ID="1031"  De="1069"    Para="1072"    Rpu=" 0.688"    Xpu=" 3.549 "     Bpu=""   Tap=" 948"  />
+    <linha ID="1032"  De="1071"    Para="1072"    Rpu=" 0.599"    Xpu="22.470 "     Bpu=""   Tap="    "  />
+    <linha ID="1033"  De="1079"    Para="1090"    Rpu=" 6.370"    Xpu="48.6501"     Bpu=""   Tap="    "  />
+    <linha ID="1034"  De="1079"    Para="1135"    Rpu=" 0.950"    Xpu=" 2.370 "     Bpu=""   Tap="    "  />
+    <linha ID="1035"  De="1086"    Para="1088"    Rpu=" 2.309"    Xpu="17.5964"     Bpu=""   Tap="    "  />
+    <linha ID="1036"  De="1087"    Para="1089"    Rpu=" 9.300"    Xpu="23.920 "     Bpu=""   Tap="    "  />
+    <linha ID="1037"  De="1087"    Para="1143"    Rpu="      "    Xpu=" 0.500 "     Bpu=""   Tap="    "  />
+    <linha ID="1038"  De="1089"    Para="1096"    Rpu=" 5.160"    Xpu="13.390 "     Bpu=""   Tap="    "  />
+    <linha ID="1039"  De="1090"    Para="1086"    Rpu=" 0.678"    Xpu="11.331 "     Bpu=""   Tap="1130"  />
+    <linha ID="1040"  De="1090"    Para="1086"    Rpu=" 1.016"    Xpu="12.305 "     Bpu=""   Tap="1130"  />
+    <linha ID="1041"  De="1090"    Para="1143"    Rpu=" 2.780"    Xpu=" 7.070 "     Bpu=""   Tap="    "  />
+    <linha ID="1042"  De="1095"    Para="1127"    Rpu="      "    Xpu=" 0.500 "     Bpu=""   Tap="    "  />
+    <linha ID="1043"  De="1106"    Para="1107"    Rpu="      "    Xpu=" 0.302 "     Bpu=""   Tap="1024"  />
+    <linha ID="1044"  De="1110"    Para="1111"    Rpu="      "    Xpu="13.670 "     Bpu=""   Tap="1064"  />
+    <linha ID="1045"  De="1127"    Para="1129"    Rpu=" 3.089"    Xpu=" 7.723 "     Bpu=""   Tap="    "  />
+    <linha ID="1046"  De="1129"    Para="1131"    Rpu=" 0.940"    Xpu=" 2.390 "     Bpu=""   Tap="    "  />
+    <linha ID="1047"  De="1129"    Para="1135"    Rpu="14.670"    Xpu="37.370 "     Bpu=""   Tap="    "  />
+    <linha ID="1048"  De="1129"    Para="1141"    Rpu="16.747"    Xpu="43.403 "     Bpu=""   Tap="    "  />
+    <linha ID="1049"  De="1131"    Para="1133"    Rpu=" 1.930"    Xpu=" 4.930 "     Bpu=""   Tap="    "  />
+    <linha ID="1050"  De="1133"    Para="1135"    Rpu="13.440"    Xpu="34.170 "     Bpu=""   Tap="    "  />
+    <linha ID="1051"  De="1135"    Para="1137"    Rpu="28.960"    Xpu="73.7101"     Bpu=""   Tap="    "  />
+    <linha ID="1052"  De="1135"    Para="1139"    Rpu=" 6.440"    Xpu="16.380 "     Bpu=""   Tap="    "  />
+    <linha ID="1053"  De="1137"    Para="1139"    Rpu="22.520"    Xpu="57.3301"     Bpu=""   Tap="    "  />
+    <linha ID="1054"  De="1141"    Para="1143"    Rpu=" 9.230"    Xpu="23.940 "     Bpu=""   Tap="    "  />
+    <linha ID="1055"  De="1179"    Para="1260"    Rpu="      "    Xpu="11.080 "     Bpu=""   Tap="    "  />
+    <linha ID="1056"  De="1179"    Para="1261"    Rpu="      "    Xpu="10.940 "     Bpu=""   Tap="    "  />
+    <linha ID="1057"  De="1180"    Para="1265"    Rpu="      "    Xpu="11.130 "     Bpu=""   Tap="    "  />
+    <linha ID="1058"  De="1181"    Para="1297"    Rpu="      "    Xpu=" 9.090 "     Bpu=""   Tap="    "  />
+    <linha ID="1059"  De="1182"    Para="0900"    Rpu="      "    Xpu="17.040 "     Bpu=""   Tap="1050"  />
+    <linha ID="1060"  De="1182"    Para="1185"    Rpu=" 0.950"    Xpu=" 2.750 "     Bpu=""   Tap="    "  />
+    <linha ID="1061"  De="1182"    Para="1197"    Rpu=" 0.100"    Xpu=" 0.200 "     Bpu=""   Tap="    "  />
+    <linha ID="1062"  De="1182"    Para="1205"    Rpu="17.420"    Xpu="50.580 "     Bpu=""   Tap="    "  />
+    <linha ID="1063"  De="1186"    Para="1185"    Rpu="      "    Xpu="16.860 "     Bpu=""   Tap=" 951"  />
+    <linha ID="1064"  De="1186"    Para="1189"    Rpu=" 5.310"    Xpu="26.5204"     Bpu=""   Tap="    "  />
+    <linha ID="1065"  De="1186"    Para="1225"    Rpu=" 1.620"    Xpu=" 8.1101"     Bpu=""   Tap="    "  />
+    <linha ID="1066"  De="1186"    Para="1278"    Rpu=" 3.360"    Xpu="18.7203"     Bpu=""   Tap="    "  />
+    <linha ID="1067"  De="1186"    Para="1296"    Rpu=" 2.300"    Xpu="11.5402"     Bpu=""   Tap="    "  />
+    <linha ID="1068"  De="1188"    Para="1194"    Rpu=" 1.980"    Xpu=" 9.8401"     Bpu=""   Tap="    "  />
+    <linha ID="1069"  De="1188"    Para="1258"    Rpu=" 0.450"    Xpu=" 2.250 "     Bpu=""   Tap="    "  />
+    <linha ID="1070"  De="1189"    Para="1239"    Rpu=" 0.870"    Xpu=" 4.820 "     Bpu=""   Tap="    "  />
+    <linha ID="1071"  De="1194"    Para="1239"    Rpu=" 3.740"    Xpu="18.7103"     Bpu=""   Tap="    "  />
+    <linha ID="1072"  De="1196"    Para="1210"    Rpu=" 0.450"    Xpu=" 2.310 "     Bpu=""   Tap="    "  />
+    <linha ID="1073"  De="1197"    Para="1205"    Rpu="17.320"    Xpu="48.580 "     Bpu=""   Tap="    "  />
+    <linha ID="1074"  De="1204"    Para="1215"    Rpu=" 3.250"    Xpu="18.0503"     Bpu=""   Tap="    "  />
+    <linha ID="1075"  De="1204"    Para="1258"    Rpu=" 0.410"    Xpu=" 2.250 "     Bpu=""   Tap="    "  />
+    <linha ID="1076"  De="1204"    Para="1258"    Rpu=" 0.410"    Xpu=" 2.250 "     Bpu=""   Tap="    "  />
+    <linha ID="1077"  De="1210"    Para="0976"    Rpu=" 0.030"    Xpu=" 1.217 "     Bpu=""   Tap="1036"  />
+    <linha ID="1078"  De="1210"    Para="0976"    Rpu=" 0.039"    Xpu=" 1.138 "     Bpu=""   Tap="1036"  />
+    <linha ID="1079"  De="1210"    Para="0976"    Rpu=" 0.036"    Xpu=" 1.217 "     Bpu=""   Tap="1036"  />
+    <linha ID="1080"  De="1210"    Para="1258"    Rpu=" 0.210"    Xpu=" 1.130 "     Bpu=""   Tap="    "  />
+    <linha ID="1081"  De="1210"    Para="1258"    Rpu=" 0.210"    Xpu=" 1.130 "     Bpu=""   Tap="    "  />
+    <linha ID="1082"  De="1210"    Para="1258"    Rpu=" 0.210"    Xpu=" 1.130 "     Bpu=""   Tap="    "  />
+    <linha ID="1083"  De="1210"    Para="1263"    Rpu=" 0.540"    Xpu=" 2.810 "     Bpu=""   Tap="    "  />
+    <linha ID="1084"  De="1210"    Para="1263"    Rpu=" 0.540"    Xpu=" 2.810 "     Bpu=""   Tap="    "  />
+    <linha ID="1085"  De="1213"    Para="1283"    Rpu=" 1.820"    Xpu=" 9.0601"     Bpu=""   Tap="    "  />
+    <linha ID="1086"  De="1215"    Para="1158"    Rpu="      "    Xpu=" 2.360 "     Bpu=""   Tap="1025"  />
+    <linha ID="1087"  De="1215"    Para="1243"    Rpu=" 0.510"    Xpu=" 2.860 "     Bpu=""   Tap="    "  />
+    <linha ID="1088"  De="1215"    Para="1258"    Rpu=" 3.660"    Xpu="20.3003"     Bpu=""   Tap="    "  />
+    <linha ID="1089"  De="1215"    Para="1274"    Rpu=" 1.868"    Xpu="10.3861"     Bpu=""   Tap="    "  />
+    <linha ID="1090"  De="1215"    Para="1278"    Rpu=" 1.430"    Xpu=" 7.9101"     Bpu=""   Tap="    "  />
+    <linha ID="1091"  De="1216"    Para="1162"    Rpu="      "    Xpu=" 8.380 "     Bpu=""   Tap="1074"  />
+    <linha ID="1092"  De="1216"    Para="1242"    Rpu=" 0.560"    Xpu=" 1.890 "     Bpu=""   Tap="    "  />
+    <linha ID="1093"  De="1216"    Para="1242"    Rpu=" 0.560"    Xpu=" 1.890 "     Bpu=""   Tap="    "  />
+    <linha ID="1094"  De="1216"    Para="1276"    Rpu=" 9.670"    Xpu="23.480 "     Bpu=""   Tap="    "  />
+    <linha ID="1095"  De="1218"    Para="1219"    Rpu=" 0.130"    Xpu=" 0.450 "     Bpu=""   Tap="    "  />
+    <linha ID="1096"  De="1218"    Para="1227"    Rpu=" 4.269"    Xpu="13.854 "     Bpu=""   Tap="    "  />
+    <linha ID="1097"  De="1218"    Para="1241"    Rpu=" 1.743"    Xpu=" 6.248 "     Bpu=""   Tap="    "  />
+    <linha ID="1098"  De="1219"    Para="1257"    Rpu=" 0.670"    Xpu=" 2.260 "     Bpu=""   Tap="    "  />
+    <linha ID="1099"  De="1225"    Para="1224"    Rpu="      "    Xpu="17.000 "     Bpu=""   Tap="1025"  />
+    <linha ID="1100"  De="1225"    Para="1254"    Rpu=" 1.020"    Xpu=" 5.100 "     Bpu=""   Tap="    "  />
+    <linha ID="1101"  De="1227"    Para="1241"    Rpu=" 3.084"    Xpu="10.928 "     Bpu=""   Tap="    "  />
+    <linha ID="1102"  De="1227"    Para="1257"    Rpu=" 0.190"    Xpu=" 0.620 "     Bpu=""   Tap="    "  />
+    <linha ID="1103"  De="1228"    Para="1232"    Rpu="13.890"    Xpu="28.540 "     Bpu=""   Tap="    "  />
+    <linha ID="1104"  De="1230"    Para="1233"    Rpu="      "    Xpu="42.450 "     Bpu=""   Tap="    "  />
+    <linha ID="1105"  De="1230"    Para="1237"    Rpu=" 0.860"    Xpu=" 3.230 "     Bpu=""   Tap="    "  />
+    <linha ID="1106"  De="1232"    Para="1257"    Rpu="30.306"    Xpu="76.606 "     Bpu=""   Tap="    "  />
+    <linha ID="1107"  De="1232"    Para="1290"    Rpu="10.265"    Xpu="25.899 "     Bpu=""   Tap="    "  />
+    <linha ID="1108"  De="1233"    Para="1245"    Rpu="11.050"    Xpu="37.600 "     Bpu=""   Tap="    "  />
+    <linha ID="1109"  De="1234"    Para="1257"    Rpu=" 4.560"    Xpu="23.130 "     Bpu=""   Tap="    "  />
+    <linha ID="1110"  De="1235"    Para="1237"    Rpu=" 0.410"    Xpu=" 1.520 "     Bpu=""   Tap="    "  />
+    <linha ID="1111"  De="1236"    Para="1246"    Rpu=" 0.910"    Xpu=" 4.550 "     Bpu=""   Tap="    "  />
+    <linha ID="1112"  De="1236"    Para="1258"    Rpu=" 4.760"    Xpu="23.8304"     Bpu=""   Tap="    "  />
+    <linha ID="1113"  De="1237"    Para="1240"    Rpu=" 3.050"    Xpu="11.440 "     Bpu=""   Tap="    "  />
+    <linha ID="1114"  De="1238"    Para="1239"    Rpu="      "    Xpu="14.430 "     Bpu=""   Tap="1057"  />
+    <linha ID="1115"  De="1238"    Para="1240"    Rpu=" 6.760"    Xpu="26.610 "     Bpu=""   Tap="    "  />
+    <linha ID="1116"  De="1239"    Para="1171"    Rpu="      "    Xpu="13.360 "     Bpu=""   Tap="1025"  />
+    <linha ID="1117"  De="1239"    Para="1172"    Rpu="      "    Xpu="12.120 "     Bpu=""   Tap="1025"  />
+    <linha ID="1118"  De="1239"    Para="1246"    Rpu=" 2.900"    Xpu="14.3602"     Bpu=""   Tap="    "  />
+    <linha ID="1119"  De="1242"    Para="1243"    Rpu="      "    Xpu=" 4.350 "     Bpu=""   Tap="1048"  />
+    <linha ID="1120"  De="1243"    Para="1175"    Rpu="      "    Xpu=" 7.070 "     Bpu=""   Tap="1025"  />
+    <linha ID="1121"  De="1243"    Para="1258"    Rpu=" 3.810"    Xpu="21.1003"     Bpu=""   Tap="    "  />
+    <linha ID="1122"  De="1243"    Para="1281"    Rpu=" 2.860"    Xpu="10.6201"     Bpu=""   Tap="    "  />
+    <linha ID="1123"  De="1243"    Para="1299"    Rpu=" 3.370"    Xpu="12.5502"     Bpu=""   Tap="    "  />
+    <linha ID="1124"  De="1246"    Para="1245"    Rpu="      "    Xpu="12.630 "     Bpu=""   Tap=" 867"  />
+    <linha ID="1125"  De="1254"    Para="1253"    Rpu="      "    Xpu="25.720 "     Bpu=""   Tap="1028"  />
+    <linha ID="1126"  De="1257"    Para="1258"    Rpu="      "    Xpu=" 2.175 "     Bpu=""   Tap="1031"  />
+    <linha ID="1127"  De="1257"    Para="1290"    Rpu=" 6.496"    Xpu="21.468 "     Bpu=""   Tap="    "  />
+    <linha ID="1128"  De="1258"    Para="1267"    Rpu=" 0.280"    Xpu=" 1.310 "     Bpu=""   Tap="    "  />
+    <linha ID="1129"  De="1258"    Para="1273"    Rpu=" 0.260"    Xpu=" 1.290 "     Bpu=""   Tap="    "  />
+    <linha ID="1130"  De="1258"    Para="1299"    Rpu=" 2.070"    Xpu=" 9.3301"     Bpu=""   Tap="    "  />
+    <linha ID="1131"  De="1259"    Para="1263"    Rpu=" 0.140"    Xpu=" 0.860 "     Bpu=""   Tap="    "  />
+    <linha ID="1132"  De="1259"    Para="1268"    Rpu=" 0.042"    Xpu=" 0.256 "     Bpu=""   Tap="    "  />
+    <linha ID="1133"  De="1262"    Para="1260"    Rpu="      "    Xpu="-0.280 "     Bpu=""   Tap=" 975"  />
+    <linha ID="1134"  De="1262"    Para="1261"    Rpu="      "    Xpu="-0.300 "     Bpu=""   Tap=" 975"  />
+    <linha ID="1135"  De="1263"    Para="1260"    Rpu="      "    Xpu="10.990 "     Bpu=""   Tap="1136"  />
+    <linha ID="1136"  De="1263"    Para="1261"    Rpu="      "    Xpu="11.140 "     Bpu=""   Tap=" 864"  />
+    <linha ID="1137"  De="1263"    Para="1268"    Rpu=" 0.098"    Xpu=" 0.604 "     Bpu=""   Tap="    "  />
+    <linha ID="1138"  De="1265"    Para="1266"    Rpu="      "    Xpu=" 0.690 "     Bpu=""   Tap="    "  />
+    <linha ID="1139"  De="1267"    Para="1265"    Rpu="      "    Xpu="14.200 "     Bpu=""   Tap="1023"  />
+    <linha ID="1140"  De="1274"    Para="1275"    Rpu=" 0.344"    Xpu=" 1.717 "     Bpu=""   Tap="    "  />
+    <linha ID="1141"  De="1276"    Para="1285"    Rpu=" 7.620"    Xpu="23.040 "     Bpu=""   Tap="    "  />
+    <linha ID="1142"  De="1280"    Para="1281"    Rpu="      "    Xpu="12.440 "     Bpu=""   Tap="1089"  />
+    <linha ID="1143"  De="1296"    Para="1295"    Rpu="      "    Xpu="16.180 "     Bpu=""   Tap="1000"  />
+    <linha ID="1144"  De="1297"    Para="1298"    Rpu="      "    Xpu="-0.430 "     Bpu=""   Tap="1000"  />
+    <linha ID="1145"  De="1299"    Para="1297"    Rpu="      "    Xpu=" 5.260 "     Bpu=""   Tap=" 960"  />
+    <linha ID="1146"  De="1499"    Para="1500"    Rpu="      "    Xpu=" 7.560 "     Bpu=""   Tap="1050"  /> 
+  </DadosDeLinhas>
+
+    <DadosDeCurto>
+    <!-- Tipo 0 = Curto trifasifo equilibrado -->
+    <curto ID="01" De="06" Para="00" Tipo="0" /> 
+  </DadosDeCurto>
+</Caso>

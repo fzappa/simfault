@@ -1,0 +1,90 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<Caso>
+  <!-- Dados no padrao IEEE -->
+  <!-- http://icseg.iti.illinois.edu/power-cases -->
+  <!-- https://www2.ee.washington.edu/research/pstca -->
+  <DadosDeBarras>
+    <!--  Gabarito -->
+    <!-- <barra ID="01" Nome="01" Xd="0" Vpu="0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/> -->
+    <barra ID="01" Nome="01" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="02" Nome="02" Xd="0.50" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="03" Nome="03" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="04" Nome="04" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="05" Nome="05" Xd="0.40" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="06" Nome="06" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="07" Nome="07" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="08" Nome="08" Xd="0.40" Vpu="1.0" Angulo="0" Shunt="0.190" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="09" Nome="09" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="10" Nome="10" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="11" Nome="11" Xd="0.24" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="12" Nome="12" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="13" Nome="13" Xd="0.24" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="14" Nome="14" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="15" Nome="15" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="16" Nome="16" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="17" Nome="17" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="18" Nome="18" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="19" Nome="19" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="20" Nome="20" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="21" Nome="21" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="22" Nome="22" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="23" Nome="23" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="24" Nome="24" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0.043" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="25" Nome="25" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="26" Nome="26" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="27" Nome="27" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="28" Nome="28" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="29" Nome="29" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+    <barra ID="30" Nome="30" Xd="0.00" Vpu="1.0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/>
+  </DadosDeBarras>
+  <DadosDeLinhas>
+    <!-- Gabarito -->
+    <!-- <linha ID="01" De="00" Para="00" Rpu="0.0" Xpu="0.0" Bpu="0.0" Tap="1" MVA="0" /> -->
+    <linha ID="01" De="01" Para="02" Rpu="0.0194"  Xpu="0.0575"  Bpu="0.0528" Tap="1.000" />       
+    <linha ID="02" De="01" Para="03" Rpu="0.0452"  Xpu="0.1652"  Bpu="0.0408" Tap="1.000" />      
+    <linha ID="03" De="02" Para="04" Rpu="0.0570"  Xpu="0.1737"  Bpu="0.0368" Tap="1.000" />      
+    <linha ID="04" De="03" Para="04" Rpu="0.0132"  Xpu="0.0379"  Bpu="0.0084" Tap="1.000" />      
+    <linha ID="05" De="02" Para="05" Rpu="0.0472"  Xpu="0.1983"  Bpu="0.0418" Tap="1.000" />      
+    <linha ID="06" De="02" Para="06" Rpu="0.0581"  Xpu="0.1763"  Bpu="0.0374" Tap="1.000" />      
+    <linha ID="07" De="04" Para="06" Rpu="0.0119"  Xpu="0.0414"  Bpu="0.0090" Tap="1.000" />      
+    <linha ID="08" De="05" Para="07" Rpu="0.0460"  Xpu="0.1160"  Bpu="0.0204" Tap="1.000" />      
+    <linha ID="09" De="06" Para="07" Rpu="0.0267"  Xpu="0.0820"  Bpu="0.0170" Tap="1.000" />      
+    <linha ID="10" De="06" Para="08" Rpu="0.0120"  Xpu="0.0420"  Bpu="0.0090" Tap="1.000" />      
+    <linha ID="11" De="06" Para="09" Rpu="0.0000"  Xpu="0.2080"  Bpu="0.0000" Tap="0.978" />    
+    <linha ID="12" De="06" Para="10" Rpu="0.0000"  Xpu="0.5560"  Bpu="0.0000" Tap="0.969" />    
+    <linha ID="13" De="09" Para="11" Rpu="0.0000"  Xpu="0.2080"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="14" De="09" Para="10" Rpu="0.0000"  Xpu="0.1100"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="15" De="04" Para="12" Rpu="0.0000"  Xpu="0.2560"  Bpu="0.0000" Tap="0.932" />    
+    <linha ID="16" De="12" Para="13" Rpu="0.0000"  Xpu="0.1400"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="17" De="12" Para="14" Rpu="0.1231"  Xpu="0.2559"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="18" De="12" Para="15" Rpu="0.0662"  Xpu="0.1304"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="19" De="12" Para="16" Rpu="0.0945"  Xpu="0.1987"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="20" De="14" Para="15" Rpu="0.2210"  Xpu="0.1997"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="21" De="16" Para="17" Rpu="0.0524"  Xpu="0.1923"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="22" De="15" Para="18" Rpu="0.1073"  Xpu="0.2185"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="23" De="18" Para="19" Rpu="0.0639"  Xpu="0.1292"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="24" De="19" Para="20" Rpu="0.0340"  Xpu="0.0680"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="25" De="10" Para="20" Rpu="0.0936"  Xpu="0.2090"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="26" De="10" Para="17" Rpu="0.0324"  Xpu="0.0845"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="27" De="10" Para="21" Rpu="0.0348"  Xpu="0.0749"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="28" De="10" Para="22" Rpu="0.0727"  Xpu="0.1499"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="29" De="21" Para="22" Rpu="0.0116"  Xpu="0.0236"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="30" De="15" Para="23" Rpu="0.1000"  Xpu="0.2020"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="31" De="22" Para="24" Rpu="0.1150"  Xpu="0.1790"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="32" De="23" Para="24" Rpu="0.1320"  Xpu="0.2700"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="33" De="24" Para="25" Rpu="0.1885"  Xpu="0.3292"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="34" De="25" Para="26" Rpu="0.2544"  Xpu="0.3800"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="35" De="25" Para="27" Rpu="0.1093"  Xpu="0.2087"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="36" De="28" Para="27" Rpu="0.0000"  Xpu="0.3960"  Bpu="0.0000" Tap="0.968" />    
+    <linha ID="37" De="27" Para="29" Rpu="0.2198"  Xpu="0.4153"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="38" De="27" Para="30" Rpu="0.3202"  Xpu="0.6027"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="39" De="29" Para="30" Rpu="0.2399"  Xpu="0.4533"  Bpu="0.0000" Tap="1.000" />      
+    <linha ID="40" De="08" Para="28" Rpu="0.0636"  Xpu="0.2000"  Bpu="0.0428" Tap="1.000" />      
+    <linha ID="41" De="06" Para="28" Rpu="0.0169"  Xpu="0.0599"  Bpu="0.0130" Tap="1.000" />      
+  </DadosDeLinhas>
+
+    <DadosDeCurto>
+    <!-- Tipo 0 = Curto trifasifo equilibrado -->
+    <curto ID="01" De="06" Para="00" Tipo="0" /> 
+  </DadosDeCurto>
+</Caso>

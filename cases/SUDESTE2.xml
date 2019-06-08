@@ -1,0 +1,39 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<Caso>
+  <!-- Dados no padrao IEEE -->
+  <!-- http://icseg.iti.illinois.edu/power-cases -->
+  <!-- https://www2.ee.washington.edu/research/pstca -->
+  <DadosDeBarras>
+    <!--  Gabarito -->
+    <!-- <barra ID="01" Nome="01" Xd="0" Vpu="0" Angulo="0" Shunt="0" CargaMW="0" CargaMVAR="0" GeradorMW="0" GeradorMVAR="0" GeradorQmin="0" GeradorQmax="0" InjecaoMVAR="0"/> -->
+        <barra ID="0001"  Nome="0001"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0002"  Nome="0002"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0003"  Nome="0003"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0004"  Nome="0004"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0005"  Nome="0005"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0006"  Nome="0006"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0007"  Nome="0007"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0008"  Nome="0008"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0009"  Nome="0009"   Xd="0.00"  Vpu="1.0" />
+        <barra ID="0010"  Nome="0010"   Xd="0.00"  Vpu="1.0" />
+  </DadosDeBarras>
+  <DadosDeLinhas>
+    <!-- Gabarito -->
+    <!-- <linha ID="01" De="00" Para="00" Rpu="0.0" Xpu="0.0" Bpu="0.0" Tap="1" MVA="0" /> -->    
+    <linha ID="0001"  De="0001"    Para="2"    Rpu="0.001"    Xpu=" 6.270 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0002"  De="002"    Para="3"    Rpu="0.001"    Xpu=" 1.090 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0003"  De="003"    Para=" 4"    Rpu="0.001"    Xpu=" 0.770 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0004"  De="004"    Para=" 05"    Rpu="0.001"    Xpu=" 4.110 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0005"  De="005"    Para=" 6"    Rpu="0.001"    Xpu=" 3.400 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0006"  De="006"    Para=" 7"    Rpu="0.001"    Xpu=" 5.800 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0007"  De="007"    Para=" 8"    Rpu="0.001"    Xpu="19.830 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0008"  De="008"    Para=" 009"    Rpu="0.001"    Xpu=" 0.680 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0009"  De="009"    Para="  10"    Rpu="0.001"    Xpu=" 2.483 "     Bpu="0"   Tap="0.000" />
+    <linha ID="0010"  De="0010"    Para="  1"    Rpu="0.070"    Xpu=" 1.8359"     Bpu="0"   Tap="0.000" />
+  </DadosDeLinhas>
+
+    <DadosDeCurto>
+    <!-- Tipo 0 = Curto trifasifo equilibrado -->
+    <curto ID="01" De="06" Para="00" Tipo="0" /> 
+  </DadosDeCurto>
+</Caso>
