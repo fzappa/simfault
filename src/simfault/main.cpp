@@ -1,11 +1,23 @@
-#include <fstream>
-#include <iostream>
+//**********************************************
+//  Program for Circuit Fault analysis.
+//
+//  Implemented for study purposes.
+//  Uses the Eigen (http://eigen.tuxfamily.org/)
+//  library to facilitate the matrix treatment.
+//
+//
+//  License: GPLv3
+//  Author: Alan Franco - https://github.com/fzappa
+//  Rev.: 20/06/2017 (PT_BR)
+//*********************************************
 
 #include <cstdio>  // tratamento de erros
+#include <fstream>
+#include <iostream>
 #include <vector>
 
-//#define EIGEN_USE_BLAS
-#define EIGEN_USE_MKL_ALL
+#define EIGEN_USE_BLAS
+//#define EIGEN_USE_MKL_ALL
 #include <Eigen/Dense>             // Matrizes
 #include <boost/lexical_cast.hpp>  // conversao de tipos
 
@@ -20,8 +32,7 @@ using namespace XML;             // LeXML
 using namespace AnaliseDeRedes;  // LDU, Kron, Tipos(1,2,3 e 4)
 using namespace AnaliseDeFaltas;
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
 
     try {
 
@@ -47,7 +58,7 @@ int main(int argc, char *argv[])
             arqsaida << "\n\n############### Parte 2 - Curto Circuito ###############\n";
 
             // TabelaDados - retorna a lista de elementos do arquivo xml
-            // MontaZbarra - funcao que monta a matriz Zbarra de sequencia +
+            // MontaZbarra - funcao que monta a matriz Zbarra de sequencia positiva
             Matriz ZbarraDireto{MontaZbarra(TabelaDados)};
 
             // Pega os dados de barras
@@ -79,7 +90,7 @@ int main(int argc, char *argv[])
             arqsaida << Saida << endl;
 
             arqsaida << "\n\nColuna 1 = Barra" << endl;
-            arqsaida << "Coluna 2 = TensÃ£o na barra para um curto na barra " << barra << endl;
+            arqsaida << "Coluna 2 = Tensão na barra para um curto na barra " << barra << endl;
             arqsaida << "Coluna 3 = Corrente na barra para um curto na barra " << barra << endl;
             arqsaida << "Coluna 4 = Ifalta caso o curto fosse na barra" << endl;
 
@@ -87,14 +98,13 @@ int main(int argc, char *argv[])
             // do pior caso
             int r, c;
             Saida.col(3).minCoeff(&r, &c);
-            arqsaida << "Pior caso ocorre para um curto na barra " << r + 1 << endl;
+            arqsaida << "Pior caso ocorre para a barra " << r + 1 << endl;
 
             cout << "\n\nRelatorio salvo em "
                  << "\"" << Relatorio << "\"\n\n";
             arqsaida.close();
-        }
-        else if (isatty(fileno(stdin))) {
-            std::cerr << R"(UtilizaÃ§Ã£o:
+        } else if (isatty(fileno(stdin))) {
+            std::cerr << R"(Utilização:
 
       Sintaxe:
       Executavel   Dados de entrada    Saida (opcional)
@@ -109,8 +119,7 @@ int main(int argc, char *argv[])
 )";
             return EXIT_FAILURE;
         }
-    }
-    catch (std::exception &e) {
+    } catch (std::exception &e) {
         cout << "Erro: " << e.what() << "\n";
     }
 
